@@ -368,6 +368,14 @@ footer ul li a {
 
 				#########*/
 
+.filter-grid {
+  display: flex;
+}
+
+.element-item {
+  flex: 1;
+}
+
 #Vorschau_Reins {
   border: 1px solid #aaa5a0;
   width: 75%;
