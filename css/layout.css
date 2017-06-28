@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ################################################################## */
+/* HTML Standard Tags */
+/* ################################################################## */
+
+
+body, html { margin:0; padding:0; width:100%; height:100%;}
+
+body {background-color: white;}
+
+
+h1 {font-size: 24pt; text-align: center; padding-top: 5%;}
+
+h2 {text-align: center;}
+
+p {font-size: 11pt;}
+
+* {font-family: Open Sans; color: #666666;}
+
+
+
+/* ################################################################## */
+/* Zusammengefasste Klassen */
+/* ################################################################## */
+
+.box { float: left; display: inline; margin-top: 2.5%;
+ }
+
+.h_linksbuendig {font-size: 24pt; text-align: left; padding-top: 5%; box-sizing: border-box;}
+
+/* ################################################################## */
+/* Zusammengefasste ID*/
+/* ################################################################## */
+
+#Einleitung {margin-top: 70px;}
+
+
+
+	/*#### Vorlage-1-Spalte ###*/
+
+
+#B_eine_Spalte {border: 1px solid black; width: 79%; height: 100%; background-color: skyblue; margin-left: 10%; margin-right: 10%; }
+
+	/*#### Vorlage-2-Spalten ###*/
+#Block_eins {border: 1px solid black; width: 37%; height: 100%; background-color: skyblue; margin-left: 12.5%;}
+
+#Block_zwei {border: 1px solid black; width: 37%;  height: 100%; background-color: bisque; float: right; margin-right: 12.5%;}
+
+/*#### Vorlage-2-Spaöten-asymmetrisch ###*/
+
+#großerbereich {width: 98%; height: 100%; float:left; width:50%; margin-left: 12.5%;}
+
+#kleinerbereich {width: 49%;  height: 100%; float: right; width:35%; text-align:center; margin-right: 12.5%;}
+
+ 	/*#### Vorlage-3-Spalten ###*/
+#links {border: 1px solid black; width: 32.6%; height: 100%; background color: skyblue;}
+
+#rechts {border: 1px solid black; width: 32.6%; height: 100%; background-color: bisque}
+
+#mitte {border: 1px solid black; width: 32.6%; height: 100%; background-color: lightblue;}
+
+
+
+/* Umfassende Objekte & Klassen */
+/* ################################################################## */
+
+/* Lailas Version */
+.ud_page { width:100%; min-height:100%; overflow:hidden; float:left; border-bottom:1px solid #aaa5a0;}
+/* Caros Version */
+.ud_page { width:100%; min-height:100%; overflow:hidden; float:left; border-bottom:1px solid #dfdfdf; margin: 1%;}
+
+
+/* ################################################################## */
+/* Header */
+/* ################################################################## */
+
+header { position:fixed; z-index:99; top:0; left:0; right:0; width:100%; height:9%;}
+
+/* Lailas Version */
+header nav { margin: 0 auto; padding:0;}
+header nav ul {margin: 0; padding: 0; list-style: none; text-align: center; margin-top: 1%; }
+header nav ul li { margin:0 10px 0 0; padding:0; list-style:none; text-align: center; display: inline;}
+header nav ul li a { text-transform:uppercase; font-size:16px; text-decoration: none; display: inline-block;}
+
+/* Caros Version */
+header nav { height: 40px; margin: 0 auto; padding:0;}
+
+#ud_logo {width: 50px;}
+
+
+
+ /* header:hover { height:50px; } */
+
+
+/* ################################################################## */
+/* Footer */
+/* ################################################################## */
+
+/* Lailas Version */
+footer {border: 1px solid #aaa5a0; height: 9%; width: 100%;}
+
+.footer  ul {margin: 0; padding: 0; list-style: none; text-align: center;}
+
+.footer ul li {display: inline; padding: 5px;}
+
+.footer ul lu a {display: inline-block; text-decoration: none;}
+
+/*Caros Version */
+
+footer {border-top: 1px solid #dfdfdf; padding: 1%;}
+
+.footer  ul {margin: 0; padding: 0; list-style: none; text-align: center; margin-top: 1%;}
+
+.footer ul li {display: inline;}
+
+.footer ul li a {display: inline-block; text-decoration: none;}
+
+/* Media Management */
+/* ################################################################## */
+							/* Ich kann hier beispielsweise die Höhe nicht in Pronzent sondern nur in Pixel angeben?*/
+#Startseite { width: 75%; height: 470px; text-align: left; margin-left: 12.5%; margin-right: 12.5%;}
+
+
+#ud_partner {border: 1px solid #aaa5a0; width: 100%; height: 130px; margin: 0; background-image: url(../img/Background.png)}
+
+#ud_partner h2 {color: white; padding: 0; margin: 0; }
+
+.Partner {float: left; display: inline; border: 1px solid #aaa5a0; width: 7%; height: 55%; margin-top: 12.5px; margin-bottom: 12.5px; margin-left: 8.2%; background-color: white;}
+
+#FAQ { width: 75%; height: 100%; text-align: left; margin-left: 12.5%; margin-right: 12.5%;}
+
+
+
+
+/*  Mein Media Management */
+/* ################################################################## */
+
+
+
+
+/* Projekte */
+/* ################################################################## */
+
+#Projekte_Content { border: 1px solid #aaa5a0; width: 54%; height: 100%; text-align: left; margin-left: 12.5%;}
+
+#Hintergrund_Projekte {border: 1px solid #aaa5a0;; width: 20%; height: 320px;float: right; background-image: url(../img/Projekte_BG.png);}
+
+#Filterboxen {border: 1px solid #aaa5a0; width: 75%; height: 50px; text-align: left; margin-left: 12.5%; margin-right: 12.5%; display:grid;}
+
+/* ######### Kriege die Filterboxen nicht mehr in eine Reihe, daher klammer ich diese erst mal aus 
+
+#Filter_eins {width: 10%; height: 30px; text-align: left;border: 1px solid #aaa5a0;}
+
+#Filter_zwei {width: 10%; height: 30px; text-align: left; margin-left: 5%; border: 1px solid #aaa5a0; }
+
+#Filter_drei {width: 10%; height: 30px; text-align: left; margin-left: 5%; border: 1px solid #aaa5a0;}
+
+				#########*/
+
+#Vorschau_Reins {border: 1px solid #aaa5a0; width: 75%; height: 75px; text-align: left; margin-left: 12.5%; margin-right: 12.5%; display: grid;}
+
+#Vorschau_Rzwei {border: 1px solid #aaa5a0; width: 75%; height: 75px; text-align: left; margin-left: 12.5%; margin-right: 12.5%; display: grid;}
+
+
+#Studenten_Foto { border: 1px solid #aaa5a0; width: 37%; height: 100%; margin-left: 12.5%;}
+
+#Oak_Content {border: 1px solid #aaa5a0; width: 37%;  height: 100%; margin-right: 12.5%; float: right;}
+
+#Oak_Teilnehmer {border: 1px solid #aaa5a0; width: 75%; height: 100%; text-align: left; margin-left: 12.5%; margin-right: 12.5%; margin-top: 5%; display: grid;}
+
+#Oak_Praesentation {border: 1px solid #aaa5a0; width: 75%; height: 100%; text-align: left; margin-left: 12.5%; margin-right: 12.5%; margin-top: 5%; display: grid;}
+
+
+
+
+
+
+
+
+/* Events */
+/* ################################################################## */
+
+
+#aim {text-align: left; padding: 10px;}
+#aimbutton {width: 150px; height: 40px; border:1px solid black; text-align:center; text-decoration:none; color:black;}
+#CampusCamp {text-align: left; padding: 10px;}
+#CampusCampbutton {width: 150px; height: 40px; border:1px solid black; text-align:center; text-decoration:none; color:black;}
+#SSMT {text-align: left; padding:10px;}
+#SSMTbutton {width: 150px; height: 40px; border:1px solid black; text-align:center; text-decoration:none; color:black;}
+#Veranstaltungskalender {text-align: center;}
+
+#calendar { /* Fuer IE <= 6 */
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+#calendar table thead th{
+  font-weight: bold;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  color: #BFBFC1;
+  text-align: center;
+  background-color: #112A5D;
+}
+
+#calendar table thead th.weekday{
+  font-weight: bold;
+  font-size: 0.5em;
+  line-height: 1.5em;
+  color: #112A5D;
+  text-align: center;
+  background-color: #CCD2D8;
+  border: solid #112A5D 1px;
+}
+
+#calendar table tbody td, #calendar table tfoot td{
+  font-weight: normal;
+  font-size: 0.5em;
+  line-height: 1.5em;
+  width: 2.0em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  color: #0E224B;
+  text-align: right;
+  border: 1px solid #CCD2D8;
+}
+
+#calendar table tfoot td {
+  font-size: 0.65em;
+  border: none;
+}
+
+#calendar table tfoot td.calendar_week {
+  text-align: left;
+}
+
+#calendar table tbody td.saturday{
+  color: #9A2525;
+  font-weight: normal;
+}
+
+#calendar table tbody td.sunday{
+  color: #9A2525;
+  font-weight: bold;
+}
+
+#calendar table tbody td.weekend{
+  color: #9A2525;
+}
+
+#calendar table tbody td.today{
+  background-color: #A7B5C7;
+}
+
+#calendar table thead th.prev_year, #calendar table thead th.next_year {
+  margin: 0.1em;
+  padding: 0.1em;
+  line-height: 0.75em;
+  font-size: 0.65em;
+}
+
+#calendar table tbody td.last_month, #calendar table tbody td.next_month {
+  color: 	#a3afc4;
+}
+
+#calendar table{
+  border-collapse: collapse;
+  border: solid #112A5D 2px;
+  padding: 0;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #F6F6F6;
+}
+
+/* Ausstattung */
+/* ################################################################## */
+#Block_eins , #Block_zwei {display: inline-block;}
+
+#AV-Lab {border: 1px solid black; background-image: url(../);}
+#Media-Lab {border: 1px solid black; background-image: url(../);}
+#Projekträume {border: 1px solid black; background-image: url(../);}
+#Studio {border: 1px solid black; background-image: url(../);}
+
+#AV-Lab , #Media-Lab {width: 35%; height: auto; align: center; display: inline-block;}
+#Projekträume, #Studio {width: 35%; height:auto; align: center; display: inline-block;}
+
+#Bildkasten {width: 250px; height: 250px; border: 1px solid black;}
+
+#Equipment, #Raum {border: 1px solid black; width: 300px; height: 50px; display: inline-block;}
+
+
+/* Institute */
+/* ################################################################## */
+
+
+
+/* International */
+/* ################################################################## */
