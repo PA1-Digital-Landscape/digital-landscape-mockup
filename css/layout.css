@@ -46,6 +46,8 @@ p {font-size: 11pt;}
 /* Zusammengefasste ID*/
 /* ################################################################## */
 
+#Inhalt {padding-top: 150px;}
+
 #Einleitung {margin-top: 70px;}
 
 
@@ -90,6 +92,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    height: 140px;
     width: 100%;
     padding-bottom: 10px;
     border-bottom: 1px solid red;
