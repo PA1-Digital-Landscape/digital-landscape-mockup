@@ -227,6 +227,12 @@ header nav ul li a {
   width: 50px;
 }
 
+.header_buttons {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
 
 /* header:hover { height:50px; } */
 
