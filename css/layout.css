@@ -47,6 +47,8 @@ p {font-size: 11pt;}
 /* Zusammengefasste ID*/
 /* ################################################################## */
 
+#Inhalt {padding-top: 150px;}
+
 #Einleitung {margin-top: 70px;}
 
 
@@ -79,9 +81,6 @@ p {font-size: 11pt;}
 /* Umfassende Objekte & Klassen */
 /* ################################################################## */
 
-/* Lailas Version */
-.ud_page { width:100%; min-height:100%; overflow:hidden; float:left; border-bottom:1px solid #aaa5a0;}
-
 
 
 /* ################################################################## */
@@ -94,6 +93,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    height: 140px;
     width: 100%;
     padding-bottom: 10px;
     border-bottom: 1px solid red;
@@ -121,11 +121,11 @@ header nav ul li a { text-transform: none;; font-size:16px; text-decoration: non
 /* Lailas Version */
 footer {border: 1px solid #aaa5a0; height: 9%; width: 100%;}
 
-.footer  ul {margin: 0; padding: 0; list-style: none; text-align: center;}
+footer  ul {margin: 0; padding: 0; list-style: none; text-align: center;}
 
-.footer ul li {display: inline; padding: 5px;}
+footer ul li {display: inline-block; padding: 5px;}
 
-.footer ul lu a {display: inline-block; text-decoration: none;}
+footer ul li a {display: inline-block; text-decoration: none;}
 
 
 
