@@ -1,164 +1,362 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
+
 /* ################################################################## */
+
+
 /* HTML Standard Tags */
+
+
 /* ################################################################## */
 
-
-
-body, html { margin: 10px; padding:0; width:100%; height:100%;}
-
-
-body {background-color: white;}
-
-
-h1 {
-    font-size: 24pt;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+body, html {
+  margin: 10px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-h2 {text-align: center;}
+body {
+  background-color: white;
+}
 
-p {font-size: 11pt;}
+h1 {
+  font-size: 24pt;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
-* {font-family: Open Sans; color: #666666;}
+h2 {
+  text-align: center;
+}
 
+p {
+  font-size: 11pt;
+}
+
+* {
+  font-family: Open Sans;
+  color: #666666;
+}
 
 
 /* ################################################################## */
+
+
 /* Zusammengefasste Klassen */
+
+
 /* ################################################################## */
 
-.box { float: left; display: inline; margin-top: 2.5%;
- }
+.box {
+  float: left;
+  display: inline;
+  margin-top: 2.5%;
+}
 
-.h_linksbuendig {font-size: 24pt; text-align: left; padding-top: 5%; box-sizing: border-box;}
+.h_linksbuendig {
+  font-size: 24pt;
+  text-align: left;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
 
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
 }
 
+
 /* ################################################################## */
+
+
 /* Zusammengefasste ID*/
+
+
 /* ################################################################## */
 
-#Inhalt {padding-top: 150px;}
+#Inhalt {
+  padding-top: 150px;
+}
 
-#Einleitung {margin-top: 70px;}
+#Einleitung {
+  margin-top: 70px;
+}
 
 
+/*#### Vorlage-1-Spalte ###*/
 
-	/*#### Vorlage-1-Spalte ###*/
+#B_eine_Spalte {
+  border: 1px solid black;
+  width: 79%;
+  height: 100%;
+  background-color: skyblue;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 
-#B_eine_Spalte {border: 1px solid black; width: 79%; height: 100%; background-color: skyblue; margin-left: 10%; margin-right: 10%; }
+/*#### Vorlage-2-Spalten ###*/
 
-	/*#### Vorlage-2-Spalten ###*/
-#Block_eins {border: 1px solid black; width: 37%; height: 100%; background-color: skyblue; margin-left: 12.5%;}
+#Block_eins {
+  border: 1px solid black;
+  width: 37%;
+  height: 100%;
+  background-color: skyblue;
+  margin-left: 12.5%;
+}
 
-#Block_zwei {border: 1px solid black; width: 37%;  height: 100%; background-color: bisque; float: right; margin-right: 12.5%;}
+#Block_zwei {
+  border: 1px solid black;
+  width: 37%;
+  height: 100%;
+  background-color: bisque;
+  float: right;
+  margin-right: 12.5%;
+}
+
 
 /*#### Vorlage-2-Spaöten-asymmetrisch ###*/
 
-#großerbereich {width: 98%; height: 100%; float:left; width:50%; margin-left: 12.5%;}
+#großerbereich {
+  width: 98%;
+  height: 100%;
+  float: left;
+  width: 50%;
+  margin-left: 12.5%;
+}
 
-#kleinerbereich {width: 49%;  height: 100%; float: right; width:35%; text-align:center; margin-right: 12.5%;}
+#kleinerbereich {
+  width: 49%;
+  height: 100%;
+  float: right;
+  width: 35%;
+  text-align: center;
+  margin-right: 12.5%;
+}
 
- 	/*#### Vorlage-3-Spalten ###*/
-#links {border: 1px solid black; width: 32.6%; height: 100%; background color: skyblue;}
 
-#rechts {border: 1px solid black; width: 32.6%; height: 100%; background-color: bisque}
+/*#### Vorlage-3-Spalten ###*/
 
-#mitte {border: 1px solid black; width: 32.6%; height: 100%; background-color: lightblue;}
+#links {
+  border: 1px solid black;
+  width: 32.6%;
+  height: 100%;
+  background color: skyblue;
+}
 
+#rechts {
+  border: 1px solid black;
+  width: 32.6%;
+  height: 100%;
+  background-color: bisque
+}
+
+#mitte {
+  border: 1px solid black;
+  width: 32.6%;
+  height: 100%;
+  background-color: lightblue;
+}
 
 
 /* Umfassende Objekte & Klassen */
+
+
 /* ################################################################## */
 
 
-
 /* ################################################################## */
+
+
 /* Header */
+
+
 /* ################################################################## */
 
 header {
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 140px;
-    width: 100%;
-    padding-bottom: 10px;
-    border-bottom: 1px solid red;
-    background-color: white;}
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 140px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid red;
+  background-color: white;
+}
+
 
 /* Lailas Version */
-header nav { margin: 0 auto; padding:0; display: flex; justify-content: center; position: relative;}
-header nav ul {margin: 0; padding: 0; list-style: none; margin-top: 1%; display: flex; align-items: center; }
-header nav ul li { margin:0 10px 0 0; padding:0; list-style:none; text-align: center; display: inline;}
-header nav ul li a { text-transform:uppercase; font-size:16px; text-decoration: none; display: inline-block;}
+
+header nav {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 1%;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin: 0 10px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#ud_logo {
+  width: 50px;
+}
 
 
-
-#ud_logo {width: 50px;}
-
-
-
- /* header:hover { height:50px; } */
+/* header:hover { height:50px; } */
 
 
 /* ################################################################## */
+
+
 /* Footer */
+
+
 /* ################################################################## */
 
+
 /* Lailas Version */
-footer {border: 1px solid #aaa5a0; height: 9%; width: 100%;}
 
-footer  ul {margin: 0; padding: 0; list-style: none; text-align: center;}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-footer ul li {display: inline-block; padding: 5px;}
+footer ul {
+  margin: 0;
+  padding: 40px 0;
+  list-style: none;
+  text-align: center;
+}
 
-footer ul li a {display: inline-block; text-decoration: none;}
+footer ul li {
+  display: inline-block;
+  padding: 5px;
+}
 
+footer ul li a {
+  display: inline-block;
+  text-decoration: none;
+}
 
 
 /* Media Management */
+
+
 /* ################################################################## */
-							/* Ich kann hier beispielsweise die Höhe nicht in Pronzent sondern nur in Pixel angeben?*/
-#Startseite { width: 75%; height: 470px; text-align: left; margin-left: 12.5%; margin-right: 12.5%;}
 
 
-#ud_partner {border: 1px solid #aaa5a0; width: 100%; height: 130px; margin: 0; background-image: url(../img/Background.png)}
+/* Ich kann hier beispielsweise die Höhe nicht in Pronzent sondern nur in Pixel angeben?*/
 
-#ud_partner h2 {color: white; padding: 0; margin: 0; }
+#Startseite {
+  width: 75%;
+  height: 470px;
+  text-align: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
 
-.Partner {float: left; display: inline; border: 1px solid #aaa5a0; width: 7%; height: 55%; margin-top: 12.5px; margin-bottom: 12.5px; margin-left: 8.2%; background-color: white;}
+#ud_partner {
+  border: 1px solid #aaa5a0;
+  width: 100%;
+  height: 130px;
+  margin: 0;
+  background-image: url(../img/Background.png)
+}
 
-#FAQ { width: 75%; height: 100%; text-align: left; margin-left: 12.5%; margin-right: 12.5%;}
+#ud_partner h2 {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
 
+.Partner {
+  float: left;
+  display: inline;
+  border: 1px solid #aaa5a0;
+  width: 7%;
+  height: 55%;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+  margin-left: 8.2%;
+  background-color: white;
+}
 
+#FAQ {
+  width: 75%;
+  height: 100%;
+  text-align: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
 
 
 /*  Mein Media Management */
+
+
 /* ################################################################## */
-
-
 
 
 /* Projekte */
+
+
 /* ################################################################## */
 
-#Projekte_Content { border: 1px solid #aaa5a0; width: 54%; height: 100%; text-align: left; margin-left: 12.5%;}
+#Projekte_Content {
+  border: 1px solid #aaa5a0;
+  width: 54%;
+  height: 100%;
+  text-align: left;
+  margin-left: 12.5%;
+}
 
-#Hintergrund_Projekte {border: 1px solid #aaa5a0;; width: 20%; height: 320px;float: right; background-image: url(../img/Projekte_BG.png);}
+#Hintergrund_Projekte {
+  border: 1px solid #aaa5a0;
+  ;
+  width: 20%;
+  height: 320px;
+  float: right;
+  background-image: url(../img/Projekte_BG.png);
+}
 
-#Filterboxen {border: 1px solid #aaa5a0; width: 75%; height: 50px; text-align: left; margin-left: 12.5%; margin-right: 12.5%; display:grid;}
+#Filterboxen {
+  border: 1px solid #aaa5a0;
+  width: 75%;
+  height: 50px;
+  text-align: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  display: grid;
+}
+
 
 /* ######### Kriege die Filterboxen nicht mehr in eine Reihe, daher klammer ich diese erst mal aus
 
@@ -170,46 +368,124 @@ footer ul li a {display: inline-block; text-decoration: none;}
 
 				#########*/
 
-#Vorschau_Reins {border: 1px solid #aaa5a0; width: 75%; height: 75px; text-align: left; margin-left: 12.5%; margin-right: 12.5%; display: grid;}
+#Vorschau_Reins {
+  border: 1px solid #aaa5a0;
+  width: 75%;
+  height: 75px;
+  text-align: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  display: grid;
+}
 
-#Vorschau_Rzwei {border: 1px solid #aaa5a0; width: 75%; height: 75px; text-align: left; margin-left: 12.5%; margin-right: 12.5%; display: grid;}
+#Vorschau_Rzwei {
+  border: 1px solid #aaa5a0;
+  width: 75%;
+  height: 75px;
+  text-align: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  display: grid;
+}
 
+#Studenten_Foto {
+  border: 1px solid #aaa5a0;
+  width: 37%;
+  height: 100%;
+  margin-left: 12.5%;
+}
 
-#Studenten_Foto { border: 1px solid #aaa5a0; width: 37%; height: 100%; margin-left: 12.5%;}
+#Oak_Content {
+  border: 1px solid #aaa5a0;
+  width: 37%;
+  height: 100%;
+  margin-right: 12.5%;
+  float: right;
+}
 
-#Oak_Content {border: 1px solid #aaa5a0; width: 37%;  height: 100%; margin-right: 12.5%; float: right;}
+#Oak_Teilnehmer {
+  border: 1px solid #aaa5a0;
+  width: 75%;
+  height: 100%;
+  text-align: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+  display: grid;
+}
 
-#Oak_Teilnehmer {border: 1px solid #aaa5a0; width: 75%; height: 100%; text-align: left; margin-left: 12.5%; margin-right: 12.5%; margin-top: 5%; display: grid;}
-
-#Oak_Praesentation {border: 1px solid #aaa5a0; width: 75%; height: 100%; text-align: left; margin-left: 12.5%; margin-right: 12.5%; margin-top: 5%; display: grid;}
-
-
-
-
-
-
+#Oak_Praesentation {
+  border: 1px solid #aaa5a0;
+  width: 75%;
+  height: 100%;
+  text-align: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+  display: grid;
+}
 
 
 /* Events */
+
+
 /* ################################################################## */
 
+#aim {
+  text-align: left;
+  padding: 10px;
+}
 
-#aim {text-align: left; padding: 10px;}
-#aimbutton {width: 150px; height: 40px; border:1px solid black; text-align:center; text-decoration:none; color:black;}
-#CampusCamp {text-align: left; padding: 10px;}
-#CampusCampbutton {width: 150px; height: 40px; border:1px solid black; text-align:center; text-decoration:none; color:black;}
-#SSMT {text-align: left; padding:10px;}
-#SSMTbutton {width: 150px; height: 40px; border:1px solid black; text-align:center; text-decoration:none; color:black;}
-#Veranstaltungskalender {text-align: center;}
+#aimbutton {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
 
-#calendar { /* Fuer IE <= 6 */
+#CampusCamp {
+  text-align: left;
+  padding: 10px;
+}
+
+#CampusCampbutton {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#SSMT {
+  text-align: left;
+  padding: 10px;
+}
+
+#SSMTbutton {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#Veranstaltungskalender {
+  text-align: center;
+}
+
+#calendar {
+  /* Fuer IE <= 6 */
   text-align: center;
   width: 100%;
   height: auto;
   padding: 10px;
 }
 
-#calendar table thead th{
+#calendar table thead th {
   font-weight: bold;
   font-size: 0.75em;
   line-height: 1.5em;
@@ -218,7 +494,7 @@ footer ul li a {display: inline-block; text-decoration: none;}
   background-color: #112A5D;
 }
 
-#calendar table thead th.weekday{
+#calendar table thead th.weekday {
   font-weight: bold;
   font-size: 0.5em;
   line-height: 1.5em;
@@ -228,7 +504,7 @@ footer ul li a {display: inline-block; text-decoration: none;}
   border: solid #112A5D 1px;
 }
 
-#calendar table tbody td, #calendar table tfoot td{
+#calendar table tbody td, #calendar table tfoot td {
   font-weight: normal;
   font-size: 0.5em;
   line-height: 1.5em;
@@ -249,21 +525,21 @@ footer ul li a {display: inline-block; text-decoration: none;}
   text-align: left;
 }
 
-#calendar table tbody td.saturday{
+#calendar table tbody td.saturday {
   color: #9A2525;
   font-weight: normal;
 }
 
-#calendar table tbody td.sunday{
+#calendar table tbody td.sunday {
   color: #9A2525;
   font-weight: bold;
 }
 
-#calendar table tbody td.weekend{
+#calendar table tbody td.weekend {
   color: #9A2525;
 }
 
-#calendar table tbody td.today{
+#calendar table tbody td.today {
   background-color: #A7B5C7;
 }
 
@@ -275,39 +551,83 @@ footer ul li a {display: inline-block; text-decoration: none;}
 }
 
 #calendar table tbody td.last_month, #calendar table tbody td.next_month {
-  color: 	#a3afc4;
+  color: #a3afc4;
 }
 
-#calendar table{
+#calendar table {
   border-collapse: collapse;
   border: solid #112A5D 2px;
   padding: 0;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #F6F6F6;
 }
 
+
 /* Ausstattung */
+
+
 /* ################################################################## */
-#Block_eins , #Block_zwei {display: inline-block;}
 
-#AV-Lab {border: 1px solid black; background-image: url(../);}
-#Media-Lab {border: 1px solid black; background-image: url(../);}
-#Projekträume {border: 1px solid black; background-image: url(../);}
-#Studio {border: 1px solid black; background-image: url(../);}
+#Block_eins, #Block_zwei {
+  display: inline-block;
+}
 
-#AV-Lab , #Media-Lab {width: 35%; height: auto; align: center; display: inline-block;}
-#Projekträume, #Studio {width: 35%; height:auto; align: center; display: inline-block;}
+#AV-Lab {
+  border: 1px solid black;
+  background-image: url(../);
+}
 
-#Bildkasten {width: 250px; height: 250px; border: 1px solid black;}
+#Media-Lab {
+  border: 1px solid black;
+  background-image: url(../);
+}
 
-#Equipment, #Raum {border: 1px solid black; width: 300px; height: 50px; display: inline-block;}
+#Projekträume {
+  border: 1px solid black;
+  background-image: url(../);
+}
+
+#Studio {
+  border: 1px solid black;
+  background-image: url(../);
+}
+
+#AV-Lab, #Media-Lab {
+  width: 35%;
+  height: auto;
+  align: center;
+  display: inline-block;
+}
+
+#Projekträume, #Studio {
+  width: 35%;
+  height: auto;
+  align: center;
+  display: inline-block;
+}
+
+#Bildkasten {
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+}
+
+#Equipment, #Raum {
+  border: 1px solid black;
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+}
 
 
 /* Institute */
+
+
 /* ################################################################## */
 
 
-
 /* International */
+
+
 /* ################################################################## */
