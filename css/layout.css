@@ -16,6 +16,7 @@ body {background-color: white;}
 h1 {
     font-size: 24pt;
     text-align: center;
+	text-transform: uppercase;
     margin: 0;
     padding: 0;
 }
@@ -102,7 +103,7 @@ header {
 header nav { margin: 0 auto; padding:0; display: flex; justify-content: center; position: relative;}
 header nav ul {margin: 0; padding: 0; list-style: none; margin-top: 1%; display: flex; align-items: center; }
 header nav ul li { margin:0 10px 0 0; padding:0; list-style:none; text-align: center; display: inline;}
-header nav ul li a { text-transform:uppercase; font-size:16px; text-decoration: none; display: inline-block;}
+header nav ul li a { text-transform: none;; font-size:16px; text-decoration: none; display: inline-block;}
 
 
 
