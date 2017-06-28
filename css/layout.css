@@ -70,8 +70,7 @@ p {font-size: 11pt;}
 
 /* Lailas Version */
 .ud_page { width:100%; min-height:100%; overflow:hidden; float:left; border-bottom:1px solid #aaa5a0;}
-/* Caros Version */
-.ud_page { width:100%; min-height:100%; overflow:hidden; float:left; border-bottom:1px solid #dfdfdf; margin: 1%;}
+
 
 
 /* ################################################################## */
@@ -86,8 +85,7 @@ header nav ul {margin: 0; padding: 0; list-style: none; text-align: center; marg
 header nav ul li { margin:0 10px 0 0; padding:0; list-style:none; text-align: center; display: inline;}
 header nav ul li a { text-transform:uppercase; font-size:16px; text-decoration: none; display: inline-block;}
 
-/* Caros Version */
-header nav { height: 40px; margin: 0 auto; padding:0;}
+
 
 #ud_logo {width: 50px;}
 
@@ -109,15 +107,7 @@ footer {border: 1px solid #aaa5a0; height: 9%; width: 100%;}
 
 .footer ul lu a {display: inline-block; text-decoration: none;}
 
-/*Caros Version */
 
-footer {border-top: 1px solid #dfdfdf; padding: 1%;}
-
-.footer  ul {margin: 0; padding: 0; list-style: none; text-align: center; margin-top: 1%;}
-
-.footer ul li {display: inline;}
-
-.footer ul li a {display: inline-block; text-decoration: none;}
 
 /* Media Management */
 /* ################################################################## */
