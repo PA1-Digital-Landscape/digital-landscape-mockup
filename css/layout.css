@@ -342,7 +342,6 @@ footer ul li a {
   width: 54%;
   height: 100%;
   text-align: left;
-  margin-left: 12.5%;
 }
 
 #Hintergrund_Projekte {
@@ -355,13 +354,7 @@ footer ul li a {
 }
 
 #Filterboxen {
-  border: 1px solid #aaa5a0;
-  width: 75%;
-  height: 50px;
-  text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  display: grid;
+
 }
 
 
