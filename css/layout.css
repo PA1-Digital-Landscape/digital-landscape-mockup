@@ -14,8 +14,8 @@
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -183,8 +183,8 @@ p {
 /* ################################################################## */
 
 #Landing_Page {
-  max-width: 1280px;
-  height: 720px;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   right: 0;
@@ -194,8 +194,8 @@ p {
 }
 
 #Hintergrund_LP {
-  height: 720px;
-  width: 1280px;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   padding: 0;
   justify-content: center;
@@ -438,7 +438,6 @@ footer ul li a {
 
 #Hintergrund_Projekte {
   border: 1px solid #aaa5a0;
-  ;
   width: 20%;
   height: 320px;
   float: right;
