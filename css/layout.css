@@ -350,21 +350,38 @@ footer ul li a {
   background-image: url(../img/Background.png)
 }
 
+
 #ud_partner h2 {
   color: white;
-  text-align: justify; 
-
-
 }
 
-.Partner {
-  border: 1px solid #aaa5a0;
-  width: 7%;
-  height: 55%;
-  background-color: white;
- 
- 
+
+.Partner {;
+  height: 50%;
+  width: auto;  
 }
+
+
+#Partner_eins {
+	padding-bottom: 10px;
+}
+
+
+#Partner_zwei {
+	padding-top: 20px;
+	
+}
+#Partner_zwei img {
+  height: 50%; 
+  width: auto; 
+ }
+
+
+#Partner_drei img {
+  height: 100%; 
+  width: auto;
+}
+
 
 #FAQ {
   width: 100%;
