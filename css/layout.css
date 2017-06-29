@@ -235,7 +235,7 @@ header {
   left: 0;
   right: 0;
   height: 120px;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid #96000f;
   background-color: white;
 }
@@ -299,7 +299,7 @@ header nav ul li a {
 
 footer {
   display: flex;
-  width: 100%;
+  width: 100vw;
   justify-content: center;
   align-items: center;
   background-image: url(../img/Background.png);
