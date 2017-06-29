@@ -69,7 +69,7 @@ p {
 }
 
 .wrapper {
-  max-width: 1024px;
+  width: 70vw;
   margin: 0 auto;
 }
 
@@ -234,7 +234,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 120px;
+  height: 20vh;
   width: 100vw;
   border-bottom: 1px solid #96000f;
   background-color: white;
@@ -300,6 +300,7 @@ header nav ul li a {
 footer {
   display: flex;
   width: 100vw;
+  height: 18vh;
   justify-content: center;
   align-items: center;
   background-image: url(../img/Background.png);
@@ -341,7 +342,7 @@ footer ul li a {
 
 #Startseite {
   width: 100%;
-  height: 470px;
+  height: 62vh;
   text-align: left;
 }
 
@@ -352,8 +353,8 @@ footer ul li a {
   justify-content: space-around;
   align-items: center;
   border: 1px solid #aaa5a0;
-  width: 100%;
-  height: 130px;
+  width: 100vw;
+  height: 18vh;
   margin: 0;
   background-image: url(../img/Background.png)
 }
