@@ -127,8 +127,8 @@ p {
 #großerbereich {
   width: 98%;
   height: 100%;
-  float: left;
   width: 50%;
+  float: left;
   margin-left: 12.5%;
 }
 
@@ -136,7 +136,6 @@ p {
   width: 49%;
   height: 100%;
   float: right;
-  width: 35%;
   text-align: center;
   margin-right: 12.5%;
 }
