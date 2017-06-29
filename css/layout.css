@@ -606,7 +606,7 @@ footer ul li a {
   display: flex;
   width: 100%;
   height: auto;
-  background-image: url(../img/kv_ausstattung.jpg;)
+  background-image: url(../img/kv_ausstattung.jpg);
   justify-content: flex-start;
 }
 
@@ -614,7 +614,6 @@ footer ul li a {
   display: flex;
   width: 50%;
   height: auto;
-  text-align: left;
   align-items: flex-start;
 }
 
