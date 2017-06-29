@@ -33,7 +33,7 @@ h1 {
 
 h2 {
   text-align: center;
-	text-transform: none; 
+	text-transform: none;
 }
 
 p {
@@ -298,6 +298,7 @@ header nav ul li a {
 
 footer {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   background-image: url(../img/Background.png);
@@ -370,11 +371,35 @@ footer ul li a {
 }
 
 
-/*  Mein Media Management */
+/*  Dashboard */
 
 
 /* ################################################################## */
 
+#Dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+#Stundenplan {
+  width: 65%;
+  height: auto;
+  border: 1px solid black;
+  background-color: red;
+
+}
+
+#Nebenbox {
+  width: 35%;
+  height: auto;
+  border: 1px solid black;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Projekte */
 
