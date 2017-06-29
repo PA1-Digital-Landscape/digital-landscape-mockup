@@ -171,6 +171,54 @@ p {
 /* ################################################################## */
 
 
+
+
+/* ################################################################## */
+
+
+/* Landing Page */
+
+
+/* ################################################################## */
+
+#Landing_Page {
+  max-width: 1280px;
+  height: 720px;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #96000f;
+  background-color: white;
+  
+}
+
+#Hintergrund_LP {
+  height: 720px;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  position: relative;
+  background-image: url(../img/Startbildjpg.jpg); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+#Mehr Anzeigen {
+  height: 20px; 
+  width: 60px; 
+  margin: auto; 
+  position: absolute;
+  display: flex; 
+  align-content: center; 
+  background-color: white; 
+  border: 1px solid #96000f;
+}
+
+
+
+
 /* ################################################################## */
 
 
@@ -214,6 +262,7 @@ header nav ul li {
   list-style: none;
   text-align: center;
   display: inline;
+	
 }
 
 header nav ul li a {
@@ -246,7 +295,6 @@ header nav ul li a {
 /* ################################################################## */
 
 
-/* Lailas Version */
 
 footer {
   display: flex;
@@ -284,11 +332,9 @@ footer ul li a {
 /* Ich kann hier beispielsweise die Höhe nicht in Pronzent sondern nur in Pixel angeben?*/
 
 #Startseite {
-  width: 75%;
+  width: 100%;
   height: 470px;
   text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
 }
 
 #ud_partner {
@@ -318,11 +364,9 @@ footer ul li a {
 }
 
 #FAQ {
-  width: 75%;
+  width: 100%;
   height: 100%;
   text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
 }
 
 
