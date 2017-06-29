@@ -332,11 +332,18 @@ footer ul li a {
 
 /* Ich kann hier beispielsweise die Höhe nicht in Pronzent sondern nur in Pixel angeben?*/
 
+
+#Fragen {
+  text-decoration: none; 
+  text-align: center; }
+
+
 #Startseite {
   width: 100%;
   height: 470px;
   text-align: left;
 }
+
 
 #ud_partner {
   display: flex; 
@@ -361,10 +368,6 @@ footer ul li a {
   width: auto;  
 }
 
-
-#Partner_eins {
-	padding-bottom: 10px;
-}
 
 
 #Partner_zwei {
