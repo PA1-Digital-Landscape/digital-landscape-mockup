@@ -347,7 +347,7 @@ footer ul li a {
 }
 
 
-#ud_partner {
+.container_partner {
   display: flex; 
   flex-direction: row; 
   justify-content: space-around;
@@ -360,14 +360,15 @@ footer ul li a {
 }
 
 
-#ud_partner h2 {
+.container_partner h2 {
   color: white;
 }
 
 
-.Partner {;
+.item_partner {
   height: 50%;
   width: auto;  
+  flex-shrink: 1;
 }
 
 
