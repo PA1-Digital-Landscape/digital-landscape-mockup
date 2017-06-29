@@ -602,8 +602,20 @@ footer ul li a {
 
 /* ################################################################## */
 
-#Block_eins, #Block_zwei {
-  display: inline-block;
+#Banner {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-image: url(../img/kv_ausstattung.jpg;)
+  justify-content: flex-start;
+}
+
+#Text {
+  display: flex;
+  width: 50%;
+  height: auto;
+  text-align: left;
+  align-items: flex-start;
 }
 
 #AV-Lab {
@@ -638,12 +650,6 @@ footer ul li a {
   height: auto;
   align: center;
   display: inline-block;
-}
-
-#Bildkasten {
-  width: 250px;
-  height: 250px;
-  border: 1px solid black;
 }
 
 #Equipment, #Raum {
