@@ -26,6 +26,8 @@
   <script src="./js/jquery-3.2.1.min.js"></script>
   <script src="./js/isotope.pkgd.min.js"></script>
 
+  <script src="./js/filter.js"></script>
+
   <title>Media Management</title>
 </head>
 
@@ -146,8 +148,8 @@
             <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
               <a href="#" id="menuLink1" class="pure-menu-link">Projekttyp</a>
               <ul class="pure-menu-children">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">PA1</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">PA2</a></li>
+                <li class="pure-menu-item" id="PA1"><a href="#" class="pure-menu-link">PA1</a></li>
+                <li class="pure-menu-item" id="PA2"><a href="#" class="pure-menu-link">PA2</a></li>
               </ul>
             </li>
           </ul>
@@ -155,17 +157,14 @@
       </div>
 
       <div id="Vorschau">
-        <div id="Vorschau_Reins">
-          <div class="Alle_VBoxen"></div>
-          <div class="Alle_VBoxen"></div>
-          <div class="Alle_VBoxen"></div>
-          <div class="Alle_VBoxen"></div>
-        </div>
-        <div id="Vorschau_Rzwei">
-          <div class="Alle_VBoxen"></div>
-          <div class="Alle_VBoxen"></div>
-          <div class="Alle_VBoxen"></div>
-          <div class="Alle_VBoxen"></div>
+        <div class="filter-grid">
+          <div class="element-item transition metal">...</div>
+          <div class="element-item post-transition metal">METAL</div>
+          <div class="element-item alkali metal">...</div>
+          <div class="element-item transition metal">...</div>
+          <div class="element-item lanthanoid metal inner-transition">...</div>
+          <div class="element-item halogen nonmetal">NON-METAL</div>
+          <div class="element-item alkaline-earth metal">...</div>
         </div>
       </div>
 
