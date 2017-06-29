@@ -33,7 +33,7 @@ h1 {
 
 h2 {
   text-align: center;
-	text-transform: none;
+  text-transform: none;
 }
 
 p {
@@ -82,7 +82,7 @@ p {
 /* ################################################################## */
 
 #Inhalt {
-  padding-top: 150px;
+  padding-top: 70px;
 }
 
 #Einleitung {
@@ -339,6 +339,10 @@ footer ul li a {
 }
 
 #ud_partner {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid #aaa5a0;
   width: 100%;
   height: 130px;
@@ -348,20 +352,18 @@ footer ul li a {
 
 #ud_partner h2 {
   color: white;
-  padding: 0;
-  margin: 0;
+  text-align: justify; 
+
+
 }
 
 .Partner {
-  float: left;
-  display: inline;
   border: 1px solid #aaa5a0;
   width: 7%;
   height: 55%;
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
-  margin-left: 8.2%;
   background-color: white;
+ 
+ 
 }
 
 #FAQ {
