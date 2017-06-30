@@ -336,7 +336,7 @@ footer ul li a {
 
 
 #Fragen {
-  text-decoration: none; 
+  text-decoration: none;
   text-align: center; }
 
 
@@ -349,8 +349,8 @@ footer ul li a {
 
 
 .container_partner {
-  display: flex; 
-  flex-direction: row; 
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
@@ -362,7 +362,7 @@ footer ul li a {
 }
 
 .item_partner {
-  flex-basis: 10vw;  
+  flex-basis: 10vw;
   flex-shrink: 1;
 }
 
@@ -380,27 +380,27 @@ footer ul li a {
 
 
 .item_partner:nth-child(3){
-  height: 7vh; 
- 
+  height: 7vh;
+
 }
 
 .item_partner:nth-child(4){
-  height: 10vh; 
+  height: 10vh;
 }
 
 #Partner_zwei {
-  height: 10vh; 
-	
-	
+  height: 10vh;
+
+
 }
 #Partner_zwei img {
-  height: 5vh; 
-  width: auto; 
+  height: 5vh;
+  width: auto;
  }
 
 
 #Partner_drei img {
-  height: 100%; 
+  height: 100%;
   width: auto;
 }
 
@@ -488,21 +488,21 @@ footer ul li a {
 
 
 .container_filterboxen {
-  display: flex; 
+  display: flex;
   justify-content: flex-start;
 }
 
 
 
 .container_vorschau {
-  display: flex;  
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
 
 
 .element-item {
-  flex-basis: 10px; 
+  flex-basis: 10px;
   border: 1px solid #aaa5a0;
 }
 
@@ -694,18 +694,19 @@ footer ul li a {
 
 #Banner {
   display: flex;
-  background-image: url(../img/kv_ausstattung.jpg);
-  justify-content: center;
+  background-image: url(../img/BannerAus.jpg);
+  justify-content:flex-start;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 70vw;
   height: auto;
 }
 
 #Text {
-  display: flex;
-  width: 50%;
+  display: inline-block;
+  width: 50vw;
   height: auto;
-  align-items: flex-start;
+  float: left;
+  text-align: left
 }
 
 #Raeume {
@@ -713,38 +714,87 @@ footer ul li a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-grow: 1;
 }
 
 #AV-Lab {
   border: 1px solid black;
+  width: 17.5vw;
+  height: auto;
+  text-align: center;
+  background-color: rgb(70, 65, 60);
+  color: white;
+  text-decoration: none;
 }
 
 #Media-Lab {
   border: 1px solid black;
+  width: 17.5vw;
+  height: auto;
+  text-align: center;
+  background-color: rgb(70, 65, 60);
+  color: white;
+  text-decoration: none;
 }
 
 #Projekträume {
   border: 1px solid black;
+  width: 17.5vw;
+  height: auto;
+  text-align: center;
+  background-color: rgb(70, 65, 60);
+  color: white;
+  text-decoration: none;
 }
 
 #Studio {
   border: 1px solid black;
+  width: 17.5vw;
+  height: auto;
+  text-align: center;
+  background-color: rgb(70, 65, 60);
+  color: white;
+  text-decoration: none;
+}
+
+
+
+#Slidebox {
+  display: flex;
+  width: 60vw;
+  height: auto;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#Anzeigebild img {
+  flex-grow: 1;
+  width: 20vw;
+  height: auto;
+}
+
+#Erlauterungstext {
+  flex-grow: 2;
+  width: 30vw;
+  height: auto;
+}
+
+#buttons {
+  display: flex;
+  width: 30vw;
+  height: auto;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
 }
 
 #Equipment, #Raum {
   border: 1px solid black;
-  width: 300px;
-  height: 50px;
+  width: 15vw;
+  height: auto;
   display: inline-block;
-}
-
-#Slidebox {
-  display: flex;
-  justify-content: center;
-}
-
-#Anzeigebild {
-  width:
+  flex: 1;
 }
 
 /* Institute */
@@ -788,7 +838,7 @@ input[type="text"],input[type="password"]{
 	margin-bottom: 20px;
 	border-radius: 4px;
 	background-color: #fff;
-	
+
 }
 
 .form-input::before {
@@ -799,8 +849,8 @@ input[type="text"],input[type="password"]{
 	padding-left: 5px;
 	padding-top: 5px;
 	font-size: 35px;
-	
-	
+
+
 }
 .btn-einloggen{
 	padding: 15px 25px;
@@ -810,7 +860,7 @@ input[type="text"],input[type="password"]{
 	background-color: rgb(150, 0, 15);
 	border-bottom: 4px; solid #ff0019;
 	margin-bottom: 20px;
-	
+
 }
 
 p.info{	font-family: Open Sans;
