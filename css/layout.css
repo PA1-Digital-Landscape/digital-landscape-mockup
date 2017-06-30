@@ -189,7 +189,7 @@ p {
   right: 0;
   border-bottom: 1px solid #96000f;
   background-color: white;
-  
+
 }
 
 #Hintergrund_LP {
@@ -199,20 +199,20 @@ p {
   padding: 0;
   justify-content: center;
   position: relative;
-  background-image: url(../img/Startbildjpg.jpg); 
+  background-image: url(../img/Startbildjpg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 
 #Mehr Anzeigen {
-  height: 20px; 
-  width: 60px; 
-  margin: auto; 
+  height: 20px;
+  width: 60px;
+  margin: auto;
   position: absolute;
-  display: flex; 
-  align-content: center; 
-  background-color: white; 
+  display: flex;
+  align-content: center;
+  background-color: white;
   border: 1px solid #96000f;
 }
 
@@ -262,7 +262,7 @@ header nav ul li {
   list-style: none;
   text-align: center;
   display: inline;
-	
+
 }
 
 header nav ul li a {
@@ -648,10 +648,11 @@ footer ul li a {
 
 #Banner {
   display: flex;
+  background-image: url(../img/kv_ausstattung.jpg);
+  justify-content: center;
+  background-repeat: no-repeat;
   width: 100%;
   height: auto;
-  background-image: url(../img/kv_ausstattung.jpg);
-  justify-content: flex-start;
 }
 
 #Text {
@@ -661,38 +662,27 @@ footer ul li a {
   align-items: flex-start;
 }
 
+#Raeume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 #AV-Lab {
   border: 1px solid black;
-  background-image: url(../);
 }
 
 #Media-Lab {
   border: 1px solid black;
-  background-image: url(../);
 }
 
 #Projekträume {
   border: 1px solid black;
-  background-image: url(../);
 }
 
 #Studio {
   border: 1px solid black;
-  background-image: url(../);
-}
-
-#AV-Lab, #Media-Lab {
-  width: 35%;
-  height: auto;
-  align: center;
-  display: inline-block;
-}
-
-#Projekträume, #Studio {
-  width: 35%;
-  height: auto;
-  align: center;
-  display: inline-block;
 }
 
 #Equipment, #Raum {
@@ -702,6 +692,14 @@ footer ul li a {
   display: inline-block;
 }
 
+#Slidebox {
+  display: flex;
+  justify-content: center;
+}
+
+#Anzeigebild {
+  width:
+}
 
 /* Institute */
 
