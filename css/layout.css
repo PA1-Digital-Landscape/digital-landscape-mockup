@@ -485,6 +485,13 @@ footer ul li a {
   flex: 1;
 }
 
+
+
+.container_filterboxen {
+  display: flex; 
+  justify-content: flex-start; 
+}
+
 #Vorschau_Reins {
   border: 1px solid #aaa5a0;
   width: 75%;
