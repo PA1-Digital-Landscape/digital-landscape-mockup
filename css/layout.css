@@ -14,8 +14,8 @@
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 body {
@@ -28,12 +28,13 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  letter-spacing: 2px;
 }
 
 
 h2 {
   text-align: center;
-	text-transform: none;
+  text-transform: none;
 }
 
 p {
@@ -68,7 +69,7 @@ p {
 }
 
 .wrapper {
-  max-width: 1024px;
+  width: 70vw;
   margin: 0 auto;
 }
 
@@ -82,7 +83,7 @@ p {
 /* ################################################################## */
 
 #Inhalt {
-  padding-top: 150px;
+  padding-top: 70px;
 }
 
 #Einleitung {
@@ -182,8 +183,8 @@ p {
 /* ################################################################## */
 
 #Landing_Page {
-  max-width: 1280px;
-  height: 720px;
+  width: 100vw;
+  height: 100vh;
   top: 0;
   left: 0;
   right: 0;
@@ -193,8 +194,8 @@ p {
 }
 
 #Hintergrund_LP {
-  height: 720px;
-  width: 1280px;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   padding: 0;
   justify-content: center;
@@ -233,8 +234,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 140px;
-  width: 100%;
+  height: 20vh;
+  width: 100vw;
   border-bottom: 1px solid #96000f;
   background-color: white;
 }
@@ -251,13 +252,13 @@ header nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-top: 1%;
+  margin-top: 0.5%;
   display: flex;
   align-items: center;
 }
 
 header nav ul li {
-  margin: 0 10px 0 0;
+  margin: 0 40px 0 0;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -298,7 +299,8 @@ header nav ul li a {
 
 footer {
   display: flex;
-  width: 100%;
+  width: 100vw;
+  height: 18vh;
   justify-content: center;
   align-items: center;
   background-image: url(../img/Background.png);
@@ -332,37 +334,76 @@ footer ul li a {
 
 /* Ich kann hier beispielsweise die Höhe nicht in Pronzent sondern nur in Pixel angeben?*/
 
+
+#Fragen {
+  text-decoration: none; 
+  text-align: center; }
+
+
 #Startseite {
   width: 100%;
-  height: 470px;
+  height: 62vh;
+  margin-top: 10vh;
   text-align: left;
 }
 
-#ud_partner {
+
+.container_partner {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   border: 1px solid #aaa5a0;
-  width: 100%;
-  height: 130px;
+  width: 100vw;
+  height: 18vh;
   margin: 0;
   background-image: url(../img/Background.png)
 }
 
-#ud_partner h2 {
+.item_partner {
+  flex-basis: 10vw;  
+  flex-shrink: 1;
+}
+
+.container_partner h2 {
   color: white;
-  padding: 0;
+}
+
+
+.item_partner:nth-child(1){
+  flex-basis: 100vw;
+  height: 10%;
   margin: 0;
 }
 
-.Partner {
-  float: left;
-  display: inline;
-  border: 1px solid #aaa5a0;
-  width: 7%;
-  height: 55%;
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
-  margin-left: 8.2%;
-  background-color: white;
+
+
+.item_partner:nth-child(3){
+  height: 7vh; 
+ 
 }
+
+.item_partner:nth-child(4){
+  height: 10vh; 
+}
+
+#Partner_zwei {
+  height: 10vh; 
+	
+	
+}
+#Partner_zwei img {
+  height: 5vh; 
+  width: auto; 
+ }
+
+
+#Partner_drei img {
+  height: 100%; 
+  width: auto;
+}
+
 
 #FAQ {
   width: 100%;
@@ -415,7 +456,6 @@ footer ul li a {
 
 #Hintergrund_Projekte {
   border: 1px solid #aaa5a0;
-  ;
   width: 20%;
   height: 320px;
   float: right;
@@ -445,59 +485,65 @@ footer ul li a {
   flex: 1;
 }
 
+
+
+.container_filterboxen {
+  display: flex; 
+  justify-content: flex-start;
+}
+
+
+
+.container_vorschau {
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+
+.element-item {
+  flex-basis: 10px; 
+  border: 1px solid #aaa5a0;
+}
+
 #Vorschau_Reins {
   border: 1px solid #aaa5a0;
   width: 75%;
-  height: 75px;
+  height: 10px;
   text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
   display: grid;
 }
 
-#Vorschau_Rzwei {
-  border: 1px solid #aaa5a0;
-  width: 75%;
-  height: 75px;
-  text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  display: grid;
-}
+
+
 
 #Studenten_Foto {
   border: 1px solid #aaa5a0;
-  width: 37%;
+  width: 33vw;
   height: 100%;
-  margin-left: 12.5%;
 }
 
 #Oak_Content {
   border: 1px solid #aaa5a0;
-  width: 37%;
+  width: 33vw;
   height: 100%;
-  margin-right: 12.5%;
   float: right;
 }
 
 #Oak_Teilnehmer {
   border: 1px solid #aaa5a0;
-  width: 75%;
+  width: 100%;
   height: 100%;
   text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
   margin-top: 5%;
   display: grid;
 }
 
 #Oak_Praesentation {
   border: 1px solid #aaa5a0;
-  width: 75%;
+  width: 100;
   height: 100%;
   text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
   margin-top: 5%;
   display: grid;
 }
@@ -711,3 +757,63 @@ footer ul li a {
 
 
 /* ################################################################## */
+
+/* Login-Feld*/
+
+
+/* ################################################################## */
+
+.container_login{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.container_login img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input[type="text"],input[type="password"]{
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	border-color: rgb(150, 0, 15);
+	margin-bottom: 20px;
+	border-radius: 4px;
+	background-color: #fff;
+	
+}
+
+.form-input::before {
+	content: "";
+	position: absolute;
+	font-family: Open Sans;
+	font-size: 30px;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 35px;
+	
+	
+}
+.btn-einloggen{
+	padding: 15px 25px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: rgb(150, 0, 15);
+	border-bottom: 4px; solid #ff0019;
+	margin-bottom: 20px;
+	
+}
+
+p.info{	font-family: Open Sans;
+	color: #000000;
+	font-size: 15px;
+}

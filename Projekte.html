@@ -1,22 +1,11 @@
 <!doctype html>
 <html>
-<<<<<<< HEAD
 <head>
 <meta charset="UTF-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-=======
-
-<head>
-  <meta charset="UTF-8">
->>>>>>> 1f316fb87fdaa182d9cbe517e778aaee2be10ba1
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<<<<<<< HEAD
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-=======
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" href="css/menus-min.css">
   <link rel="stylesheet" href="css/menus-dropdown-min.css">
@@ -40,28 +29,33 @@
   <!-- Header -->
   <!-- ################################################-->
 
-  <header>
+
+	<header>
 
 
-    <img src="img/Logo.png" alt="Logo">
+		<!-- FAQ, Impressum und Suchfeld sind im Banner -->
 
-    <div class="wrapper">
-      <h1>Media Management</h1>
+		<!-- Logo -->
+		<img src="img/Logo.png" alt="Logo" style="height: 42px;">
 
-      <!-- Navigation -->
-      <nav>
-        <ul>
-          <!-- Anker-Tag bekommt eine #-->
-          <li><a href="#Media Management">Media Management</a></li>
-          <li><a href="#Projekte">Projekte</a></li>
-          <li><a href="#Events">Events</a></li>
-          <li><a href="#Ausstattung">Ausstattung</a></li>
-          <li><a href="#Institute">Institute</a></li>
-          <li><a href="#International">International</a></li>
-          <li><a href="Login.html"> <img src="img/Log-In.png" alt="Log" height="15"/></a></li>
-        </ul>
-      </nav>
-    </div>
+		<div class="wrapper">
+			<h1>Media Management</h1>
+
+			<!-- Navigation -->
+			<nav>
+				<ul>
+					<!-- Anker-Tag bekommt eine #-->
+					<li><a href="Startseite.html">Media Management</a></li>
+					<li><a href="Projekte.html"><b>Projekte</b></a></li>
+					<li><a href="Events.html">Events</a></li>
+					<li><a href="Ausstattung.html">Ausstattung</a></li>
+					<li><a href="#Institute">Institute</a></li>
+					<li><a href="#International">International</a></li>
+				</ul>
+
+				<div class="header_buttons"><a href="Login.html"> <img src="img/Log-In.png" alt="Log" height="15"/></a></div>
+			</nav>
+		</div>
 
 
 	</header>
@@ -84,7 +78,7 @@
 
 		<div id="Projekte_Content" class="box" >
 			<!-- Headline -->
-			<h1 class="h_linksbuendig">Projekte </h1>
+			<h2 class="h_linksbuendig">Projekte </h2>
 
 			<!-- Content -->
 			<p align="left">
@@ -96,12 +90,6 @@
 		</div>
 
 
-		<div id="Filterboxen">
-			<div class="" id="Filter_eins"></div>
-			<div class="" id="Filter_zwei"></div>
-			<div class="" id="Filter_drei"></div>
-		</div>
-
 		<div id="Vorschau">
 			<div id="Vorschau_Reins">
 				<div class="Alle_VBoxen"></div>
@@ -109,40 +97,12 @@
 				<div class="Alle_VBoxen"></div>
 				<div class="Alle_VBoxen"></div>
 			</div>
-			<div id="Vorschau_Rzwei">
-				<div class="Alle_VBoxen"></div>
-				<div class="Alle_VBoxen"></div>
-				<div class="Alle_VBoxen"></div>
-				<div class="Alle_VBoxen"></div>
-			</div>
 		</div>
 
-	<!-- Mehr Anzeigen Button
-=======
-  <div id="Hintergrund_Projekte" class="box"></div>
-
-  <div class="wrapper" id="Inhalt">
-
-    <section id="" class="ud_page">
-
-      <div id="Projekte_Content">
-        <!-- Headline -->
-        <h1 class="h_linksbuendig">Projekte </h1>
-
-        <!-- Content -->
-        <p align="left">
-          Im vierten und fünften Semester des Studiengangs finden die Projektstudien 1 und 2 statt. Hierzu stellen die Professoren ihre Projekte vor und geben an welche Voraussetzungen sie erwarten wie z.B. einen bestimmten Schwerpunkt oder eine Höchstanzahl an
-          Studierenden für das Projekt. Die Studenten können dann ihre drei bevorzugten Profs/Themen bis zu einem bestimmten Zeitpunkt wählen und werden dann bei der Bekanntgabe der Ergebnisse jeweils in Gruppen zugeordnet. Meistens liegt die Anzahl an
-          Studenten innerhalb eines Projektes bei 4 bis 12 Studenten und Studentinnen. Dabei unterstützt mindestens ein Professor, manchmal auch zwei oder mehr, die Gruppe bei der Bearbeitung des Projekts.
-          <br><br> Nachdem ein Kick-Off-Termin festgelegt wurde, wird innerhalb der Gruppe gearbeitet. Hierzu vereinbaren die Teilnehmer ihre Meetings und gestalten diese nach eigenen Interessen und Notwendigkeiten. Meist erarbeiten die Projektteilnehmer
-          ihre Inhalte oftmals in noch kleineren Gruppen, da die Aufteilung der Hauptaufgabe meist effektiver und effizienter ist. Trotzdem ist es wichtig sich mit allen Beteiligten abzusprechen um ein gemeinsames Ziel erreichen zu können. Die Projektergebnisse
-          werden dann am AIM-Event präsentiert und bewertet.
-
-        </p>
-      </div>
 
 
-      <div id="Filterboxen">
+	<div class="container_filterboxen">
+      <div class="item_filterboxen">
         <div class="pure-menu pure-menu-horizontal">
           <ul class="pure-menu-list">
             <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
@@ -155,30 +115,70 @@
           </ul>
         </div>
       </div>
+      
+       <div class="item_filterboxen">
+        <div class="pure-menu pure-menu-horizontal">
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+              <a href="#" id="menuLink1" class="pure-menu-link">Semester</a>
+              <ul class="pure-menu-children">
+                <li class="pure-menu-item" id="PA1"><a href="#" class="pure-menu-link">WS2016</a></li>
+                <li class="pure-menu-item" id="PA2"><a href="#" class="pure-menu-link">SM2016</a></li>
+                <li class="pure-menu-item" id="PA1"><a href="#" class="pure-menu-link">WS2015</a></li>
+                <li class="pure-menu-item" id="PA2"><a href="#" class="pure-menu-link">SM2015</a></li>
+                <li class="pure-menu-item" id="PA1"><a href="#" class="pure-menu-link">WS2014</a></li>
+                <li class="pure-menu-item" id="PA2"><a href="#" class="pure-menu-link">SM2014</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      
+       <div class="item_filterboxen">
+        <div class="pure-menu pure-menu-horizontal">
+          <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+              <a href="#" id="menuLink1" class="pure-menu-link">Professor</a>
+              <ul class="pure-menu-children">
+                <li class="pure-menu-item" id="PA1"><a href="#" class="pure-menu-link">Prof. Dr. Schwarz</a></li>
+                <li class="pure-menu-item" id="PA2"><a href="#" class="pure-menu-link">Prof. Dr. Luderschmidt</a></li>
+                <li class="pure-menu-item" id="PA1"><a href="#" class="pure-menu-link">Prof. Dr. Schunk</a></li>
+                <li class="pure-menu-item" id="PA2"><a href="#" class="pure-menu-link">Prof. Dr. Spierling</a></li>
+                <li class="pure-menu-item" id="PA1"><a href="#" class="pure-menu-link">Prof. Dr. Kantzow</a></li>
+                <li class="pure-menu-item" id="PA2"><a href="#" class="pure-menu-link">Prof. Dr. Geschwendtner</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
 
-      <div id="Vorschau">
+      <div class="container_filterboxen">
         <div class="filter-grid">
-          <div class="element-item transition metal">...</div>
-          <div class="element-item post-transition metal">METAL</div>
-          <div class="element-item alkali metal">...</div>
-          <div class="element-item transition metal">...</div>
-          <div class="element-item lanthanoid metal inner-transition">...</div>
-          <div class="element-item halogen nonmetal">NON-METAL</div>
-          <div class="element-item alkaline-earth metal">...</div>
+          <div class="element-item oakmania">Oakmania</div>
+          <div class="element-item datalovers">Data Lovers</div>
+          <div class="element-item human-resource">Human Resource</div>
+          <div class="element-item international-studies">International Studies</div>
+          <div class="element-item finanz">finanz+</div>
+          <div class="element-item shiseido">Shiseido</div>
+          <div class="element-item visual-content">Visual Content</div>
         </div>
       </div>
 
       <!-- Mehr Anzeigen Button
->>>>>>> 1f316fb87fdaa182d9cbe517e778aaee2be10ba1
 	<div class="mehr_anzeigen">
 	<a href="" class="ud_button">Mehr Anzeigen</a>
 	</div>
 	-->
 
-
+</div> 
     </section>
 
 
+
+
+ <div class="wrapper" id="Inhalt">
 
     <section id="Oakmania" class="ud_page">
 
@@ -187,7 +187,7 @@
       </div>
 
       <div id="Oak_Content" class="box" align="center">
-        <h1 class="h_linksbuendig">Oakmania</h1>
+        <h2 class="h_linksbuendig">Oakmania</h2>
         <p align="left">Mit Location-based Augmented Reality ist es möglich, abhängig vom Standort und vom aktuell erfassten Kamerabild eines mobilen Geräts angepassten Content anzuzeigen, der mit dem Kamerabild überblendet wird. Serious Games sind Computerspiele, welche
           neben ihrem Unterhaltungswert auch ernsthafte bzw. instrumentelle Ziele verfolgen, wie z.B. für die Wissensvermittlung oder unternehmerische Ziele. Im Sommersemester 2016 sollte auf dieser Basis ein mobiles Spiel konzipiert werden, das vor Ort
           unterhaltsam Informationen über unseren Mediencampus Unter den Eichen vermittelt, z.B. für zukünftige Studierende und Besucher, oder auch aktuelle Studierende und Beschäftigte. </p>
@@ -212,7 +212,7 @@
 
   </div>
 
-
+ 
 
 
   <!-- ################################################-->
