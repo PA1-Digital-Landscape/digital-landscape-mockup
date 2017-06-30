@@ -353,6 +353,7 @@ footer ul li a {
   flex-direction: row; 
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   border: 1px solid #aaa5a0;
   width: 100vw;
   height: 18vh;
@@ -360,26 +361,40 @@ footer ul li a {
   background-image: url(../img/Background.png)
 }
 
+.item_partner {
+  flex-basis: 10vw;  
+  flex-shrink: 1;
+}
 
 .container_partner h2 {
   color: white;
 }
 
 
-.item_partner {
-  height: 50%;
-  width: auto;  
-  flex-shrink: 1;
+.item_partner:nth-child(1){
+  flex-basis: 100vw;
+  height: 10%;
+  margin: 0;
 }
 
 
 
+.item_partner:nth-child(3){
+  height: 7vh; 
+ 
+}
+
+.item_partner:nth-child(4){
+  height: 10vh; 
+}
+
 #Partner_zwei {
-	padding-top: 20px;
+  height: 10vh; 
+	
 	
 }
 #Partner_zwei img {
-  height: 50%; 
+  height: 5vh; 
   width: auto; 
  }
 
