@@ -694,7 +694,7 @@ footer ul li a {
 
 #Banner {
   display: flex;
-  background-image: url(../img/BannerAus.jpg);
+  background-image: url(../img/finale.jpg);
   justify-content:flex-start;
   background-repeat: no-repeat;
   width: 70vw;
@@ -703,10 +703,13 @@ footer ul li a {
 
 #Text {
   display: inline-block;
-  width: 50vw;
+  width: 35vw;
   height: auto;
-  float: left;
-  text-align: left
+  text-align: left;
+}
+
+#Uberschrift {
+  font-size: 14pt;
 }
 
 #Raeume {
@@ -761,23 +764,23 @@ footer ul li a {
 
 #Slidebox {
   display: flex;
-  width: 60vw;
+  width: 70vw;
   height: auto;
-  align-items: baseline;
+  align-items: center;
   flex-direction: row;
   justify-content: space-around;
 }
 
 #Anzeigebild img {
-  flex-grow: 1;
-  width: 20vw;
+  flex: 1;
+  width: 30vw;
   height: auto;
 }
 
 #Erlauterungstext {
-  flex-grow: 2;
-  width: 30vw;
-  height: auto;
+  flex: 2;
+  text-align: center;
+  border-left: 10px;
 }
 
 #buttons {
@@ -791,7 +794,7 @@ footer ul li a {
 
 #Equipment, #Raum {
   border: 1px solid black;
-  width: 15vw;
+  width: 12.5vw;
   height: auto;
   display: inline-block;
   flex: 1;
