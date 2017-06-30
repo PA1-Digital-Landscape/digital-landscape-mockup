@@ -489,7 +489,21 @@ footer ul li a {
 
 .container_filterboxen {
   display: flex; 
-  justify-content: flex-start; 
+  justify-content: flex-start;
+}
+
+
+
+.container_vorschau {
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+
+.element-item {
+  flex-basis: 10px; 
+  border: 1px solid #aaa5a0;
 }
 
 #Vorschau_Reins {
