@@ -492,25 +492,7 @@ footer ul li a {
   justify-content: flex-start; 
 }
 
-#Vorschau_Reins {
-  border: 1px solid #aaa5a0;
-  width: 75%;
-  height: 75px;
-  text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  display: grid;
-}
 
-#Vorschau_Rzwei {
-  border: 1px solid #aaa5a0;
-  width: 75%;
-  height: 75px;
-  text-align: left;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  display: grid;
-}
 
 #Studenten_Foto {
   border: 1px solid #aaa5a0;
