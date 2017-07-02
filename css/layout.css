@@ -715,60 +715,66 @@ footer ul li a {
 #Raeume {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-grow: 1;
+  color: ##FFFFFF;
+  text-decoration: none;
 }
 
 #AV-Lab {
   border: 1px solid black;
-  width: 17.5vw;
+  width: 15vw;
   height: auto;
   text-align: center;
-  background-color: rgb(70, 65, 60);
-  color: white;
+  background-color: rgb(150, 0, 15);
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 #Media-Lab {
   border: 1px solid black;
-  width: 17.5vw;
+  width: 15vw;
   height: auto;
   text-align: center;
-  background-color: rgb(70, 65, 60);
-  color: white;
+  background-color: rgb(150, 0, 15);
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 #Projekträume {
   border: 1px solid black;
-  width: 17.5vw;
+  width: 15vw;
   height: auto;
   text-align: center;
-  background-color: rgb(70, 65, 60);
-  color: white;
+  background-color: rgb(150, 0, 15);
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 #Studio {
   border: 1px solid black;
-  width: 17.5vw;
+  width: 15vw;
   height: auto;
   text-align: center;
-  background-color: rgb(70, 65, 60);
+  background-color: rgb(150, 0, 15);
   color: white;
   text-decoration: none;
 }
 
-
+#ud_button {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 #Slidebox {
   display: flex;
-  width: 70vw;
-  height: auto;
   align-items: center;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  background-color: rgb(70, 65, 60);
+  color: #000000;
+  align-self: center;
 }
 
 #Anzeigebild img {
@@ -777,10 +783,17 @@ footer ul li a {
   height: auto;
 }
 
-#Erlauterungstext {
-  flex: 2;
+#Erlautertungstext {
+  flex: 1;
+  width: 35vw;
+  height: auto;
   text-align: center;
   border-left: 10px;
+  color: #FFFFFF;
+}
+
+#Erlautertungstext h2, #Erlautertungstext p {
+  color: #FFFFFF;
 }
 
 #buttons {
@@ -789,7 +802,8 @@ footer ul li a {
   height: auto;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: center;
+  color: #FFFFFF;
 }
 
 #Equipment, #Raum {
