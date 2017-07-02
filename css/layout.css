@@ -801,16 +801,16 @@ footer ul li a {
   width: 30vw;
   height: auto;
   flex-direction: row;
-  align-items: baseline;
+  align-items:center;
+  align-content: center;
   justify-content: center;
   color: #FFFFFF;
 }
 
 #Equipment, #Raum {
-  border: 1px solid black;
-  width: 12.5vw;
+  border: 1px solid white;
+  width: 10vw;
   height: auto;
-  display: inline-block;
   flex: 1;
 }
 
