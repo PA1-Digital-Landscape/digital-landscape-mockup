@@ -554,6 +554,13 @@ footer ul li a {
 
 /* ################################################################## */
 
+#Kalender {
+  display: block;
+  width: 70vw;
+  height: auto;
+  background-image: url(../img/kv_events.jpg);
+}
+
 #aim {
   text-align: left;
   padding: 10px;
