@@ -412,6 +412,8 @@ footer ul li a {
 }
 
 
+/* ################################################################## */
+
 /*  Dashboard */
 
 
@@ -441,6 +443,9 @@ footer ul li a {
   flex-direction: column;
   align-items: center;
 }
+
+/* ################################################################## */
+
 
 /* Projekte */
 
@@ -516,6 +521,35 @@ footer ul li a {
 
 
 
+#Oakmania{
+  width: 100%;
+  height: 62vh;
+  margin-top: 10vh;
+  text-align: left;
+  background-color: #666666;
+}
+
+.container_foto {
+  border: 1px solid #aaa5a0;
+  display: flex; 
+  align-items: flex-start; 
+}
+
+.item_foto {
+  border: 1px solid #aaa5a0;	
+}
+
+
+.container_oak_content {
+  border: 1px solid #aaa5a0;
+  display: flex; 
+  align-items: flex-start; 
+}
+
+.item_oak_content {
+  border: 1px solid #aaa5a0;	
+}
+
 
 #Studenten_Foto {
   border: 1px solid #aaa5a0;
@@ -539,6 +573,13 @@ footer ul li a {
   display: grid;
 }
 
+#Oakmania_P{
+  width: 100%;
+  height: 62vh;
+  margin-top: 10vh;
+  text-align: left;
+}
+
 #Oak_Praesentation {
   border: 1px solid #aaa5a0;
   width: 100;
@@ -548,6 +589,9 @@ footer ul li a {
   display: grid;
 }
 
+
+
+/* ################################################################## */
 
 /* Events */
 
