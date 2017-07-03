@@ -126,13 +126,13 @@ p {
 /*#### Vorlage-2-Spaöten-asymmetrisch ###*/
 
 #großerbereich {
-  width: 98%;
-  height: 100%;
-  width: 50%;
-  float: left;
-  margin-left: 12.5%;
+  width: 100vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
+/*####### noch nicht wichitig
 #kleinerbereich {
   width: 49%;
   height: 100%;
@@ -140,7 +140,7 @@ p {
   text-align: center;
   margin-right: 12.5%;
 }
-
+####*/
 
 /*#### Vorlage-3-Spalten ###*/
 
@@ -279,7 +279,7 @@ header nav ul li a {
 
 .header_buttons {
   position: absolute;
-  right: 0;
+  right: 5vw;
   top: 10px;
 }
 
@@ -557,13 +557,41 @@ footer ul li a {
 #Kalender {
   display: block;
   width: 70vw;
-  height: auto;
+  height: 47.5vw;
   background-image: url(../img/kv_events.jpg);
+  justify-content: center;
+  align-items: center;
+}
+
+#Kalender img{
+  padding: 15vw 12vw 20vw 23vw;
 }
 
 #aim {
+  display: flex;
+  background-image: url(../img/finaleAIM.png);
+  width: 70vw;
+  height: 22vw;
+  text-align: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#aim h3 {
+  width: 70vw;
+  height: auto;
+  color: #FFFFFF;
+  padding: 2vw;
   text-align: left;
-  padding: 10px;
+  padding-left: 2.5vw;
+}
+
+#text p {
+  color: #FFFFFF;
+  width: 40vw;
+  height: 15vw;
+  text-align: left;
+  padding-left: 2.5vw;
 }
 
 #aimbutton {
@@ -572,12 +600,15 @@ footer ul li a {
   border: 1px solid black;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #FFFFFF;
 }
 
 #CampusCamp {
-  text-align: left;
-  padding: 10px;
+  display: flex;
+  width: 70vw;
+  height: auto;
+  justify-content: center;
+  text-align: center;
 }
 
 #CampusCampbutton {
@@ -586,13 +617,20 @@ footer ul li a {
   border: 1px solid black;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #FFFFFF;
 }
 
 #SSMT {
-  text-align: left;
-  padding: 10px;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  background-color: rgb(70, 65, 60);
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
 }
+
+
 
 #SSMTbutton {
   width: 150px;
@@ -600,7 +638,7 @@ footer ul li a {
   border: 1px solid black;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #FFFFFF;
 }
 
 #Veranstaltungskalender {
