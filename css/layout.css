@@ -457,22 +457,23 @@ footer ul li a {
 /* ################################################################## */
 
 #Projekte_Content {
-  border: 1px solid #aaa5a0;
   width: 52vw;
-  height: 100%;
+  height: 32vh;
   text-align: left;
 }
 
 #Hintergrund_Projekte {
   border: 1px solid #aaa5a0;
   width: 32.5vw;
-  height: 320px;
+  height: 52vh;
   float: right;
   background-image: url(../img/Projekte_BG.png);
+  background-repeat: no-repeat;
 }
 
-#Filterboxen {
-
+.container_vorschau {
+	width: 70vw; 
+	height: 100%; 
 }
 
 
