@@ -454,14 +454,14 @@ footer ul li a {
 
 #Projekte_Content {
   border: 1px solid #aaa5a0;
-  width: 54%;
+  width: 52vw;
   height: 100%;
   text-align: left;
 }
 
 #Hintergrund_Projekte {
   border: 1px solid #aaa5a0;
-  width: 20%;
+  width: 32.5vw;
   height: 320px;
   float: right;
   background-image: url(../img/Projekte_BG.png);
@@ -550,6 +550,13 @@ footer ul li a {
 .item_foto {	
 }
 
+
+#Studenten_Foto {
+  margin-top: 5vh;
+  width: 35vw;
+  height: 38vh;
+}
+
 #container_button {
   width: 35vw;
   height: 20vh;
@@ -573,55 +580,36 @@ footer ul li a {
   align-self: center;
 }
 
+
 .container_oak_content {
   width: 35vw;
   height: 62vh;
-  border: 1px solid #aaa5a0;
   display: flex; 
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 .item_oak_content {
   border: 1px solid #aaa5a0;	
-}
-
-
-#Studenten_Foto {
-  margin-top: 5vh;
+  height: 10vh; 
   width: 35vw;
-  height: 38vh;
+  align-self: flex-start;
+  flex-direction: column;
 }
 
-#Oak_Content {
-  border: 1px solid #aaa5a0;
-  width: 35vw;
-  height: 100%;
-  float: right;
-}
 
-#Oak_Teilnehmer {
-  border: 1px solid #aaa5a0;
-  width: 35vw;
-  height: 100%;
-  text-align: left;
-  margin-top: 5%;
-  display: grid;
-}
+
 
 #Oakmania_P{
-  width: 35vw;
+  width: 70vw;
   height: 62vh;
-  margin-top: 10vh;
-  text-align: left;
+  display: flex; 
+  justify-content: center; 
 }
 
 #Oak_Praesentation {
   border: 1px solid #aaa5a0;
-  width: 100;
-  height: 100%;
-  text-align: left;
-  margin-top: 5%;
-  display: grid;
+  height: 50vh; 
+  width: 50vw; 
 }
 
 
