@@ -341,7 +341,10 @@ footer ul li a {
 
 #Fragen {
   text-decoration: none;
-  text-align: center; }
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
 
 
 #Startseite {
@@ -467,36 +470,35 @@ footer ul li a {
   width: 32.5vw;
   height: 52vh;
   float: right;
-  background-image: url(../img/Projekte_BG.png);
+  background-image: url(../img/../img/kv_projekte.jpg);
   background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
 .container_vorschau {
 	width: 70vw;
 	height: 100%;
 }
+=======
+
+>>>>>>> 060f95328efe1a59e927858c93f49a1588e15efd
 
 .container_filterboxen {
 	width: 70vw;
 	height: 40vh;
 }
 
-/* ######### Kriege die Filterboxen nicht mehr in eine Reihe, daher klammer ich diese erst mal aus
 
-#Filter_eins {width: 10%; height: 30px; text-align: left;border: 1px solid #aaa5a0;}
-
-#Filter_zwei {width: 10%; height: 30px; text-align: left; margin-left: 5%; border: 1px solid #aaa5a0; }
-
-#Filter_drei {width: 10%; height: 30px; text-align: left; margin-left: 5%; border: 1px solid #aaa5a0;}
-
-				#########*/
 
 .filter-grid {
   display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
 }
 
 .element-item {
-  flex: 1;
+  height: 20vh; 
+  width: 200px;
 }
 
 
