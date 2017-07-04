@@ -341,7 +341,10 @@ footer ul li a {
 
 #Fragen {
   text-decoration: none;
-  text-align: center; }
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
 
 
 #Startseite {
