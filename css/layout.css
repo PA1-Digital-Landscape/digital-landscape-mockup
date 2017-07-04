@@ -343,7 +343,7 @@ footer ul li a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 
@@ -471,9 +471,9 @@ footer ul li a {
   float: right;
   background-image: url(../img/../img/kv_projekte.jpg);
   background-repeat: no-repeat;
-  background-position: right; 
-  background-size: contain; 
-  margin-top: 0; 
+  background-position: right;
+  background-size: contain;
+  margin-top: 0;
 }
 
 
@@ -487,12 +487,12 @@ footer ul li a {
 
 .filter-grid {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .element-item {
-  height: 20vh; 
+  height: 20vh;
   width: 200px;
 }
 
@@ -549,7 +549,17 @@ footer ul li a {
 
 
 .item_foto {
+<<<<<<< HEAD
   display: flex; 
+=======
+<<<<<<< HEAD
+  display: flex;
+=======
+>>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
+=======
+  display: flex;
+>>>>>>> fc657b27be0fe9cfb1a9022877068ebf3ed0646f
+>>>>>>> 8bf3f16f790a4c168cd000496d35066df79036fa
 }
 
 
@@ -639,6 +649,7 @@ footer ul li a {
   background-image: url(../img/kv_events.jpg);
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 
 #Kalender img{
@@ -686,6 +697,42 @@ footer ul li a {
   color: #FFFFFF;
 }
 
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#Kalendericon {
+  display: flex;
+  flex-direction: column;
+}
+
+#Kalendericon p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#Uhricon {
+  display: flex;
+  flex-direction: column;
+}
+
+#Uhricon p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#Lageicon {
+  display: flex;
+  flex-direction: column;
+}
+
+#Lageicon {
+  text-align: center;
+  color: #FFFFFF;
+}
 /*#######
 #aimbutton {
   width: 150px;
