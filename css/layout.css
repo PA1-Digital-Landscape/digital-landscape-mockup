@@ -547,6 +547,7 @@ footer ul li a {
 .container_foto {
   width: 35vw;
   height: 62vh;
+<<<<<<< HEAD
   border: 1px solid #aaa5a0;
   display: flex;
   align-items: ;
@@ -554,10 +555,16 @@ footer ul li a {
 
 .item_foto {
   border: 1px solid #aaa5a0;
+=======
+  display: flex; 
+  align-items: ; 
+}
+
+.item_foto {	
+>>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
 }
 
 #container_button {
-  border: 1px solid #aaa5a0;
   width: 35vw;
   height: 20vh;
   display: flex;
@@ -570,7 +577,17 @@ footer ul li a {
   width: 12vw;
   height: 5vh;
   border: 1px solid #aaa5a0;
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: white; 
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#Praesentation_button p {
+>>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
   align-self: center;
 }
 
@@ -588,9 +605,9 @@ footer ul li a {
 
 
 #Studenten_Foto {
-  border: 1px solid #aaa5a0;
+  margin-top: 5vh;
   width: 35vw;
-  height: 42vh;
+  height: 38vh;
 }
 
 #Oak_Content {
