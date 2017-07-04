@@ -549,12 +549,12 @@ footer ul li a {
   height: 62vh;
   border: 1px solid #aaa5a0;
   display: flex;
-
+  align-items: flex-start;
 }
 
 .item_foto {
   border: 1px solid #aaa5a0;
-  display: flex; 
+  display: flex;  
 }
 
 
