@@ -556,11 +556,11 @@ footer ul li a {
 .item_foto {
   border: 1px solid #aaa5a0;
 =======
-  display: flex; 
-  align-items: ; 
+  display: flex;
+  align-items: ;
 }
 
-.item_foto {	
+.item_foto {
 >>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
 }
 
@@ -580,7 +580,7 @@ footer ul li a {
 <<<<<<< HEAD
   background-color: white;
 =======
-  background-color: white; 
+  background-color: white;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -664,6 +664,10 @@ footer ul li a {
   padding: 15vw 12vw 20vw 23vw;
 }
 
+.wrapper2 h1 {
+  text-align: left;
+}
+
 #aim {
   display: flex;
   background-image: url(../img/finaleAIM.png);
@@ -683,14 +687,25 @@ footer ul li a {
   padding-left: 2.5vw;
 }
 
-#text p {
+#text {
   color: #FFFFFF;
   width: 40vw;
   height: 15vw;
   text-align: left;
   padding-left: 2.5vw;
+  flex-direction: column;
 }
 
+#text p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#text h3, #text p {
+  color: #FFFFFF;
+}
+
+/*#######
 #aimbutton {
   width: 150px;
   height: 40px;
@@ -699,42 +714,92 @@ footer ul li a {
   text-decoration: none;
   color: #FFFFFF;
 }
+#####*/
 
 #CampusCamp {
   display: flex;
   width: 70vw;
   height: auto;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
+  flex-direction: row;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
 }
 
+#CampusCampBild {
+  display: flex;
+  justify-content: center;
+  width: 25vw;
+  height: auto;
+}
+
+#CampusCamptext {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: #FFFFFF;
+  text-align: left;
+  width: 40vw;
+  height: auto;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 2vw;
+}
+
+#CampusCamptext p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#CampusCamptext h3 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
 #CampusCampbutton {
-  width: 150px;
-  height: 40px;
+  width: 15vw;
+  height: 2vw;
   border: 1px solid black;
   text-align: center;
   text-decoration: none;
   color: #FFFFFF;
+  background-color: rgb(170, 165, 160);
+  margin-top: 0;
+  padding-top: 0;
 }
 
 #SSMT {
   display: flex;
   width: 100vw;
-  height: auto;
-  background-color: rgb(70, 65, 60);
+  height: 22vw;
+  background-image: url(../img/finaleAIM.png);
   color: #FFFFFF;
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  background-repeat: no-repeat;
 }
 
 #SSMT h3, #SSMT p {
+  padding-top: 2vw;
   color: #FFFFFF;
-  width: 70vw;
+  width: 40vw;
   height: auto;
   text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 2.5vw;
 }
 
+#SSMT p {
+  font-size: 12pt;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/*########
 #SSMTbutton {
   width: 150px;
   height: 40px;
@@ -743,6 +808,7 @@ footer ul li a {
   text-decoration: none;
   color: #FFFFFF;
 }
+####*/
 
 #Veranstaltungskalender {
   text-align: center;
