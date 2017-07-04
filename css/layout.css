@@ -547,15 +547,13 @@ footer ul li a {
 .container_foto {
   width: 35vw;
   height: 62vh;
-  border: 1px solid #aaa5a0;
   display: flex;
-  align-items: flex-start;
 }
 
 .item_foto {
-  border: 1px solid #aaa5a0;
-  display: flex;  
+  display: flex; 
 }
+
 
 
 
@@ -578,17 +576,13 @@ footer ul li a {
   width: 12vw;
   height: 5vh;
   border: 1px solid #aaa5a0;
-<<<<<<< HEAD
   background-color: white;
-=======
-  background-color: white; 
   display: flex;
   justify-content: center;
   align-self: center;
 }
 
 #Praesentation_button p {
->>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
   align-self: center;
 }
 
@@ -596,27 +590,19 @@ footer ul li a {
 .container_oak_content {
   width: 35vw;
   height: 62vh;
-<<<<<<< HEAD
-  display: flex; 
-=======
   border: 1px solid #aaa5a0;
   display: flex;
->>>>>>> c76b021f58c73ef02e0d9569df0280b6e5beee15
   align-items: flex-start;
 }
 
 .item_oak_content {
-<<<<<<< HEAD
   border: 1px solid #aaa5a0;	
   height: 10vh; 
-=======
-  border: 1px solid #aaa5a0;
 }
 
 
 #Studenten_Foto {
   margin-top: 5vh;
->>>>>>> c76b021f58c73ef02e0d9569df0280b6e5beee15
   width: 35vw;
   align-self: flex-start;
   flex-direction: column;
