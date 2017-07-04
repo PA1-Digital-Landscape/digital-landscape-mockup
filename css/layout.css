@@ -241,7 +241,7 @@ header {
   height: 20vh;
   width: 100vw;
   border-bottom: 1px solid #96000f;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 header nav {
@@ -457,24 +457,29 @@ footer ul li a {
 /* ################################################################## */
 
 #Projekte_Content {
-  border: 1px solid #aaa5a0;
-  width: 54%;
-  height: 100%;
+  width: 52vw;
+  height: 32vh;
   text-align: left;
 }
 
 #Hintergrund_Projekte {
   border: 1px solid #aaa5a0;
-  width: 20%;
-  height: 320px;
+  width: 32.5vw;
+  height: 52vh;
   float: right;
   background-image: url(../img/Projekte_BG.png);
+  background-repeat: no-repeat;
 }
 
-#Filterboxen {
-
+.container_vorschau {
+	width: 70vw; 
+	height: 100%; 
 }
 
+.container_filterboxen {
+	width: 70vw; 
+	height: 40vh; 
+}
 
 /* ######### Kriege die Filterboxen nicht mehr in eine Reihe, daher klammer ich diese erst mal aus
 
@@ -547,13 +552,11 @@ footer ul li a {
 .container_foto {
   width: 35vw;
   height: 62vh;
-<<<<<<< HEAD
-  border: 1px solid #aaa5a0;
   display: flex;
-  align-items: ;
 }
 
 .item_foto {
+<<<<<<< HEAD
   border: 1px solid #aaa5a0;
 =======
   display: flex;
@@ -562,6 +565,18 @@ footer ul li a {
 
 .item_foto {
 >>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
+=======
+  display: flex; 
+}
+
+
+
+
+#Studenten_Foto {
+  margin-top: 5vh;
+  width: 35vw;
+  height: 38vh;
+>>>>>>> 92aab89be06ca00f34479bbd7739e464423d2b43
 }
 
 #container_button {
@@ -577,19 +592,21 @@ footer ul li a {
   width: 12vw;
   height: 5vh;
   border: 1px solid #aaa5a0;
-<<<<<<< HEAD
   background-color: white;
+<<<<<<< HEAD
 =======
   background-color: white;
+=======
+>>>>>>> 92aab89be06ca00f34479bbd7739e464423d2b43
   display: flex;
   justify-content: center;
   align-self: center;
 }
 
 #Praesentation_button p {
->>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
   align-self: center;
 }
+
 
 .container_oak_content {
   width: 35vw;
@@ -600,46 +617,32 @@ footer ul li a {
 }
 
 .item_oak_content {
-  border: 1px solid #aaa5a0;
+  border: 1px solid #aaa5a0;	
+  height: 10vh; 
 }
 
 
 #Studenten_Foto {
   margin-top: 5vh;
   width: 35vw;
-  height: 38vh;
+  align-self: flex-start;
+  flex-direction: column;
 }
 
-#Oak_Content {
-  border: 1px solid #aaa5a0;
-  width: 35vw;
-  height: 100%;
-  float: right;
-}
 
-#Oak_Teilnehmer {
-  border: 1px solid #aaa5a0;
-  width: 35vw;
-  height: 100%;
-  text-align: left;
-  margin-top: 5%;
-  display: grid;
-}
+
 
 #Oakmania_P{
-  width: 35vw;
+  width: 70vw;
   height: 62vh;
-  margin-top: 10vh;
-  text-align: left;
+  display: flex; 
+  justify-content: center; 
 }
 
 #Oak_Praesentation {
   border: 1px solid #aaa5a0;
-  width: 100;
-  height: 100%;
-  text-align: left;
-  margin-top: 5%;
-  display: grid;
+  height: 50vh; 
+  width: 50vw; 
 }
 
 
