@@ -73,6 +73,10 @@ p {
   margin: 0 auto;
 }
 
+.wrapper2 {
+  width: 100vw;
+  margin: 0 auto;
+}
 
 /* ################################################################## */
 
@@ -533,53 +537,53 @@ footer ul li a {
   height: 62vh;
   width: 70vw;
   margin: 0 auto;
-  display: flex; 
+  display: flex;
   justify-content: flex-start;
 }
 
-	
+
 }
 
 .container_foto {
   width: 35vw;
   height: 62vh;
   border: 1px solid #aaa5a0;
-  display: flex; 
-  align-items: ; 
+  display: flex;
+  align-items: ;
 }
 
 .item_foto {
-  border: 1px solid #aaa5a0;	
+  border: 1px solid #aaa5a0;
 }
 
 #container_button {
   border: 1px solid #aaa5a0;
   width: 35vw;
   height: 20vh;
-  display: flex; 
+  display: flex;
   justify-content: center;
-	
+
 }
 
 
 #Praesentation_button  {
-  width: 12vw; 
-  height: 5vh; 
+  width: 12vw;
+  height: 5vh;
   border: 1px solid #aaa5a0;
-  background-color: white; 
-  align-self: center; 
+  background-color: white;
+  align-self: center;
 }
 
 .container_oak_content {
   width: 35vw;
   height: 62vh;
   border: 1px solid #aaa5a0;
-  display: flex; 
-  align-items: flex-start; 
+  display: flex;
+  align-items: flex-start;
 }
 
 .item_oak_content {
-  border: 1px solid #aaa5a0;	
+  border: 1px solid #aaa5a0;
 }
 
 
@@ -646,7 +650,7 @@ footer ul li a {
 #aim {
   display: flex;
   background-image: url(../img/finaleAIM.png);
-  width: 70vw;
+  width: 100vw;
   height: 22vw;
   text-align: center;
   justify-content: flex-start;
@@ -704,9 +708,15 @@ footer ul li a {
   color: #FFFFFF;
   text-align: center;
   justify-content: center;
+  flex-direction: column;
 }
 
-
+#SSMT h3, #SSMT p {
+  color: #FFFFFF;
+  width: 70vw;
+  height: auto;
+  text-align: left;
+}
 
 #SSMTbutton {
   width: 150px;
