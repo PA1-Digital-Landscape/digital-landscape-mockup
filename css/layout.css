@@ -522,25 +522,57 @@ footer ul li a {
 
 
 #Oakmania{
-  width: 100%;
+  width: 100vw;
   height: 62vh;
   margin-top: 10vh;
-  text-align: left;
   background-color: #666666;
 }
 
+
+.wrapper_Oak {
+  height: 62vh;
+  width: 70vw;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: flex-start;
+}
+
+	
+}
+
 .container_foto {
+  width: 35vw;
+  height: 62vh;
   border: 1px solid #aaa5a0;
   display: flex; 
-  align-items: flex-start; 
+  align-items: ; 
 }
 
 .item_foto {
   border: 1px solid #aaa5a0;	
 }
 
+#container_button {
+  border: 1px solid #aaa5a0;
+  width: 35vw;
+  height: 20vh;
+  display: flex; 
+  justify-content: center;
+	
+}
+
+
+#Praesentation_button  {
+  width: 12vw; 
+  height: 5vh; 
+  border: 1px solid #aaa5a0;
+  background-color: white; 
+  align-self: center; 
+}
 
 .container_oak_content {
+  width: 35vw;
+  height: 62vh;
   border: 1px solid #aaa5a0;
   display: flex; 
   align-items: flex-start; 
@@ -553,20 +585,20 @@ footer ul li a {
 
 #Studenten_Foto {
   border: 1px solid #aaa5a0;
-  width: 33vw;
-  height: 100%;
+  width: 35vw;
+  height: 42vh;
 }
 
 #Oak_Content {
   border: 1px solid #aaa5a0;
-  width: 33vw;
+  width: 35vw;
   height: 100%;
   float: right;
 }
 
 #Oak_Teilnehmer {
   border: 1px solid #aaa5a0;
-  width: 100%;
+  width: 35vw;
   height: 100%;
   text-align: left;
   margin-top: 5%;
@@ -574,7 +606,7 @@ footer ul li a {
 }
 
 #Oakmania_P{
-  width: 100%;
+  width: 35vw;
   height: 62vh;
   margin-top: 10vh;
   text-align: left;
