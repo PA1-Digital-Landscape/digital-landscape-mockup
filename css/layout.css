@@ -476,6 +476,10 @@ footer ul li a {
 	height: 100%; 
 }
 
+.container_filterboxen {
+	width: 70vw; 
+	height: 40vh; 
+}
 
 /* ######### Kriege die Filterboxen nicht mehr in eine Reihe, daher klammer ich diese erst mal aus
 
