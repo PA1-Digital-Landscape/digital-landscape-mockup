@@ -547,8 +547,7 @@ footer ul li a {
   align-items: ; 
 }
 
-.item_foto {
-  border: 1px solid #aaa5a0;	
+.item_foto {	
 }
 
 #container_button {
@@ -565,8 +564,13 @@ footer ul li a {
   height: 5vh; 
   border: 1px solid #aaa5a0;
   background-color: white; 
-  align-self: center; 
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#Praesentation_button p {
+  align-self: center;
 }
 
 .container_oak_content {
@@ -583,9 +587,9 @@ footer ul li a {
 
 
 #Studenten_Foto {
-  border: 1px solid #aaa5a0;
+  margin-top: 5vh;
   width: 35vw;
-  height: 42vh;
+  height: 38vh;
 }
 
 #Oak_Content {
