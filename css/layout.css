@@ -466,12 +466,14 @@ footer ul li a {
 }
 
 #Hintergrund_Projekte {
-  border: 1px solid #aaa5a0;
   width: 32.5vw;
   height: 52vh;
   float: right;
   background-image: url(../img/../img/kv_projekte.jpg);
   background-repeat: no-repeat;
+  background-position: right; 
+  background-size: contain; 
+  margin-top: 0; 
 }
 
 
@@ -550,17 +552,9 @@ footer ul li a {
   display: flex;
 }
 
-.item_foto {
-<<<<<<< HEAD
-  border: 1px solid #aaa5a0;
-=======
-  display: flex;
-  align-items: ;
-}
+
 
 .item_foto {
->>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
-=======
   display: flex; 
 }
 
@@ -571,7 +565,7 @@ footer ul li a {
   margin-top: 5vh;
   width: 35vw;
   height: 38vh;
->>>>>>> 92aab89be06ca00f34479bbd7739e464423d2b43
+
 }
 
 #container_button {
@@ -588,11 +582,6 @@ footer ul li a {
   height: 5vh;
   border: 1px solid #aaa5a0;
   background-color: white;
-<<<<<<< HEAD
-=======
-  background-color: white;
-=======
->>>>>>> 92aab89be06ca00f34479bbd7739e464423d2b43
   display: flex;
   justify-content: center;
   align-self: center;
