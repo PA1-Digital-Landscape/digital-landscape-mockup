@@ -472,13 +472,13 @@ footer ul li a {
 }
 
 .container_vorschau {
-	width: 70vw; 
-	height: 100%; 
+	width: 70vw;
+	height: 100%;
 }
 
 .container_filterboxen {
-	width: 70vw; 
-	height: 40vh; 
+	width: 70vw;
+	height: 40vh;
 }
 
 /* ######### Kriege die Filterboxen nicht mehr in eine Reihe, daher klammer ich diese erst mal aus
@@ -566,7 +566,7 @@ footer ul li a {
 .item_foto {
 >>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
 =======
-  display: flex; 
+  display: flex;
 }
 
 
@@ -617,8 +617,8 @@ footer ul li a {
 }
 
 .item_oak_content {
-  border: 1px solid #aaa5a0;	
-  height: 10vh; 
+  border: 1px solid #aaa5a0;
+  height: 10vh;
 }
 
 
@@ -635,14 +635,14 @@ footer ul li a {
 #Oakmania_P{
   width: 70vw;
   height: 62vh;
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
 
 #Oak_Praesentation {
   border: 1px solid #aaa5a0;
-  height: 50vh; 
-  width: 50vw; 
+  height: 50vh;
+  width: 50vw;
 }
 
 
@@ -741,13 +741,12 @@ footer ul li a {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  color: #FFFFFF;
   text-align: left;
   width: 40vw;
   height: auto;
   margin-top: 0;
   padding-top: 0;
-  border-top: 2vw;
+  border-top: 0;
 }
 
 #CampusCamptext p {
@@ -756,8 +755,7 @@ footer ul li a {
 }
 
 #CampusCamptext h3 {
-  text-align: center;
-  color: #FFFFFF;
+  text-align: left;
 }
 
 
@@ -768,9 +766,13 @@ footer ul li a {
   text-align: center;
   text-decoration: none;
   color: #FFFFFF;
-  background-color: rgb(170, 165, 160);
+  background-color: #666666;
   margin-top: 0;
   padding-top: 0;
+}
+
+#CampusCampbutton p {
+  color: #FFFFFF;
 }
 
 #SSMT {
@@ -793,13 +795,13 @@ footer ul li a {
   text-align: left;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 2.5vw;
 }
 
 #SSMT p {
   font-size: 12pt;
   margin-top: 0;
   padding-top: 0;
+  padding-left: 2.5vw;
 }
 
 /*########
