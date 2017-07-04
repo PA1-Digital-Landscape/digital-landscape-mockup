@@ -343,7 +343,7 @@ footer ul li a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 
@@ -492,12 +492,12 @@ footer ul li a {
 
 .filter-grid {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .element-item {
-  height: 20vh; 
+  height: 20vh;
   width: 200px;
 }
 
@@ -663,6 +663,7 @@ footer ul li a {
   background-image: url(../img/kv_events.jpg);
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 
 #Kalender img{
