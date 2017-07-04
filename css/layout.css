@@ -551,7 +551,6 @@ footer ul li a {
 
 
 
-
 #Studenten_Foto {
   margin-top: 5vh;
   width: 35vw;
@@ -583,17 +582,22 @@ footer ul li a {
 }
 
 
+.container_foto a {
+	text-decoration: none; 
+}
+
+
 .container_oak_content {
   width: 35vw;
   height: 62vh;
   border: 1px solid #aaa5a0;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
 }
 
 .item_oak_content {
   border: 1px solid #aaa5a0;
-  height: 10vh;
+  height: 15vh;
 }
 
 
