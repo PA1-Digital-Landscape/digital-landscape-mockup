@@ -543,7 +543,6 @@ footer ul li a {
 .container_foto {
   width: 35vw;
   height: 62vh;
-  border: 1px solid #aaa5a0;
   display: flex; 
   align-items: ; 
 }
@@ -553,7 +552,6 @@ footer ul li a {
 }
 
 #container_button {
-  border: 1px solid #aaa5a0;
   width: 35vw;
   height: 20vh;
   display: flex; 
