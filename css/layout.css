@@ -467,36 +467,28 @@ footer ul li a {
   width: 32.5vw;
   height: 52vh;
   float: right;
-  background-image: url(../img/Projekte_BG.png);
+  background-image: url(../img/../img/kv_projekte.jpg);
   background-repeat: no-repeat;
 }
 
-.container_vorschau {
-	width: 70vw; 
-	height: 100%; 
-}
+
 
 .container_filterboxen {
 	width: 70vw; 
 	height: 40vh; 
 }
 
-/* ######### Kriege die Filterboxen nicht mehr in eine Reihe, daher klammer ich diese erst mal aus
 
-#Filter_eins {width: 10%; height: 30px; text-align: left;border: 1px solid #aaa5a0;}
-
-#Filter_zwei {width: 10%; height: 30px; text-align: left; margin-left: 5%; border: 1px solid #aaa5a0; }
-
-#Filter_drei {width: 10%; height: 30px; text-align: left; margin-left: 5%; border: 1px solid #aaa5a0;}
-
-				#########*/
 
 .filter-grid {
   display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
 }
 
 .element-item {
-  flex: 1;
+  height: 20vh; 
+  width: 200px;
 }
 
 
