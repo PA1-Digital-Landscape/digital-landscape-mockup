@@ -308,6 +308,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-image: url(../img/Background.png);
+  background-position: center; 
 }
 
 footer ul {
