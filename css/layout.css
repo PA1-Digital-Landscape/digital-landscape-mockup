@@ -479,8 +479,10 @@ footer ul li a {
 
 
 .container_filterboxen {
-	width: 70vw;
-	height: 40vh;
+  width: 70vw;
+  height: 40vh;
+  display: flex;
+  justify-content: flex-start;
 }
 
 
@@ -496,12 +498,6 @@ footer ul li a {
   width: 200px;
 }
 
-
-
-.container_filterboxen {
-  display: flex;
-  justify-content: flex-start;
-}
 
 
 
@@ -549,17 +545,7 @@ footer ul li a {
 
 
 .item_foto {
-<<<<<<< HEAD
   display: flex; 
-=======
-<<<<<<< HEAD
-  display: flex;
-=======
->>>>>>> 3a676ba3d01fc7245bc2ee85502bfa22bd3e50c8
-=======
-  display: flex;
->>>>>>> fc657b27be0fe9cfb1a9022877068ebf3ed0646f
->>>>>>> 8bf3f16f790a4c168cd000496d35066df79036fa
 }
 
 
