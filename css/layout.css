@@ -592,11 +592,28 @@ footer ul li a {
   flex-direction: column;
 }
 
+
 .item_oak_content {
   border: 1px solid #aaa5a0;
-  height: 15vh;
 }
 
+#Oak_Content {
+  height: 21vh; 
+}
+
+
+#Oak_bulletpoints {
+  height: 21vh; 	
+}
+
+
+#Oak_Teilnehmer {
+  height: 10vh; 	
+}
+
+#Oak_Prof { 
+  height: 10vh; 
+}
 
 #Studenten_Foto {
   margin-top: 5vh;
