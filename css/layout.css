@@ -530,6 +530,12 @@ footer ul li a {
   background-repeat: no-repeat; 
 }
 
+.international-studies {
+  background-image: url(../img/Projekte/International_Studies.jpg);
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+}
+
 
 #Oakmania{
   width: 100vw;
