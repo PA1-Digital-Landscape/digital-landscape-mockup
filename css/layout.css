@@ -633,15 +633,11 @@ footer ul li a {
 .container_oak_content {
   width: 35vw;
   height: 62vh;
-  border: 1px solid #aaa5a0;
   display: flex;
   flex-direction: column;
 }
 
 
-.item_oak_content {
-  border: 1px solid #aaa5a0;
-}
 
 #Oak_Content {
   height: 21vh; 
