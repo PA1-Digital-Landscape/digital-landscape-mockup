@@ -460,6 +460,10 @@ footer ul li a {
 
 /* ################################################################## */
 
+
+
+/* Section 1: Beschreibung, Filter, Vorschau*/ 
+
 #Projekte_Content {
   width: 52vw;
   height: 32vh;
@@ -500,7 +504,6 @@ footer ul li a {
   border: 1px solid #aaa5a0;
   margin-top: 2vh;
 }
-
 
 
 
@@ -562,6 +565,10 @@ footer ul li a {
 
 
 
+/*Section 2: Oakmania Info*/
+
+
+
 #Oakmania{
   width: 100vw;
   height: 62vh;
@@ -613,7 +620,7 @@ footer ul li a {
 #Praesentation_button  {
   width: 12vw;
   height: 5vh;
-  border: 1px solid #aaa5a0;
+  box-shadow: 5px 5px 5px 0 black; 
   background-color: white;
   display: flex;
   justify-content: center;
@@ -719,6 +726,7 @@ footer ul li a {
 
 
 
+/*Section 3: Powerpoint Oakmania*/
 
 #Oakmania_P{
   width: 70vw;
