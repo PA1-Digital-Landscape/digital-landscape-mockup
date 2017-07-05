@@ -536,6 +536,12 @@ footer ul li a {
   background-repeat: no-repeat; 
 }
 
+.finanz {
+  background-image: url();
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+}
+
 
 #Oakmania{
   width: 100vw;
