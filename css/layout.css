@@ -685,7 +685,8 @@ footer ul li a {
   color: #FFFFFF;
   padding: 2vw;
   text-align: left;
-  padding-left: 2.5vw;
+  margin-bottom: -12px;
+  margin-left: -24px;
 }
 
 #text {
@@ -704,6 +705,7 @@ footer ul li a {
 
 #text h3, #text p {
   color: #FFFFFF;
+  text-align: left;
 }
 
 .icons {
@@ -711,36 +713,71 @@ footer ul li a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  justify-content: flex-start;
+  padding-left: 2.5vw;
 }
 
-#Kalendericon {
+.Kalendericon {
   display: flex;
   flex-direction: column;
+  padding: 0 2.5vw;
+  flex: 1;
+  width: 5vw;
+  height: 2vw;
 }
 
-#Kalendericon p {
+.Kalendericon p {
   text-align: center;
   color: #FFFFFF;
+  margin-left: -1vw;
+  margin-top: 2vw;
 }
 
-#Uhricon {
+.Kalendericon img {
+  width: 3vw;
+  height: 3vw;
+}
+
+.Uhricon {
   display: flex;
   flex-direction: column;
+  padding: 0 2.5vw;
+  flex: 1;
+  width: 5vw;
+  height: 2vw;
 }
 
-#Uhricon p {
+.Uhricon p {
   text-align: center;
   color: #FFFFFF;
+  margin-top: 2vw;
+  margin-left: -1vw;
 }
 
-#Lageicon {
+.Uhricon img {
+  width: 3vw;
+  height: 3vw;
+}
+
+.Lageicon {
   display: flex;
   flex-direction: column;
+  padding: 0 2.5vw;
+  flex: 1;
+  width: 5vw;
+  height: 2vw;
 }
 
-#Lageicon {
+.Lageicon p {
   text-align: center;
   color: #FFFFFF;
+  margin-top: 2vw;
+  margin-left: -1vw;
+}
+
+.Lageicon img {
+  width: 3vw;
+  height: 3vw;
 }
 /*#######
 #aimbutton {
@@ -836,6 +873,10 @@ footer ul li a {
   margin-top: 0;
   padding-top: 0;
   padding-left: 2.5vw;
+}
+
+#SSMT h3 {
+  margin-bottom: -8px;
 }
 
 /*########
