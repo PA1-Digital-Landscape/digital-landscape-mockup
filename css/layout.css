@@ -496,7 +496,7 @@ footer ul li a {
 
 .element-item {
   height: 20vh;
-  width: 200px;
+  width: 20vw;
   border: 1px solid #aaa5a0;
   margin-top: 2vh;
 }
@@ -515,6 +515,13 @@ footer ul li a {
 .oakmania {
   background-image: url(../img/Projekte/PA2_Oakmania.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.datalovers {
+  background-image: url(../img/Projekte/PA2_Datalovers.jpg);
+  background-size: contain; 
+  background-repeat: no-repeat; 
 }
 
 
