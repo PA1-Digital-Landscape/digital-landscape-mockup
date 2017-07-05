@@ -697,6 +697,7 @@ footer ul li a {
 
 #Oak_Prof ul {
   list-style: none;
+  padding-left: 20px; 
 }
 
 #Oak_Prof ul li {
