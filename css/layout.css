@@ -28,7 +28,6 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-  letter-spacing: 2px;
 }
 
 
@@ -199,29 +198,66 @@ p {
 
 #Hintergrund_LP {
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   margin: 0 auto;
   padding: 0;
-  justify-content: center;
+  display: flex; 
+  flex-direction: column;
   position: relative;
   background-image: url(../img/kv_start.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 
-#Mehr Anzeigen {
-  height: 20px;
-  width: 60px;
-  margin: auto;
-  position: absolute;
-  display: flex;
-  align-content: center;
+.items_LP {
+  padding-top: 10vh; 
+}
+
+#Hintergrund_LP h1 {
+  color: #d5d5d5;
+  font-size: 4.5em; 
+  font-weight: bolder; 
+}
+
+#Hintergrund_LP h2 {
+  color: #d5d5d5; 
+}
+
+.Mehr_Anzeigen {
+  padding-top: 0; 
+  margin-top: 5vh; 
+  width: 12vw;
+  height: 5vh;
   background-color: white;
-  border: 1px solid #96000f;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.Mehr_Anzeigen p {
+  align-self: center;
 }
 
 
+#Impressum_LP {
+ width: 100vw; 
+ height: 25vh; 
+	
+}
+#Impressum_LP ul {
+	display: flex; 
+	justify-content: center; 
+}
+
+
+#Impressum_LP ul li {
+  list-style: none; 
+}
+
+#Impressum_LP ul li a {
+  text-decoration: none; 
+}
 
 
 /* ################################################################## */
