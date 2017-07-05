@@ -377,6 +377,16 @@ footer ul li a {
 
 /* Ich kann hier beispielsweise die Höhe nicht in Pronzent sondern nur in Pixel angeben?*/
 
+#Hintergrund_Startseite{
+  width: 10vw;
+  height: 82vh;
+  float: right;
+  background-image: url(../img/kv_mediamanagement.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100% 100%;
+  margin-top: 0;
+}
 
 #Fragen {
   text-decoration: none;
