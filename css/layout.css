@@ -613,9 +613,15 @@ footer ul li a {
 }
 
 #Oak_bulletpoints {
-  height: 21vh; 	
+  height: 21vh; 
+  display: flex; 
+  justify-content: flex-start; 
 }
 
+#Oak_bulletpoints ul li {
+  color: white; 
+  font-size: 1em; 
+}
 
 #Oak_Teilnehmer {
   height: 10vh; 	
