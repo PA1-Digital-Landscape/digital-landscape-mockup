@@ -660,6 +660,10 @@ footer ul li a {
   justify-content: flex-start; 
 }
 
+#Oak_bulletpoints ul {
+  list-style: ; 
+}
+
 #Oak_bulletpoints ul li {
   color: white; 
   font-size: 0.9em; 
@@ -690,7 +694,17 @@ footer ul li a {
   justify-content: flex-start; 
 }
 
+
+#Oak_Prof ul {
+  list-style: none;
+}
+
 #Oak_Prof ul li {
+  color: white; 
+  font-size: 0.9em; 
+}
+
+#Oak_Prof ul li b {
   color: white; 
   font-size: 0.9em; 
 }
