@@ -679,6 +679,7 @@ footer ul li a {
 #Oak_Teilnehmer p {
   color: white; 
   font-size: 0.9em; 
+  padding-left: 20px; 
 }
 
 #Oak_Teilnehmer p b {
