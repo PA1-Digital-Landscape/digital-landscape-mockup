@@ -198,7 +198,7 @@ p {
 
 #Hintergrund_LP {
   width: 100vw;
-  height: 75vh;
+  height: 80vh;
   margin: 0 auto;
   padding: 0;
   display: flex; 
@@ -242,12 +242,14 @@ p {
 
 #Impressum_LP {
  width: 100vw; 
- height: 25vh; 
+ height: 20vh; 
 	
 }
 #Impressum_LP ul {
 	display: flex; 
 	justify-content: center; 
+	margin-top: 14vh;
+	
 }
 
 
