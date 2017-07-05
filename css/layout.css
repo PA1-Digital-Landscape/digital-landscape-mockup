@@ -554,6 +554,11 @@ footer ul li a {
   background-repeat: no-repeat; 
 }
 
+.virtual-reality{
+  background-image: url(../img/../img/Projekte/PA2_VirtualReality.jpg);
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+}
 
 
 
