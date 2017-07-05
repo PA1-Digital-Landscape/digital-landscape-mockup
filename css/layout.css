@@ -512,7 +512,10 @@ footer ul li a {
   justify-content: space-around;
 }
 
-
+.oakmania {
+  background-image: url(../img/Projekte/PA2_Oakmania.jpg);
+  background-size: contain;
+}
 
 
 
