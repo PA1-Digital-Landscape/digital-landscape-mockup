@@ -601,6 +601,16 @@ footer ul li a {
   height: 21vh; 
 }
 
+#Oak_Content h2 {
+  color: white; 
+  font-size: 1.4em; 
+  margin: 0; 
+}
+
+#Oak_Content p {
+  color: white; 
+  font-size: 1em; 
+}
 
 #Oak_bulletpoints {
   height: 21vh; 	
