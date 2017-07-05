@@ -625,10 +625,25 @@ footer ul li a {
 
 #Oak_Teilnehmer {
   height: 10vh; 	
+  display: flex; 
+  justify-content: flex-start; 
+}
+
+
+#Oak_Teilnehmer p {
+  color: white; 
+  font-size: 1em; 
 }
 
 #Oak_Prof { 
   height: 10vh; 
+  display: flex; 
+  justify-content: flex-start; 
+}
+
+#Oak_Prof ul li {
+  color: white; 
+  font-size: 1em; 
 }
 
 #Studenten_Foto {
