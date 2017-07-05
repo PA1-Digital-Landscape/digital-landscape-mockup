@@ -655,18 +655,18 @@ footer ul li a {
 
 #Oak_Content p {
   color: white; 
-  font-size: 1em; 
+  font-size: 0.9em; 
 }
 
 #Oak_bulletpoints {
-  height: 21vh; 
+  height: 18vh; 
   display: flex; 
   justify-content: flex-start; 
 }
 
 #Oak_bulletpoints ul li {
   color: white; 
-  font-size: 1em; 
+  font-size: 0.9em; 
 }
 
 #Oak_Teilnehmer {
@@ -678,18 +678,24 @@ footer ul li a {
 
 #Oak_Teilnehmer p {
   color: white; 
-  font-size: 1em; 
+  font-size: 0.9em; 
 }
 
+#Oak_Teilnehmer p b {
+  color: white; 
+  font-size: 0.9em; 
+}
+
+
 #Oak_Prof { 
-  height: 10vh; 
+  height: 13vh; 
   display: flex; 
   justify-content: flex-start; 
 }
 
 #Oak_Prof ul li {
   color: white; 
-  font-size: 1em; 
+  font-size: 0.9em; 
 }
 
 #Studenten_Foto {
