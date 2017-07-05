@@ -496,7 +496,7 @@ footer ul li a {
 
 .element-item {
   height: 20vh;
-  width: 20vw;
+  width: 15vw;
   border: 1px solid #aaa5a0;
   margin-top: 2vh;
 }
@@ -514,16 +514,21 @@ footer ul li a {
 
 .oakmania {
   background-image: url(../img/Projekte/PA2_Oakmania.jpg);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .datalovers {
   background-image: url(../img/Projekte/PA2_Datalovers.jpg);
-  background-size: contain; 
+  background-size: 100% 100%; 
   background-repeat: no-repeat; 
 }
 
+.human-resource {
+  background-image: url(../img/Projekte/PA2_Human.jpg);
+  background-size: 100% 100%; 
+  background-repeat: no-repeat; 
+}
 
 
 #Oakmania{
