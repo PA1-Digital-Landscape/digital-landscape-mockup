@@ -481,7 +481,7 @@ footer ul li a {
 
 .container_filterboxen {
   width: 70vw;
-  height: 40vh;
+  height: 10vh;
   display: flex;
   justify-content: flex-start;
 }
@@ -497,6 +497,8 @@ footer ul li a {
 .element-item {
   height: 20vh;
   width: 200px;
+  border: 1px solid #aaa5a0;
+  margin-top: 2vh;
 }
 
 
@@ -510,11 +512,6 @@ footer ul li a {
   justify-content: space-around;
 }
 
-
-.element-item {
-  flex-basis: 10px;
-  border: 1px solid #aaa5a0;
-}
 
 
 
