@@ -193,7 +193,7 @@ p {
 /* ################################################################## */
 
 #Landing_Page {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
@@ -249,7 +249,7 @@ p {
 
 #Impressum_LP {
  width: 100vw;
- height: 20vh;
+ height: 1vh;
 
 }
 #Impressum_LP ul {
@@ -569,6 +569,7 @@ footer ul li a {
   width: 15vw;
   border: 1px solid #aaa5a0;
   margin-top: 2vh;
+  position: static !important;
 }
 
 
