@@ -1,8 +1,14 @@
 $(document).ready(function() {
-  $('#PA1').click(function(e) {
+  $('#Spierling').click(function(e) {
     e.preventDefault();
     $('.filter-grid').isotope({ filter: '.oakmania' });
   });
 });
 
 
+$(document).ready(function() {
+  $('#SS2017').click(function(e) {
+    e.preventDefault();
+    $('.filter-grid').isotope({ filter: '.ss17'});
+  });
+});
