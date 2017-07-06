@@ -486,29 +486,32 @@ footer ul li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+<<<<<<< HEAD
   align-items: stretch;
-  width: 75vw;
+  width: 65vw;
   height: 67vh;
+  margin: 20vh 0 0 0;
+
+=======
+  width: 75vw;
+  height: 80vh;
   margin: 15vh 0 0 0;
-  
+
+>>>>>>> 43ba563bbb6986b7bc1b352d739fd72457c12bc1
 }
 
 #Stundenplan {
-  width: 38vw;
+  width: 35vw;
   height: 67vh;
-  padding: 0 2.5vw;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#Stundenplan img {
-  width: 38vw;
-  height: 67vh;
-  margin-left: 5vh;
-  margin-right: 5vh;
-}
+
 
 #Nebenbox {
-  width: 38vw;
+  width: 35vw;
   height: 67vh;
   display: flex;
   flex-direction: column;
@@ -585,8 +588,8 @@ footer ul li a {
 }
 
 #link_oakmania {
-  height: 20vh; 
-  width: 15vw; 
+  height: 20vh;
+  width: 15vw;
 }
 
 .datalovers {
@@ -1374,6 +1377,19 @@ footer ul li a {
   flex: 1;
 }
 ##########*/
+
+#AusstattungKalender {
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+
+#AusstattungKalender img {
+  float:right;
+  margin-right: 15vw;
+  margin-bottom: 15vh;
+  margin-top: -11vh;
+}
 /* Institute */
 
 
