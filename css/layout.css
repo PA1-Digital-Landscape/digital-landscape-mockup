@@ -836,8 +836,11 @@ footer ul li a {
   padding: 15vw 12vw 20vw 23vw;
 }
 
-.wrapper2 h1 {
+.wrapper2 h2 {
   text-align: left;
+  margin-left: 2.5vw;
+  font-size: 2em;
+  font-weight: bolder;
 }
 
 #aim {
