@@ -496,7 +496,7 @@ footer ul li a {
   width: 75vw;
   height: 80vh;
   margin: 15vh 0 0 0;
-  
+
 >>>>>>> 43ba563bbb6986b7bc1b352d739fd72457c12bc1
 }
 
@@ -1382,6 +1382,7 @@ footer ul li a {
   float:right;
   margin-right: 15vw;
   margin-bottom: 15vh;
+  margin-top: -11vh;
 }
 /* Institute */
 
