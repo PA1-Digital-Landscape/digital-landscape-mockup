@@ -607,9 +607,8 @@ footer ul li a {
 }
 
 .international-studies {
-  background-image: url(../img/Projekte/International_Studies.jpg);
-  background-size: 100%;
-  background-position-y: center;
+  background-image: url(../img/Projekte/12ss_pa2_06_ep-1.jpg);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -621,20 +620,20 @@ footer ul li a {
 }
 
 .digital-landscape {
-  background-image: url();
+  background-image: url(../img/Projekte/mm_projekt.jpg);
   background-size: 100%;
   background-position-y: center;
   background-repeat: no-repeat;
 }
 
 .visual-content {
-  background-image: url(../img/Projekte/12ss_pa2_06_ep-1.jpg);
+  background-image: url(../img/Projekte/16ss_pa2_03_ep_Gschwendtner-2.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
-.shiseido{
-  background-image: url();
+.aim{
+  background-image: url(../img/Projekte/aim.jpg);
   background-size: 100%;
   background-position-y: center;
   background-repeat: no-repeat;

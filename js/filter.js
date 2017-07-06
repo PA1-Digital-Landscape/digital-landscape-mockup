@@ -7,9 +7,9 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-  $('#SS2017').click(function(e) {
+  $('#PA2').click(function(e) {
     e.preventDefault();
-    $('.filter-grid').isotope({ filter: '.ss17'});
+    $('.filter-grid').isotope({ filter: '.PA2'});
   });
 });
 
