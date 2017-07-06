@@ -1,11 +1,16 @@
 
 // ****************** Startseite *****************// 
 
-$(document).ready(function() {
+$(document).ready(function() {	
   $('#content').hide();
+  
 	$('.entdecken').click(function(){
-    	$('#content').show();
+    	$('#content').fadeIn(1000)
+	 })	
+	
+		$('.Landing_Page').fadeTo(1000);
     })
+	
 });
 
 
