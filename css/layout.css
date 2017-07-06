@@ -486,27 +486,33 @@ footer ul li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+<<<<<<< HEAD
   align-items: stretch;
   width: 65vw;
   height: 67vh;
   margin: 20vh 0 0 0;
 
+=======
+  width: 75vw;
+  height: 80vh;
+  margin: 15vh 0 0 0;
+  
+>>>>>>> 43ba563bbb6986b7bc1b352d739fd72457c12bc1
 }
 
 #Stundenplan {
-  width: 32vw;
-  height: 50vh;
-  border: 1px solid black;
-  background-color: red;
-  padding: 0 2.5vw;
-
+  width: 35vw;
+  height: 67vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
 
 #Nebenbox {
   width: 35vw;
   height: 67vh;
-  border: 1px solid black;
-  background-color: green;
   display: flex;
   flex-direction: column;
   align-items: center;

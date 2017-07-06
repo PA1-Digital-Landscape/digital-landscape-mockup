@@ -12,3 +12,4 @@ $(document).ready(function() {
     $('.filter-grid').isotope({ filter: '.ss17'});
   });
 });
+
