@@ -568,7 +568,7 @@ footer ul li a {
   height: 25vh;
   width: 15vw;
   border: 1px solid #aaa5a0;
-  margin-top: 2vh;
+  margin-bottom: 2vh;
   position: static !important;
 }
 
@@ -649,7 +649,7 @@ footer ul li a {
 #Oakmania{
   width: 100vw;
   height: 62vh;
-  margin-top: 10vh;
+  margin-top: 5vh;
   background-color: #666666;
 }
 

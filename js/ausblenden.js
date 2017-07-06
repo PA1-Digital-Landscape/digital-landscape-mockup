@@ -25,9 +25,9 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('#Oakmania_P').hide();
+  $('#wrapper_Pr').hide();
 	$('.Praesentation_button').click(function(){
-    	$('#Oakmania_P').show('');
+    	$('#wrapper_Pr').show();
     })
 });
 
