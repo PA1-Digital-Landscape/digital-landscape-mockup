@@ -13,9 +13,3 @@ $(document).ready(function() {
   });
 });
 
-if (filter ==='.ss17'){
-	console.log (flex-direciton: row); 
-}
-	
-else 
-	console.log (flex-direciton: row); 
