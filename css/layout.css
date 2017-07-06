@@ -574,6 +574,11 @@ footer ul li a {
   background-repeat: no-repeat;
 }
 
+#link_oakmania {
+  height: 20vh; 
+  width: 15vw; 
+}
+
 .datalovers {
   background-image: url(../img/Projekte/PA2_Datalovers.jpg);
   background-size: 100% 100%;
