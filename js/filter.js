@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#PA1').click(function(e) {
     e.preventDefault();
-    $('.grid').isotope({ filter: '.Quest' });
+    $('.filter-grid').isotope({ filter: '.oakmania' });
   });
 });
 
