@@ -494,21 +494,21 @@ footer ul li a {
 }
 
 #Stundenplan {
-  width: 38vw;
+  width: 35vw;
   height: 67vh;
-  padding: 0 2.5vw;
+  padding: 0 1vw;
 
 }
 
 #Stundenplan img {
-  width: 38vw;
+  width: 35vw;
   height: 67vh;
   margin-left: 5vh;
   margin-right: 5vh;
 }
 
 #Nebenbox {
-  width: 38vw;
+  width: 35vw;
   height: 67vh;
   display: flex;
   flex-direction: column;
