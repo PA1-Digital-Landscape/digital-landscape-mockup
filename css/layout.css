@@ -478,21 +478,26 @@ footer ul li a {
 #Dashboard {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
+  width: 65vw;
+  height: 67vh;
+  margin: 20vh 0 0 0;
+  
 }
 
 #Stundenplan {
-  width: 65vw;
-  height: auto;
+  width: 32vw;
+  height: 50vh;
   border: 1px solid black;
   background-color: red;
+  padding: 0 2.5vw;
 
 }
 
 #Nebenbox {
   width: 35vw;
-  height: auto;
+  height: 67vh;
   border: 1px solid black;
   background-color: green;
   display: flex;
