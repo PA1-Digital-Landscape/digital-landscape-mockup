@@ -3,8 +3,8 @@
 
 $(document).ready(function() {
   $('#content').hide();
-	$('#link_oakmania').click(function(){
-    	$('#Oakmania').show();
+	$('.entdecken').click(function(){
+    	$('#content').show();
     })
 });
 
