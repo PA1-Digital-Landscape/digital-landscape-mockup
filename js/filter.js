@@ -6,3 +6,9 @@ $(document).ready(function() {
 });
 
 
+$(document).ready(function() {
+  $('#SS2017').click(function(e) {
+    e.preventDefault();
+    $('.filter-grid').isotope({ filter: '.ss17'});
+  });
+});
