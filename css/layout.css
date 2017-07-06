@@ -490,7 +490,7 @@ footer ul li a {
   width: 65vw;
   height: 67vh;
   margin: 20vh 0 0 0;
-  
+
 }
 
 #Stundenplan {
@@ -582,8 +582,8 @@ footer ul li a {
 }
 
 #link_oakmania {
-  height: 20vh; 
-  width: 15vw; 
+  height: 20vh;
+  width: 15vw;
 }
 
 .datalovers {
@@ -1365,6 +1365,18 @@ footer ul li a {
   flex: 1;
 }
 ##########*/
+
+#AusstattungKalender {
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+
+#AusstattungKalender img {
+  float:right;
+  margin-right: 15vw;
+  margin-bottom: 15vh;
+}
 /* Institute */
 
 
