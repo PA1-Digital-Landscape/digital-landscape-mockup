@@ -510,6 +510,18 @@ footer ul li a {
   align-items: center;
 }
 
+#Jetztwaehlen {
+  padding-top: 0;
+  margin-top: 5vh;
+  width: 12vw;
+  height: 5vh;
+  background-color: white;
+  border: black;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+
 /* ################################################################## */
 
 
