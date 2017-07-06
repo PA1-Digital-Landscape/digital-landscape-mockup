@@ -12,3 +12,10 @@ $(document).ready(function() {
     $('.filter-grid').isotope({ filter: '.ss17'});
   });
 });
+
+if (filter ==='.ss17'){
+	console.log (flex-direciton: row); 
+}
+	
+else 
+	console.log (flex-direciton: row); 
