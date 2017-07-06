@@ -19,53 +19,13 @@
 
 */
 
-html {
-	background-color: white;
 
-	background-size: 13px, 26px, auto, 13px, 29px, 37px, 53px;
-	min-height:100%;
-	overflow-x:hidden;
-}
 
-body {
-	width: 800px;
-	margin: 0 auto;
-	color:#777;
-}
-h1, h2 {
-	text-align:center;
-	margin-top:0;
-}
-h1 {
-	padding: 1em 0;
-	margin-left: 1.5em;
-	font-size: 2.5em;
-	font-family: 'Amaranth', Arial, Verdana, sans-serif;
-}
-h1 span {
-	display:block;
-	margin: 0.75em 0 0 -2em;
-	line-height: 1em;
-	font-size: 0.55em;
-}
-h1 .cursive {
-	margin: 0 0 0 -3em;
-	font-size: 1.1em;
-	line-height:0.5em;
-	color: #bd9b83;
-}
+
 figure {
 	display: inline-block;
 }
-a {
-	text-decoration: none;
-	border-bottom: 1px solid #bc9d88;
-	color: #8f6b51;
-}
-a:hover,
-a:focus {
-	border-bottom: 1px dashed #bc9d88;
-}
+
 .sread {
 	position: absolute;
 	left:-9999px;
@@ -270,7 +230,7 @@ a:focus {
 	left:0; top:0;
 	width: 400%;
 	height: 310px;
-	background: url(img/ausstattung_medialab.jpg) 0 0 no-repeat, url(img/ausstattung_studio.jpg) 640px 0 no-repeat;
+	background: url(../img/ausstattung_medialab.jpg) 0 0 no-repeat, url(../img/ausstattung_studio.jpg) no-repeat, url(../img/ausstattung_studio.jpg) no-repeat, url(../img/ausstattung_studio.jpg) no-repeat;
 }
 .sl_i:target ~ #slideshow .c_slider {
 	-webkit-transition: background 1s;

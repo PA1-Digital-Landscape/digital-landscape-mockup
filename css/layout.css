@@ -23,11 +23,13 @@ body {
 }
 
 h1 {
-  font-size: 24pt;
+  font-size: 2.5em;
   text-align: center;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  margin-top: -3vw;
+  font-weight: 900;
 }
 
 
@@ -276,7 +278,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 20vh;
+  height: 18vh;
   width: 100vw;
   border-bottom: 1px solid #96000f;
   background-color: rgba(255, 255, 255, 0.9);
@@ -806,6 +808,7 @@ footer ul li a {
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
+  margin-top: 7vh;
 }
 
 #Kalender img{
@@ -1208,6 +1211,7 @@ footer ul li a {
   background-repeat: no-repeat;
   width: 70vw;
   height: auto;
+  margin-top: -2vh;
 }
 
 #Text {
@@ -1232,7 +1236,7 @@ footer ul li a {
 }
 
 #AV-Lab {
-  border: 1px solid;
+  border: 1px solid #666666;
   width: 15vw;
   height: auto;
   text-align: center;
@@ -1248,7 +1252,7 @@ footer ul li a {
 }
 
 #Media-Lab {
-  border: 1px solid;
+  border: 1px solid #666666;
   width: 15vw;
   height: auto;
   text-align: center;
@@ -1264,7 +1268,7 @@ footer ul li a {
 }
 
 #Projekträume {
-  border: 1px solid;
+  border: 1px solid #666666;
   width: 15vw;
   height: auto;
   text-align: center;
@@ -1280,7 +1284,7 @@ footer ul li a {
 }
 
 #Studio {
-  border: 1px solid;
+  border: 1px solid #666666;
   width: 15vw;
   height: auto;
   text-align: center;
@@ -1303,6 +1307,7 @@ footer ul li a {
   #Slidebox {
   display: flex;
   align-items: stretch;
+  flex-direction: row;
   justify-content: center;
   color: #000000;
   align-self: center;
