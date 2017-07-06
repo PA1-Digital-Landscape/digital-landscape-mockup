@@ -486,10 +486,18 @@ footer ul li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+<<<<<<< HEAD
+  align-items: stretch;
+  width: 65vw;
+  height: 67vh;
+  margin: 20vh 0 0 0;
+
+=======
   width: 75vw;
   height: 80vh;
   margin: 15vh 0 0 0;
-  
+
+>>>>>>> 43ba563bbb6986b7bc1b352d739fd72457c12bc1
 }
 
 #Stundenplan {
@@ -569,7 +577,7 @@ footer ul li a {
 }
 
 .element-item {
-  height: 20vh;
+  height: 25vh;
   width: 15vw;
   border: 1px solid #aaa5a0;
   margin-top: 2vh;
@@ -592,49 +600,54 @@ footer ul li a {
 }
 
 #link_oakmania {
-  height: 20vh; 
-  width: 15vw; 
+  height: 20vh;
+  width: 15vw;
 }
 
 .datalovers {
   background-image: url(../img/Projekte/PA2_Datalovers.jpg);
   background-size: 100% 100%;
+  background-position-y: center;
   background-repeat: no-repeat;
 }
 
 .human-resource {
   background-image: url(../img/Projekte/PA2_Human.jpg);
   background-size: 100% 100%;
+  background-position-y: center;
   background-repeat: no-repeat;
 }
 
 .international-studies {
-  background-image: url(../img/Projekte/International_Studies.jpg);
+  background-image: url(../img/Projekte/12ss_pa2_06_ep-1.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .finanz {
   background-image: url( ../img/Projekte/finanz+.jpg);
-  background-size: 100% 100%;
+  background-size: 100%;
+  background-position-y: center;
   background-repeat: no-repeat;
 }
 
-.shiseido {
-  background-image: url( ../img/Projekte/Shiseido.jpg);
-  background-size: 100% 100%;
+.digital-landscape {
+  background-image: url(../img/Projekte/mm_projekt.jpg);
+  background-size: 100%;
+  background-position-y: center;
   background-repeat: no-repeat;
 }
 
 .visual-content {
-  background-image: url(../img/../img/Projekte/Visual_Content.jpg);
+  background-image: url(../img/Projekte/16ss_pa2_03_ep_Gschwendtner-2.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
-.virtual-reality{
-  background-image: url(../img/../img/Projekte/PA2_VirtualReality.jpg);
-  background-size: 100% 100%;
+.aim{
+  background-image: url(../img/Projekte/aim.jpg);
+  background-size: 100%;
+  background-position-y: center;
   background-repeat: no-repeat;
 }
 
@@ -1375,6 +1388,19 @@ footer ul li a {
   flex: 1;
 }
 ##########*/
+
+#AusstattungKalender {
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+
+#AusstattungKalender img {
+  float:right;
+  margin-right: 15vw;
+  margin-bottom: 15vh;
+  margin-top: -11vh;
+}
 /* Institute */
 
 
