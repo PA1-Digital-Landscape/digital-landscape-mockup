@@ -431,7 +431,7 @@ footer ul li a {
   width: 100vw;
   height: 18vh;
   margin: 0;
-  background-image: url(../img/Background.png)
+  background-color: #666666;
 }
 
 .item_partner {
@@ -462,19 +462,16 @@ footer ul li a {
 }
 
 #Partner_zwei {
-  height: 10vh;
 
 
 }
 #Partner_zwei img {
-  height: 5vh;
-  width: auto;
+ 
  }
 
 
 #Partner_drei img {
-  height: 100%;
-  width: auto;
+  
 }
 
 
