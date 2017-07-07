@@ -412,14 +412,34 @@ footer ul li a {
   justify-content: center;
 }
 
+#Fragen #Praesentation_button {
+	background-color: #93000f;
+}
+
+#Fragen #Praesentation_button p {
+  color: white; 
+}
+
 
 #Startseite {
   width: 100%;
   height: 62vh;
   margin-top: 10vh;
-  text-align: left;
+  text-align: center;
 }
 
+#Startseite h2 {
+  font-size: 2em;
+}
+
+#Startseite p {
+  font-size: 1.2em; 
+}
+
+#Startseite p span {
+ color: #93000f; 
+ font-weight: bolder;
+}
 
 .container_partner {
   display: flex;
