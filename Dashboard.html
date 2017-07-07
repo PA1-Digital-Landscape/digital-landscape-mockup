@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
+		<link rel="stylesheet" type="text/css" href="css/dashboard.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 	<script src="./js/jquery-3.2.1.min.js"></script>
@@ -68,10 +69,10 @@
 
 	<div class="wrapper" id="Inhalt">
 
-		<section>
+	<section>
 
 
-      <div id="Dashboard">
+    <div id="Dashboard">
         <div id="Stundenplan">
           <img src="img/Stundenplan.png">
         </div>
@@ -84,16 +85,19 @@
 
           <div id="Wahlen"> 
 
-			<img src="img/wahlen.jpg">
-		  <a href="#Wahlguide"><button>Jetzt w&auml;hlen</button></a>
+		    <img src="img/wahlen.jpg">
+		    <a href="#Wahlguide"><button>Jetzt w&auml;hlen</button></a>
 		
-
           </div>
         </div>
+	</div>
 
 
-		</section>
-		
+	</section>
+	</div>
+
+<div class="wrapper2" id="Inhalt">
+
 		<section id="Wahlguide">
 		
 			<!--Überschrift-->
@@ -101,7 +105,8 @@
 			
 			<!--Content-->
 			<p>
-				<b>1.Semester</b><br>
+			<div id="grauerbalken">
+				<p><b>1.Semester</b><br>
 				Im ersten Semester stehen noch keine Wahlen an.<br><br>
 				
 				<b>2.Semester</b><br>
@@ -111,8 +116,10 @@
 				sind wichtig f&uuml;r deine Gesamt-Punktzahl.
 				Außerdem k&ouml;nnen indiviuelle Wahlen in <br>
 				Englisch stattfinden. Informiere dich hierzu bei deinen Dozenten.<br>
-				<button>Jetzt w&auml;hlen</button><br><br>
+				<button>Jetzt w&auml;hlen</button><br><br></p>
+			</div>
 				
+			<div id="nichtgrau">
 				<b>3.Semester</b><br>
 				Im dritten Semester stehen keine Wahlen an. Du hast gegebenfalls jedoch die <br>
 				M&ouml;glichkeit dich f&uuml;r das Campus Camp anzumelden
@@ -127,23 +134,26 @@
 				bei einem deiner Professoren w&auml;hlen. Zuletzt musst du dich f&uuml;r ein Projekt PA1<br>
 				entscheiden, welches du in der zweiten H&auml;lfte deines Semesters gerne belegen w&uuml;rdest.<br>
 				<button>Jetzt w&auml;hlen</button><br><br>
-				
-				<b>5.Semester</b><br>
+			</div>
+			
+			<p>
+			<div id="grauerbalken">
+				<p><b>5.Semester</b><br>
 				Im f&uuml;nften Semester musst du erneut ein Themengebiet f&uuml;r eine Seminararbeit und <br>
 				ein Projekt PA2 w&auml;hlen.<br>
 				<button>Jetzt w&auml;hlen</button><br><br>
 				
 				<b>6.Semester</b><br>
 				Im sechsten Semester w&auml;hlst du ein Thema, wor&uuml;ber du deine Bachelor-Thesis schreiben m&ouml;chtest.<br>
-				<button>Jetzt w&auml;hlen</button><br><br>
+				<button>Jetzt w&auml;hlen</button><br><br></p>
 				
-			
+			</div>
 			</p>
 		
 		
 		</section>
 
-	</div>
+</div>
 
 
 

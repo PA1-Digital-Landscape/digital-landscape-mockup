@@ -1,4 +1,36 @@
-    main {
+   
+
+#grauerbalken {
+    display: flex;
+    background-color: #666666;
+    z-index: 1;
+    width: 100vw;
+    height: 22vw;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#grauerbalken p{
+	color: white;
+	width: 40vw;
+	height: 15vw;
+	text-align: left;
+	padding-left: 2.5vw;
+}
+
+#grauerbalken b{
+	color: white;
+}
+
+#nichtgrau {
+	width: 40vw;
+	height: 15vw;
+	text-align: left;
+	padding-left: 2.5vw;
+	
+}
+   main {
         position: relative;
       }
       aside {
