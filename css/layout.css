@@ -845,9 +845,19 @@ footer ul li a {
   text-align: left;
 }
 
+#AIMbild {
+  display: flex;
+  width: 50vw;
+  height: 45vh;
+  float: right;
+  z-index: 99;
+  margin-bottom: -25vw;
+}
+
 #aim {
   display: flex;
-  background-image: url(../img/finaleAIM.png);
+  background-color: #666666;
+  z-index: 1;
   width: 100vw;
   height: 22vw;
   text-align: center;
@@ -883,6 +893,7 @@ footer ul li a {
   color: #FFFFFF;
   text-align: left;
 }
+
 
 .icons {
   display: flex;
