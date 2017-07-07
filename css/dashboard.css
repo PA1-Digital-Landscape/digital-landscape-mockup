@@ -1,0 +1,19 @@
+    main {
+        position: relative;
+      }
+      aside {
+        position: absolute;
+        padding: 1.5em;
+		
+	 #element1 {
+     background-color: rgba(128, 128, 128, .6);
+        left: 2em;
+        padding-bottom: 5em;
+        top: 5em;
+        z-index: 2;
+      }
+      #element2 {
+
+        
+        z-index: 9;
+      }
