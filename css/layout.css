@@ -217,18 +217,16 @@ p {
 }
 
 
-.items_LP {
-  padding-top: 10vh;
-}
-
 #Hintergrund_LP h1 {
   color: white;
   font-size: 4.5em;
   font-weight: bolder;
+  padding-top: 15vh;
 }
 
 #Hintergrund_LP h2 {
   color: white;
+  font-size: 1.9em; 
 }
 
 .Mehr_Anzeigen {
@@ -240,6 +238,7 @@ p {
   display: flex;
   justify-content: center;
   align-self: center;
+  box-shadow: 5px 5px 5px 0 black;
 }
 
 
