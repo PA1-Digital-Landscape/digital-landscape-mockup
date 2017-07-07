@@ -242,8 +242,11 @@ p {
   align-self: center;
 }
 
-.Mehr_Anzeigen p {
+
+.Mehr_Anzeigen a {
+  display: flex; 
   align-self: center;
+  text-decoration: none; 
 }
 
 
@@ -478,9 +481,13 @@ footer ul li a {
 
 #FAQ {
   width: 80vw;
-  height: 100vh;
+  height: 1187px;
   margin: 0vw 10vw;
-
+  background-image: url(../img/FAQ.png); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: 100%;
+}
 
 
 
