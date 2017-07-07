@@ -453,7 +453,7 @@ footer ul li a {
 
 
 .item_partner:nth-child(3){
-  height: 7vh;
+  height: 10vh;
 
 }
 
@@ -462,16 +462,21 @@ footer ul li a {
 }
 
 #Partner_zwei {
+  height: 10vh;
 
 
 }
 #Partner_zwei img {
- 
+  height: 5vh;
+  width: auto;
+  margin-top: 2vh; 
  }
 
 
 #Partner_drei img {
-  
+  height: 100%;
+  width: auto;
+  margin-top: 2vh; 
 }
 
 
