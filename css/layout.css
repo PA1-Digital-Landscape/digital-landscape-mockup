@@ -477,10 +477,12 @@ footer ul li a {
 
 
 #FAQ {
-  width: 100%;
+  width: 80vw;
   height: 100vh;
-  text-align: left;
-}
+  margin: 0vw 10vw;
+
+
+
 
 
 /* ################################################################## */
