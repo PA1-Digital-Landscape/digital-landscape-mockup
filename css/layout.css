@@ -568,6 +568,12 @@ footer ul li a {
   align-items: center;
 }
 
+.box1 {
+  float: left;
+  display: inline;
+  margin-top: -10vh;
+  margin-left: 6vw;
+}
 /* ################################################################## */
 
 
