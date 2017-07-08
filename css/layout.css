@@ -575,7 +575,15 @@ footer ul li a {
   margin-left: 6vw;
 }
 
-.hidden {
+#hide {
+	display: none;
+}
+
+#show {
+	display: true;
+}
+
+#data {
 	display: none;
 }
 
