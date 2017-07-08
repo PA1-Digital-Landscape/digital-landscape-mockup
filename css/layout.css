@@ -425,6 +425,7 @@ footer ul li a {
 
 
 #Fragen {
+  margin-top: 5vh; 
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -449,11 +450,12 @@ footer ul li a {
 }
 
 #Startseite h2 {
-  font-size: 2em;
+  padding-top: 8vh;  
+  font-size: 2.2em;
 }
 
 #Startseite p {
-  font-size: 1.2em; 
+  font-size: 1.4em; 
 }
 
 #Startseite p span {
