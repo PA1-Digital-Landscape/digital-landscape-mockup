@@ -744,6 +744,7 @@ footer ul li a {
 
 
 #Oakmania{
+  display: none; 
   width: 100vw;
   height: 62vh;
   margin-top: 5vh;
@@ -901,6 +902,11 @@ footer ul li a {
 
 
 /*Section 3: Powerpoint Oakmania*/
+
+#wrapper_Pr {
+  margin-top: 10vh; 
+  display: none; 
+}
 
 #Oakmania_P{
   width: 70vw;
