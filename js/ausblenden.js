@@ -17,10 +17,10 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('#link_oakmania').click(function(){
-    	$('#Oakmania').show(2500);
+    	$('#Oakmania').show();
     }); 
 	$('#Praesentation_button').click(function(){
-    	$('#wrapper_Pr').show(2500);
+    	$('#wrapper_Pr').show();
     }); 
 });
 
