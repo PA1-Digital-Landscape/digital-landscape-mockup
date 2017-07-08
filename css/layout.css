@@ -574,6 +574,11 @@ footer ul li a {
   margin-top: -10vh;
   margin-left: 6vw;
 }
+
+.hidden {
+	display: none;
+}
+
 /* ################################################################## */
 
 
