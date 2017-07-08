@@ -25,6 +25,15 @@
 
 #nichtgrau {
 	width: 40vw;
+	height: 40vh;
+	text-align: left;
+	padding-left: 28vw;
+	margin-top: 2.5vh;
+	
+}
+
+#nichtgrauerweitert {
+	width: 40vw;
 	height: 138vh;
 	text-align: left;
 	padding-left: 28vw;
