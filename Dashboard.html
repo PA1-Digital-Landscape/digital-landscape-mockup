@@ -13,7 +13,7 @@
 	<script src="./js/animation_smooth.js"></script>
 	<script src="./js/ausblenden.js"></script>
 	
-	<script type="text/javascript" src="./js/jquery.js"></script>
+
 	
 	<title>Media Management</title>
 </head>
@@ -167,10 +167,14 @@
 				entscheiden, welches du in der zweiten H&auml;lfte deines Semesters gerne belegen w&uuml;rdest.<br>
 				
 <!--Button mit JS-->
+<script type="text/javascript" src="./js/jquery.js"></script>
 
-<input type="button" value="Jetzt w&auml;hlen" id="bt" onclick="showHide()" />
+<input type="button" id="show" value="Jetzt w&auml;hlen"/>
+<input type="button" id="hide" value="Abbrechen"/>
 <br/><br/>
-					
+
+
+<div id="data">					
 <fieldset>
   <legend>W&auml;hle deinen Schwerpunkt</legend>
   <div>
@@ -269,7 +273,21 @@
   </div>
 </fieldset>
 <br/>
-			
+</div>		
+
+<script type="text/javascript" src="./js/showhide.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
 			</div>
 			
 			<p>
