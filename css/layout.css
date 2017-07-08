@@ -853,6 +853,7 @@ footer ul li a {
   float: right;
   z-index: 99;
   margin-bottom: -25vw;
+  margin-right: 10vw;
 }
 
 #aim {
