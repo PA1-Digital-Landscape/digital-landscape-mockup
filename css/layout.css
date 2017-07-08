@@ -225,7 +225,7 @@ p {
 
 #Hintergrund_LP h2 {
   color: white;
-  font-size: 1.9em; 
+  font-size: 1.9em;
 }
 
 .Mehr_Anzeigen {
@@ -242,9 +242,9 @@ p {
 
 
 .Mehr_Anzeigen a {
-  display: flex; 
+  display: flex;
   align-self: center;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 
@@ -387,10 +387,10 @@ footer ul li a {
 
 
 #content {
-  height: 100vh; 
-  width: 100vw; 
-  margin: 0; 
-  padding: 0; 
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -401,9 +401,9 @@ footer ul li a {
 #Hintergrund_Startseite{
   width: 10vw;
   height: 58vh;
-  position: absolute; 
-  top: -4vh; 
-  left: 90vw; 
+  position: absolute;
+  top: -4vh;
+  left: 90vw;
   background-image: url(../img/kv_mediamanagement.jpg);
   background-repeat: no-repeat;
   background-position: right;
@@ -414,7 +414,7 @@ footer ul li a {
 #Hintergrund_Startseite_zwei{
   width: 10vw;
   height: 40vh;
-  float: right top; 
+  float: right top;
   background-image: url( ../img/kv_start_01.jpg);
   background-repeat: no-repeat;
   background-position: left;
@@ -424,7 +424,7 @@ footer ul li a {
 
 
 #Fragen {
-  margin-top: 5vh; 
+  margin-top: 5vh;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -436,9 +436,9 @@ footer ul li a {
 }
 
 #Fragen #Praesentation_button p {
-  color: white; 
-  font-size: 1em; 
-  
+  color: white;
+  font-size: 1em;
+
 }
 
 
@@ -449,16 +449,16 @@ footer ul li a {
 }
 
 #Startseite h2 {
-  padding-top: 8vh;  
+  padding-top: 8vh;
   font-size: 2.2em;
 }
 
 #Startseite p {
-  font-size: 1.4em; 
+  font-size: 1.4em;
 }
 
 #Startseite p span {
- color: #93000f; 
+ color: #93000f;
  font-weight: bolder;
 }
 
@@ -509,14 +509,14 @@ footer ul li a {
 #Partner_zwei img {
   height: 5vh;
   width: auto;
-  margin-top: 2vh; 
+  margin-top: 2vh;
  }
 
 
 #Partner_drei img {
   height: 100%;
   width: auto;
-  margin-top: 2vh; 
+  margin-top: 2vh;
 }
 
 
@@ -524,8 +524,8 @@ footer ul li a {
   width: 80vw;
   height: 1187px;
   margin: 0vw 10vw;
-  background-image: url(../img/FAQ.png); 
-  background-repeat: no-repeat; 
+  background-image: url(../img/FAQ.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
@@ -591,7 +591,7 @@ footer ul li a {
   margin-left: 0vw;
 }
 
-  
+
 }
 
 #hide {
@@ -943,11 +943,9 @@ footer ul li a {
 
 #AIMbild {
   display: flex;
-  width: 50vw;
-  height: 45vh;
   float: right;
   z-index: 99;
-  margin-bottom: -25vw;
+  margin-bottom: -20vw;
   margin-right: 10vw;
 }
 
@@ -956,7 +954,7 @@ footer ul li a {
   background-color: #666666;
   z-index: 1;
   width: 100vw;
-  height: 22vw;
+  height: 18vw;
   text-align: center;
   justify-content: flex-start;
   flex-direction: column;
@@ -979,6 +977,8 @@ footer ul li a {
   text-align: left;
   padding-left: 2.5vw;
   flex-direction: column;
+  margin-left: 12vw;
+  margin-top: -2vw;
 }
 
 #text p {
@@ -1079,10 +1079,10 @@ footer ul li a {
   width: 70vw;
   height: auto;
   justify-content: flex-start;
-  text-align: center;
   flex-direction: row;
   padding-top: 2.5vw;
   padding-bottom: 2.5vw;
+  margin-left: 13vw;
 }
 
 #CampusCampBild {
@@ -1100,7 +1100,6 @@ footer ul li a {
   width: 40vw;
   height: auto;
   padding-left: 2.5vw;
-  position: absolute;
   margin-top: -2vw;
 }
 
@@ -1141,96 +1140,116 @@ footer ul li a {
   color: #FFFFFF;
 }
 
-#SSMT {
+
+#SSMTbild {
   display: flex;
-  width: 100vw;
-  height: 22vw;
-  background-image: url(../img/finaleAIM.png);
-  color: #FFFFFF;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  background-repeat: no-repeat;
+  float: right;
+  z-index: 99;
+  margin-left: 10vw;
+  margin-bottom: -30vw;
 }
 
-#SSMT h3, #SSMT p {
-  padding-top: 2vw;
-  color: #FFFFFF;
-  width: 40vw;
-  height: auto;
+#SSMT {
+  display: flex;
+  background-color: #666666;
+  width: 100vw;
+  height: 18vw;
   text-align: left;
-  flex-direction: column;
   justify-content: flex-start;
-  position: absolute;
+  flex-direction: column;
+}
+/*#####
+#SSMT h3 {
+  width: 70vw;
+  height: auto;
+  color: #FFFFFF;
+  padding: 2vw;
+  text-align: left;
+  margin-bottom: -12px;
+  margin-left: -24px;
+}
+###*/
+#SSMTtext {
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 2.5vw;
+  flex-direction: column;
+}
+/*#####
+#SSMTtext p {
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+#SSMTtext h3, #SSMTtext p {
+  color: #FFFFFF;
+  text-align: left;
+}
+###*/
+#SSMTtext h3 {
+padding-top: 1vw;
+padding-left: 12vw;
+color: #FFFFFF;
 }
 
 #SSMT p {
-  font-size: 12pt;
-  margin-top: -4vw;
-  padding-top: 0;
-  padding-left: 2.5vw;
+padding-left: 12vw;
+margin-bottom: -50vw;
+color: #FFFFFF;
+width: 40vw;
 }
 
-#SSMT h3 {
-  text-align: left;
-  padding-left: 2.5vw;
-  margin-top: -9vw;
-}
 
-.iconsss {
+#SSMT #Bilder {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
 
-.Kalendericonss {
+#SSMT #Bilder #Kalendericonss {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  padding-left: 5vw;
-  padding-top: 2vw;
+  margin-left: 15vw;
+  padding-bottom: 3vw;
 }
 
-.Kalendericonss img {
+#SSMT #Bilder #Kalendericonss img {
   width: 3vw;
   height: 3vw;
 }
 
 
-.Uhriconss {
+#SSMT #Bilder #Uhriconss {
   display: flex;
   flex-direction: column;
-  padding: 0 2.5vw;
-  flex: 1;
-  width: 5vw;
-  height: 2vw;
-  margin-left: 1vw;
-  padding-top: 2vw;
+  margin-left: 20vw;
+  padding-bottom: 3vw;
 }
 
-.Uhriconss img {
+#SSMT #Bilder #Uhriconss img {
   width: 3vw;
   height: 3vw;
 }
 
 
-.Lageiconss {
+#SSMT #Bilder #Lageiconss {
   display: flex;
   flex-direction: column;
-  padding: 0 2.5vw;
-  flex: 1;
-  width: 5vw;
-  height: 2vw;
-  margin-left: 1vw;
-  padding-top: 2vw;
+  margin-left: 25vw;
+  padding-bottom: 3vw;
 }
 
-.Lageiconss img {
+#SSMT #Bilder #Lageiconss img {
   width: 3vw;
   height: 3vw;
 }
 
+.ss {
+  color: white;
+  text-align: center;
+}
 /*########
 #SSMTbutton {
   width: 150px;
