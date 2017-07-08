@@ -3,16 +3,19 @@
 
 <head>
 	<meta charset="UTF-8">
-
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
-
+		<link rel="stylesheet" type="text/css" href="css/dashboard.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/animation_smooth.js"></script>
+	<script src="./js/ausblenden.js"></script>
+	
 
+
+	
 	<title>Media Management</title>
 </head>
 
@@ -66,12 +69,14 @@
 
 	<!-- Wrapper = kennzeichnet, dass jetzt der Inhalt der Seite beginnt. Alle Bestandteilte inkls. Footer sind im Wrapper -->
 
+
+
 	<div class="wrapper" id="Inhalt">
 
-		<section>
+	<section>
 
 
-      <div id="Dashboard">
+    <div id="Dashboard">
         <div id="Stundenplan">
           <img src="img/Stundenplan.png">
         </div>
@@ -82,26 +87,230 @@
             <img src="img/newsfeed.jpg">
           </div>
 
-          <div id="Wahlen">
-			<img src="img/wahlen.jpg">
+          <div id="Wahlen"> 
 
-            <div id="Jetztwaehlen items_LP Mehr Anzeigen">
-              <a href="" class="ud_button">Jetzt wählen</a>
-            </div>
+		    <img src="img/wahlen.jpg">
+		    <a href="#Wahlguide">
 
+			<main>
+			<aside id="element4">
+			<div id="button1" class="box1">
+			<button>Jetzt w&auml;hlen</button></a>
+			<aside>
+			<main>
+			</div>
+			</div>
           </div>
         </div>
-
-
-
-
-
-
-
-
-		</section>
-
 	</div>
+
+
+	</section>
+	</div>
+
+<div class="wrapper2" id="Inhalt">
+
+
+	<section id="Wahlguide">
+		
+	<!--Überschrift-->
+		<h2>Wahlguide</h2>
+			
+	<!--Content-->
+			
+		<p>
+		<div id="grauerbalken">
+			
+		<main>
+			<aside id="element3">
+			<div  id="kv_wahlguide_02" class="box">
+			<aside>
+		<main>
+			</div>
+	
+				<p><b>1.Semester</b><br>
+				Im ersten Semester stehen noch keine Wahlen an.<br><br>
+				
+				
+				<b>2.Semester</b><br>
+				Im zweiten Semester wirst du neben deinen Klausuren einen &Ouml;ffentlichkeits-<br>
+				arbeitsschein absolvieren.
+				Du bekommst darauf keine Note, aber die Credit Points<br>
+				sind wichtig f&uuml;r deine Gesamt-Punktzahl.
+				Außerdem k&ouml;nnen indiviuelle Wahlen in <br>
+				Englisch stattfinden. Informiere dich hierzu bei deinen Dozenten.<br>
+				<button>Jetzt w&auml;hlen</button><br><br></p>
+				
+				
+				<main>
+				<aside id="element2">
+				<div  id="kv_wahlguide_01" class="box">
+				<aside>
+				<main>
+				</div>
+			</div>
+			
+
+	
+			<div id="nichtgrau">
+				<b>3.Semester</b><br>
+				Im dritten Semester stehen keine Wahlen an. Du hast gegebenfalls jedoch die <br>
+				M&ouml;glichkeit dich f&uuml;r das Campus Camp anzumelden
+				und bereits Credit Points f&uuml;r das <br>
+				n&auml;chste Semester zu sichern. Informiere dich hierzu bei den jeweiligen Dozenten.<br>
+				<button>Jetzt w&auml;hlen</button><br><br>
+				
+				<b>4.Semester</b><br>
+				Im vierten Semester musst du deinen Schwerpunkt w&auml;hlen. Außerdem wirst du <br>
+				dieses Semester eine Seminararbeit schreiben.
+				Hierzu musst du ein Themengebiet <br>
+				bei einem deiner Professoren w&auml;hlen. Zuletzt musst du dich f&uuml;r ein Projekt PA1<br>
+				entscheiden, welches du in der zweiten H&auml;lfte deines Semesters gerne belegen w&uuml;rdest.<br>
+				
+<!--Button mit JS-->
+
+<script src="./js/jquery.js"></script>
+<a href="#data">
+<input type="button" id="show" value="Jetzt w&auml;hlen"/></a>
+<input type="button" id="hide" value="Abbrechen" style="display:none"/>
+<br/><br/>
+
+
+<div id="data">
+	<section id="erweitert" class="box2">				
+<fieldset>
+  <legend>W&auml;hle deinen Schwerpunkt</legend>
+  <div>
+    <input type="checkbox" id="av" name="interest" value="av">
+    <label for="av">Audiovisuell</label>
+  </div>
+  <div>
+  
+    <input type="checkbox" id="im" name="interest" value="im"> 
+    <label for="im">Interaktive Medien</label> 
+  </div>
+</fieldset>
+<br/>
+<fieldset>
+  <legend>W&auml;hle deinen bevorzugten Professor f&uuml;r die Seminararbeit
+  <div id="ersteprio"></div>
+  <br>1.Priorit&auml;t</br></legend>
+  <div>
+    <input type="checkbox" id="Schunk" name="interest" value="Schunk">
+    <label for="Schunk">Schunk</label>
+  </div>
+  <div>
+    <input type="checkbox" id="Wickel-Kirsch" name="interest" value="Wickel-Kirsch">
+    <label for="Wickel-Kirsch">Wickel-Kirsch</label>
+  </div>
+    <div>
+    <input type="checkbox" id="Quint" name="interest" value="Quint">
+    <label for="Quint">Quint</label>
+  </div>
+      <div>
+    <input type="checkbox" id="Kochan" name="interest" value="Kochan">
+    <label for="Kochan">Kochan</label>
+  </div>
+      <div>
+    <input type="checkbox" id="J&auml;ger" name="interest" value="J&auml;ger">
+    <label for="J&auml;ger">J&auml;ger</label>
+  </div>
+      <div>
+    <input type="checkbox" id="Moutchnik" name="interest" value="Moutchnik">
+    <label for="Moutchnik">Moutchnik</label>
+  </div>
+  
+    <div id="zweiteprio">
+  <br>2.Priorit&auml;t</br></legend>
+  <div>
+    <input type="checkbox" id="Schunk" name="interest" value="Schunk">
+    <label for="Schunk">Schunk</label>
+  </div>
+  <div>
+    <input type="checkbox" id="Wickel-Kirsch" name="interest" value="Wickel-Kirsch">
+    <label for="Wickel-Kirsch">Wickel-Kirsch</label>
+  </div>
+    <div>
+    <input type="checkbox" id="Quint" name="interest" value="Quint">
+    <label for="Quint">Quint</label>
+  </div>
+      <div>
+    <input type="checkbox" id="Kochan" name="interest" value="Kochan">
+    <label for="Kochan">Kochan</label>
+  </div>
+      <div>
+    <input type="checkbox" id="J&auml;ger" name="interest" value="J&auml;ger">
+    <label for="J&auml;ger">J&auml;ger</label>
+  </div>
+      <div>
+    <input type="checkbox" id="Moutchnik" name="interest" value="Moutchnik">
+    <label for="Moutchnik">Moutchnik</label>
+  </div>
+  </div>
+  
+  
+  <div id="dritteprio"></div>
+  <br>3.Priorit&auml;t</br></legend>
+  <div>
+    <input type="checkbox" id="Schunk" name="interest" value="Schunk">
+    <label for="Schunk">Schunk</label>
+  </div>
+  <div>
+    <input type="checkbox" id="Wickel-Kirsch" name="interest" value="Wickel-Kirsch">
+    <label for="Wickel-Kirsch">Wickel-Kirsch</label>
+  </div>
+    <div>
+    <input type="checkbox" id="Quint" name="interest" value="Quint">
+    <label for="Quint">Quint</label>
+  </div>
+      <div>
+    <input type="checkbox" id="Kochan" name="interest" value="Kochan">
+    <label for="Kochan">Kochan</label>
+  </div>
+      <div>
+    <input type="checkbox" id="J&auml;ger" name="interest" value="J&auml;ger">
+    <label for="J&auml;ger">J&auml;ger</label>
+  </div>
+      <div>
+    <input type="checkbox" id="Moutchnik" name="interest" value="Moutchnik">
+    <label for="Moutchnik">Moutchnik</label>
+  </div>
+</fieldset>
+<br/>
+<a href="#Wahlergebnis">
+<input type="button" value="Speichern"/>
+</a>
+<br/>
+</div>
+
+<script src="./js/showhide.js"></script>
+</div>
+			</section>
+			<p>
+			<div id="grauerbalken">
+				<p><b>5.Semester</b><br>
+				Im f&uuml;nften Semester musst du erneut ein Themengebiet f&uuml;r eine Seminararbeit und <br>
+				ein Projekt PA2 w&auml;hlen.<br>
+				<button>Jetzt w&auml;hlen</button><br><br>
+				
+				<b>6.Semester</b><br>
+				Im sechsten Semester w&auml;hlst du ein Thema, wor&uuml;ber du deine Bachelor-Thesis schreiben m&ouml;chtest.<br>
+				<button>Jetzt w&auml;hlen</button><br><br></p>
+				
+			</div>
+			</p>
+		
+		
+		</section>
+		
+		<section>
+		<div id="Wahlergebnis">
+		    <img src="img/wahlen_ergebnis.jpg">
+		</div>
+		</section>
+		
+
+</div>
 
 
 

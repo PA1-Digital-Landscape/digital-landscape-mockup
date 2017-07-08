@@ -1,16 +1,11 @@
 
 // ****************** Startseite *****************// 
 
-$(document).ready(function() {	
+$(document).ready(function() {
   $('#content').hide();
-  
 	$('.entdecken').click(function(){
-    	$('#content').fadeIn(1000)
-	 })	
-	
-		$('.Landing_Page').fadeTo(1000);
+    	$('#content').show();
     })
-	
 });
 
 
@@ -30,11 +25,13 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $('#wrapper_Pr').hide();
+  $('#Oakmania_P').hide();
 	$('.Praesentation_button').click(function(){
-    	$('#wrapper_Pr').show();
+    	$('#Oakmania_P').show('');
     })
 });
+
+
 
 
 
