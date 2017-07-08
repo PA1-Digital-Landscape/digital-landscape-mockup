@@ -2,13 +2,11 @@
 // ****************** Startseite *****************// 
 
 $(document).ready(function() {
-  $('#content').hide();
 	$('.entdecken').click(function(){
-    	$('#content').show();
-    })
+    	$('#content').show(2000);
+		$('#Landing_Page').hide(2000);
+    });
 });
-
-
 
 
 
