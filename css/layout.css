@@ -575,6 +575,17 @@ footer ul li a {
   margin-left: 6vw;
 }
 
+.box2 {
+  float: left;
+  display: inline;
+  margin-top: 10vh;
+  background-color:white;
+  margin-left: 0vw;
+}
+
+  
+}
+
 #hide {
 	display: none;
 }
@@ -587,6 +598,13 @@ footer ul li a {
 	display: none;
 }
 
+#erweitert{
+	width: 40vw;
+	height: 100vh;
+	text-align: left;
+	padding-left: 0vw;
+	margin-top: 2.5vh;
+}
 /* ################################################################## */
 
 
