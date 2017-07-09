@@ -334,6 +334,7 @@ header nav ul li a {
 }
 
 
+
 /* header:hover { height:50px; } */
 
 
@@ -695,7 +696,7 @@ margin: 0vw 2.5vw;
 }
 
 .oakmania {
-  background-image: url(../img/Projekte/PA2_Oakmania.jpg);
+  background-image: url(../img/Projekte/OM.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -706,14 +707,14 @@ margin: 0vw 2.5vw;
 }
 
 .datalovers {
-  background-image: url(../img/Projekte/PA2_Datalovers.jpg);
+  background-image: url(../img/Projekte/DL.jpg);
   background-size: 100% 100%;
   background-position-y: center;
   background-repeat: no-repeat;
 }
 
 .human-resource {
-  background-image: url(../img/Projekte/PA2_Human.jpg);
+  background-image: url(../img/Projekte/HR_Logo.jpg);
   background-size: 100% 100%;
   background-position-y: center;
   background-repeat: no-repeat;
