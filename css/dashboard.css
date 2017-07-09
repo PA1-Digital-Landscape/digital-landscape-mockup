@@ -45,8 +45,8 @@
 }
 
 #kv_wahlguide_02{
-    width: 10vw;
-    height: 25vh;
+	width: 151px;
+    height: 230px;
     float: right;
     background-image: url(../img/kv_wahlguide_02.png);
     background-repeat: no-repeat;
@@ -57,8 +57,8 @@
 }
 
 #kv_wahlguide_01 {
-  width: 10vw;
-  height: 82vh;
+  width: 232px;
+  height: 641px;
   float: left;
   background-image: url(../img/kv_wahlguide_01.png);
   background-repeat: no-repeat;
