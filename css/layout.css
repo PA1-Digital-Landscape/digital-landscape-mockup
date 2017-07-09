@@ -582,10 +582,13 @@ margin: 0vw 2.5vw;
 }
 
 .box1 {
-  float: left;
-  display: inline;
-  margin-top: -10vh;
-  margin-left: 6vw;
+    margin-top: -10vh;
+    margin-left: 8vw;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 0 black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .box2 {
@@ -601,10 +604,16 @@ margin: 0vw 2.5vw;
 
 #hide {
 	display: none;
+
 }
 
 #show {
 	display: true;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 5px 0 black;
+	display: flex;
+	justify-content: center;
+	align-self: center
 }
 
 #data {
@@ -619,6 +628,8 @@ margin: 0vw 2.5vw;
 	margin-top: 2.5vh;
 	margin-bottom: 10vw;
 }
+
+
 /* ################################################################## */
 
 
@@ -1640,3 +1651,5 @@ font-family: Open Sans;
 	color: white;
 	text-decoration: none;
 	}
+
+	
