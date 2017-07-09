@@ -1616,12 +1616,15 @@ input[type="text"],input[type="password"]{
 }
 .btn-einloggen{
 
-	padding: 15px 25px;
-	margin-left: 150px;
-	margin-right: 150px;
-	background-color: #93000f;
-	margin-bottom: 10px;
-
+    padding: 5px 5px;
+    margin-left: 185px;
+    margin-right: 185px;
+    background-color: #93000f;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 0 black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 
 }
 
