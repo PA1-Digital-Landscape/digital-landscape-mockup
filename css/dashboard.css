@@ -5,7 +5,7 @@
     background-color: #666666;
     z-index: 1;
     width: 100vw;
-    height: 13vw;
+    height: 18vw;
     text-align: center;
     justify-content: flex-start;
     flex-direction: column;
@@ -24,11 +24,14 @@
 }
 
 #nichtgrau {
-	width: 40vw;
-	height: 40vh;
-	text-align: left;
-	padding-left: 28vw;
-	margin-top: 2.5vh;
+    width: 70vw;
+    height: auto;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-top: 2.5vw;
+	padding-left: 15vw;
+    padding-bottom: 2.5vw;
+    margin-left: 13vw;
 	
 }
 
