@@ -583,7 +583,8 @@ margin: 0vw 2.5vw;
 
 .box1 {
     margin-top: -10vh;
-    margin-left: 8vw;
+    margin-left: 95px;
+	margin-right: 90px;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px 0 black;
     display: flex;
