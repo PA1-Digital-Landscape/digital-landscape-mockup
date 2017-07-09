@@ -1573,11 +1573,12 @@ width: 40vw;
 }
 
 .ueberschrift{
-	margin-top: 2px;
+
 	font-family: Open Sans;
 	color: #aaa5a0;
 	font-size: 30px;
 	font-weight: bold;
+	padding: 1vh;
 }
 .container_login{
 	width: 500px;
@@ -1589,17 +1590,16 @@ width: 40vw;
 }
 
 .container_login img{
-	width: 120px;
-	height: 120px;
-	margin-top: -70px;
+    width: 90px;
+    height: 90px;
+	margin-top: 2.5vh;
 }
 
 input[type="text"],input[type="password"]{
 	height: 45px;
 	width: 300px;
 	font-size: 18px;
-	border-color: #73000f;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	background-color: #e8d6d8;
 }
 
@@ -1619,7 +1619,7 @@ input[type="text"],input[type="password"]{
 	padding: 15px 25px;
 	margin-left: 150px;
 	margin-right: 150px;
-	background-color: #73000f;
+	background-color: #93000f;
 	margin-bottom: 10px;
 
 
@@ -1629,6 +1629,7 @@ p.info{
 font-family: Open Sans;
 	color: #aaa5a0;
 	font-size: 15px;
+	margin-top: 1vh;
 }
 
 
