@@ -1200,56 +1200,52 @@ color: #FFFFFF;
 width: 40vw;
 }
 
-
-#SSMT #Bilder {
+#Symbole {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 2vw;
+}
+
+#Kalendersymbol {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-}
-
-#SSMT #Bilder #Kalendericonss {
-  display: flex;
-  flex-direction: column;
-  margin-left: 15vw;
+  color: #FFFFFF;
   padding-bottom: 3vw;
 }
 
-#SSMT #Bilder #Kalendericonss img {
+#Kalendersymbol img {
   width: 3vw;
   height: 3vw;
 }
 
-
-#SSMT #Bilder #Uhriconss {
+#Uhrzeitsymbol {
   display: flex;
   flex-direction: column;
-  margin-left: 20vw;
+  align-items: center;
+  color: #FFFFFF;
   padding-bottom: 3vw;
 }
 
-#SSMT #Bilder #Uhriconss img {
+#Uhrzeitsymbol img {
   width: 3vw;
   height: 3vw;
 }
 
-
-#SSMT #Bilder #Lageiconss {
+#Standortsymbol {
   display: flex;
   flex-direction: column;
-  margin-left: 25vw;
+  align-items: center;
+  color: #FFFFFF;
   padding-bottom: 3vw;
 }
 
-#SSMT #Bilder #Lageiconss img {
+#Standortsymbol img {
   width: 3vw;
   height: 3vw;
 }
 
-.ss {
-  color: white;
-  text-align: center;
-}
 /*########
 #SSMTbutton {
   width: 150px;
