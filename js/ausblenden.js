@@ -2,13 +2,11 @@
 // ****************** Startseite *****************// 
 
 $(document).ready(function() {
-  $('#content').hide();
 	$('.entdecken').click(function(){
-    	$('#content').show();
-    })
+    	$('#content').show(2000);
+		$('#Landing_Page').hide(2000);
+    });
 });
-
-
 
 
 
@@ -18,18 +16,15 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-  $('#Oakmania').hide();
 	$('#link_oakmania').click(function(){
     	$('#Oakmania').show();
-    })
+    }); 
+	$('#Praesentation_button').click(function(){
+    	$('#wrapper_Pr').show();
+    }); 
 });
 
-$(document).ready(function() {
-  $('#Oakmania_P').hide();
-	$('.Praesentation_button').click(function(){
-    	$('#Oakmania_P').show('');
-    })
-});
+
 
 
 
