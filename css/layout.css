@@ -291,7 +291,7 @@ header {
 }
 
 header img {
-  height: 15px;
+  height: 42px;
   padding-left: 1vw;
   padding-top: 1vw;
 }
@@ -638,7 +638,7 @@ margin: 0vw 2.5vw;
 
 
 #container_login {
-  display: flex; 
+  display: flex;
   flex-direction: row;
 }
 
@@ -1299,11 +1299,11 @@ margin: 0vw 2.5vw;
 #Banner {
   display: flex;
   background-image: url(../img/Bild_Aus.jpg);
-  justify-content:flex-start;
+  justify-content:center;
   background-repeat: no-repeat;
   width: 100vw;
   height: auto;
-  margin-top: 5vh;
+  margin-top: 24vh;
 }
 
 #Text {
@@ -1311,6 +1311,7 @@ margin: 0vw 2.5vw;
   width: 35vw;
   height: auto;
   text-align: left;
+  margin-left: -35vw;
 }
 
 #Uberschrift {
