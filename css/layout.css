@@ -953,7 +953,7 @@ margin: 0vw 2.5vw;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  margin-top: 7vh;
+  margin-top: 10vh;
 }
 
 #Kalender img{
@@ -1124,6 +1124,7 @@ margin: 0vw 2.5vw;
   height: auto;
   padding-left: 2.5vw;
   margin-top: -2vw;
+  text-decoration: none;
 }
 
 #CampusCamptext p {
@@ -1281,7 +1282,7 @@ margin: 0vw 2.5vw;
   background-repeat: no-repeat;
   width: 70vw;
   height: auto;
-  margin-top: -2vh;
+  margin-top: 5vh;
 }
 
 #Text {
@@ -1549,5 +1550,3 @@ font-family: Open Sans;
 	color: white;
 	text-decoration: none;
 	}
-
-	
