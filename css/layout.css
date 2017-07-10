@@ -968,13 +968,14 @@ margin: 0vw 2.5vw;
 
 #Kalender {
   display: block;
-  width: 70vw;
-  height: 47.5vw;
-  background-image: url(../img/kv_events.jpg);
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
+  height: auto;
   background-repeat: no-repeat;
-  margin-top: 10vh;
+  background-size: 100% 100%;
+  background-position: center;
+  align-content: center;
+  margin-top: -27.5vh;
+
 }
 
 #Kalender img{
@@ -1298,10 +1299,10 @@ margin: 0vw 2.5vw;
 
 #Banner {
   display: flex;
-  background-image: url(../img/finale.jpg);
+  background-image: url(../img/Bild_Aus.jpg);
   justify-content:flex-start;
   background-repeat: no-repeat;
-  width: 70vw;
+  width: 100vw;
   height: auto;
   margin-top: 5vh;
 }
