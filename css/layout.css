@@ -644,6 +644,7 @@ margin: 0vw 2.5vw;
 
 
 #container_login {
+  padding-top: 15px; 
 }
 
 #logout {
