@@ -335,10 +335,9 @@ header nav ul li a {
 
 .header_buttons {
   position: absolute;
-  right: 5vw;
-  top: -3vh;
   width: 5px;
   height: 5px;
+  top: -2vh;
 }
 
 
