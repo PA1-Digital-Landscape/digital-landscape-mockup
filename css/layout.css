@@ -337,7 +337,7 @@ header nav ul li a {
   position: absolute;
   width: 5px;
   height: 5px;
-  top: -2vh;
+  top: -1vh;
 }
 
 
@@ -963,20 +963,19 @@ margin: 0vw 2.5vw;
 /* ################################################################## */
 
 #Kalender {
-  display: block;
+  display: flex;
   width: 100vw;
-  height: auto;
+  height: 100vh;
+  background-image: url(../img/Kalender_Aus.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   align-content: center;
-  margin-top: -25vh;
+  margin-top: 0;
 
 }
 
-#Kalender img{
-  padding: 15vw 12vw 20vw 23vw;
-}
+
 
 .wrapper2 h1 {
   text-align: left;
