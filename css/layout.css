@@ -1183,41 +1183,33 @@ margin: 0vw 2.5vw;
 }
 
 
-#SSMTbild {
-  display: flex;
-  float: right;
-  z-index: 99;
-  margin-left: 10vw;
-  margin-bottom: -30vw;
+#SSMT {
+  background-color: #666666;
+  padding: 32px 0;
 }
 
-#SSMT {
+#SSMT > .wrapper {
   display: flex;
-  background-color: #666666;
-  width: 100vw;
-  height: 18vw;
-  text-align: left;
-  justify-content: flex-start;
-  flex-direction: column;
+  align-items: center;
+}
+
+#SSMT-1 {
+  flex: 1;
+  margin-right: 32px;
+}
+
+#SSMTtext {
+  margin-bottom: 32px;
+}
+
+#SSMTbild {
 }
 
 #SSMT h3 {
-  width: 70vw;
-  height: auto;
   color: #FFFFFF;
-  padding: 2vw;
-  text-align: left;
-  margin-top: 1vw;
-  padding-left: 14vw;
 }
 
-
 #SSMTtext p {
-  margin-top: 0;
-  padding-top: 0;
-  width: 40vw;
-  padding-left: 14vw;
-  padding-bottom: -15vw;
 
 }
 
@@ -1227,55 +1219,29 @@ margin: 0vw 2.5vw;
 }
 
 
-
 #Symbole {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding-bottom: 3vw;
-}
-
-#Kalendersymbol {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  color: #FFFFFF;
-  padding-bottom: 3vw;
-  padding-left: 12vw;
+  justify-content: space-around;
 }
 
-#Kalendersymbol img {
-  width: 3vw;
-  height: 3vw;
-}
-
-#Uhrzeitsymbol {
+#Symbole > div {
+  flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  color: #FFFFFF;
-  padding-bottom: 3vw;
-  padding-left: 12vw;
+  justify-content: center;
 }
 
-#Uhrzeitsymbol img {
-  width: 3vw;
-  height: 3vw;
+#Kalendersymbol > img, #Uhrzeitsymbol > img, #Standortsymbol > img {
+  color: white;
+  height: 32px;
 }
 
-#Standortsymbol {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #FFFFFF;
-  padding-bottom: 3vw;
-  padding-left: 12vw;
+#Kalendersymbol > p, #Uhrzeitsymbol > p, #Standortsymbol > p {
+  display: none;
 }
 
-#Standortsymbol img {
-  width: 3vw;
-  height: 3vw;
-}
 
 /*########
 #SSMTbutton {
