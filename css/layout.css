@@ -291,15 +291,9 @@ header {
 }
 
 header img {
-<<<<<<< HEAD
   height: 15px; 
   padding-left: 1vw; 
   padding-top: 15px; 
-=======
-  height: 15px;
-  padding-left: 1vw;
-  padding-top: 1vh;
->>>>>>> aff25581dc07cb9344c2a0df568ad49bde05e09f
 }
 
 header nav {
@@ -1382,17 +1376,8 @@ width: 40vw;
   background-image: url(../img/finale.jpg);
   justify-content:flex-start;
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  width: 70vw;
-=======
-<<<<<<< HEAD
   background-size: 100% 100%;
   margin-top: 18vh;
-=======
-  width: 100vw;
->>>>>>> aff25581dc07cb9344c2a0df568ad49bde05e09f
-  height: auto;
-  margin-top: -2vh;
 }
 
 #Text {
