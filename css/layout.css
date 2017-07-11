@@ -553,6 +553,7 @@ footer ul li a {
   width: 75vw;
   height: 80vh;
   margin: 15vh 0 0 0;
+}
 
 
 
@@ -573,6 +574,8 @@ footer ul li a {
   flex-direction: column;
   align-items: center;
 }
+
+
 
 .box1 {
   float: left;
@@ -945,7 +948,7 @@ footer ul li a {
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-image: url(../img/Kalender_Aus.png);
+  background-image: url(../img/Events.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
