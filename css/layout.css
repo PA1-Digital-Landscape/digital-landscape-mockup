@@ -1282,11 +1282,18 @@ margin: 0vw 2.5vw;
 }
 
 
+
+
+
+
 #Banner {
   display: flex;
   background-image: url(../img/Bild_Aus.jpg);
-  justify-content:center;
   background-repeat: no-repeat;
+<<<<<<< HEAD
+  background-size: 100% 100%; 
+  margin-top: 18vh;
+=======
   width: 100vw;
   height: auto;
   margin-top: 24vh;
@@ -1298,10 +1305,11 @@ margin: 0vw 2.5vw;
 =======
   background-size: 100% 100%;
 >>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
+>>>>>>> 27d9971f5916177969e3621298b302d19cb29cfd
 }
 
 #Text {
-  display: inline-block;
+  display: flex;
   width: 35vw;
   height: auto;
   text-align: left;
