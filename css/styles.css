@@ -206,15 +206,15 @@ figure {
 
 
 #slideshow .slider {
-	position: absolute;
-	left:0; top:0;
-	width: 400%;
-	height: 310px;
-
-	-webkit-animation: slider 32s infinite;
-	-moz-animation: slider 32s infinite;
-	animation: slider 32s infinite;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: all 1.5s ease 0s;
 }
+.prev, .next {
+	cursor: pointer;
+}
+
 .sl_i:target ~ #slideshow .slider {
 	-webkit-transition: left 1s;
 	-moz-transition: left 1s;
