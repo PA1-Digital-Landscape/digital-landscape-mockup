@@ -108,6 +108,7 @@ aside {
   float: left;
   display: inline;
   margin-top: -10vh;
+  
 }
 
 #button1 {  float: left;
@@ -116,9 +117,16 @@ aside {
     
 }
 
+#button2 {
+					margin-bottom: 10px;
+				box-shadow: 5px 5px 5px 0 black;
+				display: flex;
+				justify-content: center;
+				align-self: center;"
+}
 /*Style JS*/
 
-
+div#button1.box1 a {text-decoration: none;}
 
 
 

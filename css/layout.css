@@ -554,6 +554,19 @@ footer ul li a {
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  width: 75vw;
+  height: 80vh;
+  margin: 15vh 0 0 0;
+
+
+=======
+=======
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
+=======
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
 
 /********** alter code?
   width: 65vw;
@@ -563,6 +576,13 @@ footer ul li a {
   width: 75vw;
   height: 80vh;
   margin: 15vh 0 0 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> c2d7cceac721c64484b73b931c86fc59d408b9de
+=======
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
+=======
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
 }
 
 #Stundenplan {
@@ -1257,6 +1277,10 @@ margin: 0vw 2.5vw;
 
 
 /* ################################################################## */
+#KV {
+  width: 100vw;
+}
+
 
 
 
@@ -1266,8 +1290,22 @@ margin: 0vw 2.5vw;
   display: flex;
   background-image: url(../img/Bild_Aus.jpg);
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-size: 100% 100%; 
   margin-top: 18vh;
+=======
+  width: 100vw;
+  height: auto;
+  margin-top: 24vh;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  background-size: 100% 100%;
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
+=======
+  background-size: 100% 100%;
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
+>>>>>>> 27d9971f5916177969e3621298b302d19cb29cfd
 }
 
 #Text {
