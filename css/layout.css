@@ -293,7 +293,7 @@ header {
 header img {
   height: 15px; 
   padding-left: 1vw; 
-  padding-top: 15px; 
+  padding-top: 10px; 
 }
 
 header nav {
@@ -336,7 +336,6 @@ header nav ul li a {
 .header_buttons {
   position: absolute;
   right: 5vw;
-  top: 10px;
 }
 
 
@@ -935,7 +934,6 @@ footer ul li a {
 
 
 /* ################################################################## */
-
 
 
 
