@@ -293,7 +293,7 @@ header {
 header img {
   height: 15px;
   padding-left: 1vw;
-  padding-top: 1vw;
+  padding-top: 1vh;
 }
 
 header nav {
@@ -1291,7 +1291,7 @@ margin: 0vw 2.5vw;
   background-image: url(../img/Bild_Aus.jpg);
   background-repeat: no-repeat;
 <<<<<<< HEAD
-  background-size: 100% 100%; 
+  background-size: 100% 100%;
   margin-top: 18vh;
 =======
   width: 100vw;
