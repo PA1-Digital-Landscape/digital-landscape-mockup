@@ -550,19 +550,11 @@ footer ul li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-<<<<<<< HEAD
-  align-items: stretch;
-  width: 65vw;
-  height: 67vh;
-  margin: 20vh 0 0 0;
-
-=======
   width: 75vw;
   height: 80vh;
   margin: 15vh 0 0 0;
 
->>>>>>> 43ba563bbb6986b7bc1b352d739fd72457c12bc1
-}
+
 
 #Stundenplan {
   width: 35vw;
@@ -619,6 +611,19 @@ footer ul li a {
 	padding-left: 0vw;
 	margin-top: 2.5vh;
 }
+
+#container_login {
+  display: flex;
+  flex-direction: row;
+}
+
+
+#logout {
+  padding-left: 10px;
+}
+
+
+
 /* ################################################################## */
 
 
