@@ -1258,18 +1258,20 @@ margin: 0vw 2.5vw;
 
 /* ################################################################## */
 
+
+
+
+
 #Banner {
   display: flex;
   background-image: url(../img/Bild_Aus.jpg);
-  justify-content:center;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: auto;
-  margin-top: 24vh;
+  background-size: 100% 100%; 
+  margin-top: 18vh;
 }
 
 #Text {
-  display: inline-block;
+  display: flex;
   width: 35vw;
   height: auto;
   text-align: left;
