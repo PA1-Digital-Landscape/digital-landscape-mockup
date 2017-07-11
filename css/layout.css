@@ -291,9 +291,15 @@ header {
 }
 
 header img {
+<<<<<<< HEAD
+  height: 15px; 
+  padding-left: 1vw; 
+  padding-top: 15px; 
+=======
   height: 15px;
   padding-left: 1vw;
-  padding-top: 1vw;
+  padding-top: 1vh;
+>>>>>>> aff25581dc07cb9344c2a0df568ad49bde05e09f
 }
 
 header nav {
@@ -335,11 +341,9 @@ header nav ul li a {
 
 .header_buttons {
   position: absolute;
-  width: 5px;
-  height: 5px;
-  top: -1vh;
+  right: 5vw;
+  top: 10px;
 }
-
 
 
 /* header:hover { height:50px; } */
@@ -395,7 +399,7 @@ footer ul li a {
 
 
 #content {
-  display: none;
+  display: none; 
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -452,7 +456,7 @@ footer ul li a {
 
 
 #Startseite {
-  margin-top: 22vh;
+  margin-top: 22vh; 
   width: 100%;
   height: 58vh;
   text-align: center;
@@ -526,6 +530,7 @@ footer ul li a {
 #Partner_drei img {
   height: 100%;
   width: auto;
+  margin-top: 2vh;
 }
 
 
@@ -553,47 +558,26 @@ footer ul li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+<<<<<<< HEAD
   align-items: stretch;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  width: 75vw;
-  height: 80vh;
-  margin: 15vh 0 0 0;
-
-
-=======
-=======
->>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
-=======
->>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
-
-/********** alter code?
   width: 65vw;
   height: 67vh;
   margin: 20vh 0 0 0;
-************************/
+
+=======
   width: 75vw;
   height: 80vh;
   margin: 15vh 0 0 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c2d7cceac721c64484b73b931c86fc59d408b9de
-=======
->>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
-=======
->>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
+
+>>>>>>> 43ba563bbb6986b7bc1b352d739fd72457c12bc1
 }
 
 #Stundenplan {
-width: 35vw;
-height: 67vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 80vw;
-margin: 0vw 2.5vw;
-
+  width: 35vw;
+  height: 67vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -607,14 +591,10 @@ margin: 0vw 2.5vw;
 }
 
 .box1 {
-    margin-top: -10vh;
-    margin-left: 95px;
-	margin-right: 90px;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 5px 0 black;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+  float: left;
+  display: inline;
+  margin-top: -10vh;
+  margin-left: 6vw;
 }
 
 .box2 {
@@ -630,16 +610,10 @@ margin: 0vw 2.5vw;
 
 #hide {
 	display: none;
-
 }
 
 #show {
 	display: true;
-	margin-bottom: 10px;
-	box-shadow: 5px 5px 5px 0 black;
-	display: flex;
-	justify-content: center;
-	align-self: center
 }
 
 #data {
@@ -652,21 +626,7 @@ margin: 0vw 2.5vw;
 	text-align: left;
 	padding-left: 0vw;
 	margin-top: 2.5vh;
-	margin-bottom: 10vw;
 }
-
-
-#container_login {
-  display: flex;
-  flex-direction: row;
-}
-
-
-
-#logout {
-  padding-left: 10px;
-}
-
 /* ################################################################## */
 
 
@@ -732,7 +692,7 @@ margin: 0vw 2.5vw;
 }
 
 .oakmania {
-  background-image: url(../img/Projekte/OM.jpg);
+  background-image: url(../img/Projekte/PA2_Oakmania.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -743,14 +703,14 @@ margin: 0vw 2.5vw;
 }
 
 .datalovers {
-  background-image: url(../img/Projekte/DL.jpg);
+  background-image: url(../img/Projekte/PA2_Datalovers.jpg);
   background-size: 100% 100%;
   background-position-y: center;
   background-repeat: no-repeat;
 }
 
 .human-resource {
-  background-image: url(../img/Projekte/HR_Logo.jpg);
+  background-image: url(../img/Projekte/PA2_Human.jpg);
   background-size: 100% 100%;
   background-position-y: center;
   background-repeat: no-repeat;
@@ -796,7 +756,7 @@ margin: 0vw 2.5vw;
 
 
 #Oakmania{
-  display: none;
+  display: none; 
   width: 100vw;
   height: 62vh;
   margin-top: 5vh;
@@ -956,8 +916,8 @@ margin: 0vw 2.5vw;
 /*Section 3: Powerpoint Oakmania*/
 
 #wrapper_Pr {
-  margin-top: 10vh;
-  display: none;
+  margin-top: 10vh; 
+  display: none; 
 }
 
 #Oakmania_P{
@@ -983,19 +943,19 @@ margin: 0vw 2.5vw;
 /* ################################################################## */
 
 #Kalender {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(../img/Kalender_Aus.png);
+  display: block;
+  width: 70vw;
+  height: 47.5vw;
+  background-image: url(../img/kv_events.jpg);
+  justify-content: center;
+  align-items: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-  align-content: center;
-  margin-top: 0;
-
+  margin-top: 7vh;
 }
 
-
+#Kalender img{
+  padding: 15vw 12vw 20vw 23vw;
+}
 
 .wrapper2 h1 {
   text-align: left;
@@ -1161,7 +1121,6 @@ margin: 0vw 2.5vw;
   height: auto;
   padding-left: 2.5vw;
   margin-top: -2vw;
-  text-decoration: none;
 }
 
 #CampusCamptext p {
@@ -1202,33 +1161,44 @@ margin: 0vw 2.5vw;
 }
 
 
-#SSMT {
-  background-color: #666666;
-  padding: 32px 0;
-}
-
-#SSMT > .wrapper {
-  display: flex;
-  align-items: center;
-}
-
-#SSMT-1 {
-  flex: 1;
-  margin-right: 32px;
-}
-
-#SSMTtext {
-  margin-bottom: 32px;
-}
-
 #SSMTbild {
+  display: flex;
+  float: right;
+  z-index: 99;
+  margin-left: 10vw;
+  margin-bottom: -30vw;
 }
 
+#SSMT {
+  display: flex;
+  background-color: #666666;
+  width: 100vw;
+  height: 18vw;
+  text-align: left;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+/*#####
 #SSMT h3 {
+  width: 70vw;
+  height: auto;
   color: #FFFFFF;
+  padding: 2vw;
+  text-align: left;
+  margin-bottom: -12px;
+  margin-left: -24px;
 }
-
+###*/
+#SSMTtext {
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 2.5vw;
+  flex-direction: column;
+}
+/*#####
 #SSMTtext p {
+  margin-top: 0;
+  padding-top: 0;
 
 }
 
@@ -1236,32 +1206,70 @@ margin: 0vw 2.5vw;
   color: #FFFFFF;
   text-align: left;
 }
+###*/
+#SSMTtext h3 {
+padding-top: 1vw;
+padding-left: 12vw;
+color: #FFFFFF;
+}
+
+#SSMT p {
+padding-left: 12vw;
+margin-bottom: -50vw;
+color: #FFFFFF;
+width: 40vw;
+}
 
 
-#Symbole {
+#SSMT #Bilder {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-around;
 }
 
-#Symbole > div {
-  flex: 1;
+#SSMT #Bilder #Kalendericonss {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  margin-left: 15vw;
+  padding-bottom: 3vw;
 }
 
-#Kalendersymbol > img, #Uhrzeitsymbol > img, #Standortsymbol > img {
+#SSMT #Bilder #Kalendericonss img {
+  width: 3vw;
+  height: 3vw;
+}
+
+
+#SSMT #Bilder #Uhriconss {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20vw;
+  padding-bottom: 3vw;
+}
+
+#SSMT #Bilder #Uhriconss img {
+  width: 3vw;
+  height: 3vw;
+}
+
+
+#SSMT #Bilder #Lageiconss {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25vw;
+  padding-bottom: 3vw;
+}
+
+#SSMT #Bilder #Lageiconss img {
+  width: 3vw;
+  height: 3vw;
+}
+
+.ss {
   color: white;
-  height: 32px;
+  text-align: center;
 }
-
-#Kalendersymbol > p, #Uhrzeitsymbol > p, #Standortsymbol > p {
-  display: none;
-}
-
-
 /*########
 #SSMTbutton {
   width: 150px;
@@ -1273,47 +1281,125 @@ margin: 0vw 2.5vw;
 }
 ####*/
 
+#Veranstaltungskalender {
+  text-align: center;
+}
+
+#calendar {
+  /* Fuer IE <= 6 */
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+#calendar table thead th {
+  font-weight: bold;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  color: #BFBFC1;
+  text-align: center;
+  background-color: #96000f;
+}
+
+#calendar table thead th.weekday {
+  font-weight: bold;
+  font-size: 0.5em;
+  line-height: 1.5em;
+  color: #112A5D;
+  text-align: center;
+  background-color: #96000f;
+  border: solid #112A5D 1px;
+}
+
+#calendar table tbody td, #calendar table tfoot td {
+  font-weight: normal;
+  font-size: 0.5em;
+  line-height: 1.5em;
+  width: 2.0em;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  color: #0E224B;
+  text-align: right;
+  border: 1px solid #CCD2D8;
+}
+
+#calendar table tfoot td {
+  font-size: 0.65em;
+  border: none;
+}
+
+#calendar table tfoot td.calendar_week {
+  text-align: left;
+}
+
+#calendar table tbody td.saturday {
+  color: #9A2525;
+  font-weight: normal;
+}
+
+#calendar table tbody td.sunday {
+  color: #9A2525;
+  font-weight: bold;
+}
+
+#calendar table tbody td.weekend {
+  color: #9A2525;
+}
+
+#calendar table tbody td.today {
+  background-color: #96000F;
+}
+
+#calendar table thead th.prev_year, #calendar table thead th.next_year {
+  margin: 0.1em;
+  padding: 0.1em;
+  line-height: 0.75em;
+  font-size: 0.65em;
+}
+
+#calendar table tbody td.last_month, #calendar table tbody td.next_month {
+  color: #a3afc4;
+}
+
+#calendar table {
+  border-collapse: collapse;
+  border: solid #112A5D 2px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #96000f;
+}
+
+
 /* Ausstattung */
 
 
 /* ################################################################## */
-#KV {
-  width: 100vw;
-}
-
-
-
-
-
 
 #Banner {
   display: flex;
-  background-image: url(../img/Bild_Aus.jpg);
+  background-image: url(../img/finale.jpg);
+  justify-content:flex-start;
   background-repeat: no-repeat;
 <<<<<<< HEAD
-  background-size: 100% 100%; 
+  width: 70vw;
+=======
+<<<<<<< HEAD
+  background-size: 100% 100%;
   margin-top: 18vh;
 =======
   width: 100vw;
+>>>>>>> aff25581dc07cb9344c2a0df568ad49bde05e09f
   height: auto;
-  margin-top: 24vh;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  background-size: 100% 100%;
->>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
-=======
-  background-size: 100% 100%;
->>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
->>>>>>> 27d9971f5916177969e3621298b302d19cb29cfd
+  margin-top: -2vh;
 }
 
 #Text {
-  display: flex;
+  display: inline-block;
   width: 35vw;
   height: auto;
   text-align: left;
-  margin-left: -35vw;
 }
 
 #Uberschrift {
@@ -1507,12 +1593,11 @@ margin: 0vw 2.5vw;
 }
 
 .ueberschrift{
-
+	margin-top: 2px;
 	font-family: Open Sans;
 	color: #aaa5a0;
 	font-size: 30px;
 	font-weight: bold;
-	padding: 1vh;
 }
 .container_login{
 	width: 500px;
@@ -1524,16 +1609,17 @@ margin: 0vw 2.5vw;
 }
 
 .container_login img{
-    width: 90px;
-    height: 90px;
-	margin-top: 2.5vh;
+	width: 120px;
+	height: 120px;
+	margin-top: -70px;
 }
 
 input[type="text"],input[type="password"]{
 	height: 45px;
 	width: 300px;
 	font-size: 18px;
-	margin-bottom: 10px;
+	border-color: #73000f;
+	margin-bottom: 20px;
 	background-color: #e8d6d8;
 }
 
@@ -1550,15 +1636,12 @@ input[type="text"],input[type="password"]{
 }
 .btn-einloggen{
 
-    padding: 5px 5px;
-    margin-left: 185px;
-    margin-right: 185px;
-    background-color: #93000f;
-    margin-bottom: 10px;
-    box-shadow: 5px 5px 5px 0 black;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+	padding: 15px 25px;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #73000f;
+	margin-bottom: 10px;
+
 
 }
 
@@ -1566,7 +1649,6 @@ p.info{
 font-family: Open Sans;
 	color: #aaa5a0;
 	font-size: 15px;
-	margin-top: 1vh;
 }
 
 
