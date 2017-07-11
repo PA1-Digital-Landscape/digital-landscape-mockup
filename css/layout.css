@@ -291,9 +291,9 @@ header {
 }
 
 header img {
-  height: 15px; 
-  padding-left: 1vw; 
-  padding-top: 10px; 
+  height: 15px;
+  padding-left: 1vw;
+  padding-top: 10px;
 }
 
 header nav {
@@ -335,7 +335,6 @@ header nav ul li a {
 
 .header_buttons {
   position: absolute;
-  right: 5vw;
 }
 
 
@@ -392,7 +391,7 @@ footer ul li a {
 
 
 #content {
-  display: none; 
+  display: none;
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -449,7 +448,7 @@ footer ul li a {
 
 
 #Startseite {
-  margin-top: 22vh; 
+  margin-top: 22vh;
   width: 100%;
   height: 58vh;
   text-align: center;
@@ -749,7 +748,7 @@ footer ul li a {
 
 
 #Oakmania{
-  display: none; 
+  display: none;
   width: 100vw;
   height: 62vh;
   margin-top: 5vh;
@@ -909,8 +908,8 @@ footer ul li a {
 /*Section 3: Powerpoint Oakmania*/
 
 #wrapper_Pr {
-  margin-top: 10vh; 
-  display: none; 
+  margin-top: 10vh;
+  display: none;
 }
 
 #Oakmania_P{
@@ -938,11 +937,11 @@ footer ul li a {
 
 
 #Kalender {
-  display: flex; 
-  width: 100vw; 
+  display: flex;
+  width: 100vw;
   height: 100vh;
   background-image: url(../img/Kalender_Aus.png);
-  background-size: 100% 100%; 
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
