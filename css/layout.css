@@ -290,6 +290,12 @@ header {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
+header img {
+  height: 15px;
+  padding-left: 1vw;
+  padding-top: 1vw;
+}
+
 header nav {
   margin: 0 auto;
   padding: 0;
@@ -329,9 +335,11 @@ header nav ul li a {
 
 .header_buttons {
   position: absolute;
-  right: 5vw;
-  top: 10px;
+  width: 5px;
+  height: 5px;
+  top: -1vh;
 }
+
 
 
 /* header:hover { height:50px; } */
@@ -387,7 +395,7 @@ footer ul li a {
 
 
 #content {
-  display: none; 
+  display: none;
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -444,7 +452,7 @@ footer ul li a {
 
 
 #Startseite {
-  margin-top: 22vh; 
+  margin-top: 22vh;
   width: 100%;
   height: 58vh;
   text-align: center;
@@ -518,7 +526,6 @@ footer ul li a {
 #Partner_drei img {
   height: 100%;
   width: auto;
-  margin-top: 2vh;
 }
 
 
@@ -546,18 +553,30 @@ footer ul li a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-<<<<<<< HEAD
   align-items: stretch;
-  width: 65vw;
-  height: 67vh;
-  margin: 20vh 0 0 0;
-
-=======
+<<<<<<< HEAD
+<<<<<<< HEAD
   width: 75vw;
   height: 80vh;
   margin: 15vh 0 0 0;
 
->>>>>>> 43ba563bbb6986b7bc1b352d739fd72457c12bc1
+
+=======
+=======
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
+
+/********** alter code?
+  width: 65vw;
+  height: 67vh;
+  margin: 20vh 0 0 0;
+************************/
+  width: 75vw;
+  height: 80vh;
+  margin: 15vh 0 0 0;
+<<<<<<< HEAD
+>>>>>>> c2d7cceac721c64484b73b931c86fc59d408b9de
+=======
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
 }
 
 #Stundenplan {
@@ -631,6 +650,17 @@ margin: 0vw 2.5vw;
 }
 
 
+#container_login {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+#logout {
+  padding-left: 10px;
+}
+
 /* ################################################################## */
 
 
@@ -696,7 +726,7 @@ margin: 0vw 2.5vw;
 }
 
 .oakmania {
-  background-image: url(../img/Projekte/PA2_Oakmania.jpg);
+  background-image: url(../img/Projekte/OM.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -707,14 +737,14 @@ margin: 0vw 2.5vw;
 }
 
 .datalovers {
-  background-image: url(../img/Projekte/PA2_Datalovers.jpg);
+  background-image: url(../img/Projekte/DL.jpg);
   background-size: 100% 100%;
   background-position-y: center;
   background-repeat: no-repeat;
 }
 
 .human-resource {
-  background-image: url(../img/Projekte/PA2_Human.jpg);
+  background-image: url(../img/Projekte/HR_Logo.jpg);
   background-size: 100% 100%;
   background-position-y: center;
   background-repeat: no-repeat;
@@ -760,7 +790,7 @@ margin: 0vw 2.5vw;
 
 
 #Oakmania{
-  display: none; 
+  display: none;
   width: 100vw;
   height: 62vh;
   margin-top: 5vh;
@@ -920,8 +950,8 @@ margin: 0vw 2.5vw;
 /*Section 3: Powerpoint Oakmania*/
 
 #wrapper_Pr {
-  margin-top: 10vh; 
-  display: none; 
+  margin-top: 10vh;
+  display: none;
 }
 
 #Oakmania_P{
@@ -947,19 +977,19 @@ margin: 0vw 2.5vw;
 /* ################################################################## */
 
 #Kalender {
-  display: block;
-  width: 70vw;
-  height: 47.5vw;
-  background-image: url(../img/kv_events.jpg);
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/Kalender_Aus.png);
   background-repeat: no-repeat;
-  margin-top: 7vh;
+  background-size: 100% 100%;
+  background-position: center;
+  align-content: center;
+  margin-top: 0;
+
 }
 
-#Kalender img{
-  padding: 15vw 12vw 20vw 23vw;
-}
+
 
 .wrapper2 h1 {
   text-align: left;
@@ -1125,6 +1155,7 @@ margin: 0vw 2.5vw;
   height: auto;
   padding-left: 2.5vw;
   margin-top: -2vw;
+  text-decoration: none;
 }
 
 #CampusCamptext p {
@@ -1165,44 +1196,33 @@ margin: 0vw 2.5vw;
 }
 
 
-#SSMTbild {
-  display: flex;
-  float: right;
-  z-index: 99;
-  margin-left: 10vw;
-  margin-bottom: -30vw;
+#SSMT {
+  background-color: #666666;
+  padding: 32px 0;
 }
 
-#SSMT {
+#SSMT > .wrapper {
   display: flex;
-  background-color: #666666;
-  width: 100vw;
-  height: 18vw;
-  text-align: left;
-  justify-content: flex-start;
-  flex-direction: column;
+  align-items: center;
 }
-/*#####
-#SSMT h3 {
-  width: 70vw;
-  height: auto;
-  color: #FFFFFF;
-  padding: 2vw;
-  text-align: left;
-  margin-bottom: -12px;
-  margin-left: -24px;
+
+#SSMT-1 {
+  flex: 1;
+  margin-right: 32px;
 }
-###*/
+
 #SSMTtext {
-  color: #FFFFFF;
-  text-align: left;
-  padding-left: 2.5vw;
-  flex-direction: column;
+  margin-bottom: 32px;
 }
-/*#####
+
+#SSMTbild {
+}
+
+#SSMT h3 {
+  color: #FFFFFF;
+}
+
 #SSMTtext p {
-  margin-top: 0;
-  padding-top: 0;
 
 }
 
@@ -1210,65 +1230,31 @@ margin: 0vw 2.5vw;
   color: #FFFFFF;
   text-align: left;
 }
-###*/
-#SSMTtext h3 {
-padding-top: 1vw;
-padding-left: 12vw;
-color: #FFFFFF;
-}
 
-#SSMT p {
-padding-left: 12vw;
-margin-bottom: -50vw;
-color: #FFFFFF;
-width: 40vw;
-}
 
 #Symbole {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding-bottom: 2vw;
-}
-
-#Kalendersymbol {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  color: #FFFFFF;
-  padding-bottom: 3vw;
+  justify-content: space-around;
 }
 
-#Kalendersymbol img {
-  width: 3vw;
-  height: 3vw;
-}
-
-#Uhrzeitsymbol {
+#Symbole > div {
+  flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  color: #FFFFFF;
-  padding-bottom: 3vw;
+  justify-content: center;
 }
 
-#Uhrzeitsymbol img {
-  width: 3vw;
-  height: 3vw;
+#Kalendersymbol > img, #Uhrzeitsymbol > img, #Standortsymbol > img {
+  color: white;
+  height: 32px;
 }
 
-#Standortsymbol {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #FFFFFF;
-  padding-bottom: 3vw;
+#Kalendersymbol > p, #Uhrzeitsymbol > p, #Standortsymbol > p {
+  display: none;
 }
 
-#Standortsymbol img {
-  width: 3vw;
-  height: 3vw;
-}
 
 /*########
 #SSMTbutton {
@@ -1281,110 +1267,27 @@ width: 40vw;
 }
 ####*/
 
-#Veranstaltungskalender {
-  text-align: center;
-}
-
-#calendar {
-  /* Fuer IE <= 6 */
-  text-align: center;
-  width: 100%;
-  height: auto;
-  padding: 10px;
-}
-
-#calendar table thead th {
-  font-weight: bold;
-  font-size: 0.75em;
-  line-height: 1.5em;
-  color: #BFBFC1;
-  text-align: center;
-  background-color: #96000f;
-}
-
-#calendar table thead th.weekday {
-  font-weight: bold;
-  font-size: 0.5em;
-  line-height: 1.5em;
-  color: #112A5D;
-  text-align: center;
-  background-color: #96000f;
-  border: solid #112A5D 1px;
-}
-
-#calendar table tbody td, #calendar table tfoot td {
-  font-weight: normal;
-  font-size: 0.5em;
-  line-height: 1.5em;
-  width: 2.0em;
-  padding-left: 0.6em;
-  padding-right: 0.6em;
-  color: #0E224B;
-  text-align: right;
-  border: 1px solid #CCD2D8;
-}
-
-#calendar table tfoot td {
-  font-size: 0.65em;
-  border: none;
-}
-
-#calendar table tfoot td.calendar_week {
-  text-align: left;
-}
-
-#calendar table tbody td.saturday {
-  color: #9A2525;
-  font-weight: normal;
-}
-
-#calendar table tbody td.sunday {
-  color: #9A2525;
-  font-weight: bold;
-}
-
-#calendar table tbody td.weekend {
-  color: #9A2525;
-}
-
-#calendar table tbody td.today {
-  background-color: #96000F;
-}
-
-#calendar table thead th.prev_year, #calendar table thead th.next_year {
-  margin: 0.1em;
-  padding: 0.1em;
-  line-height: 0.75em;
-  font-size: 0.65em;
-}
-
-#calendar table tbody td.last_month, #calendar table tbody td.next_month {
-  color: #a3afc4;
-}
-
-#calendar table {
-  border-collapse: collapse;
-  border: solid #112A5D 2px;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #96000f;
-}
-
-
 /* Ausstattung */
 
 
 /* ################################################################## */
+#KV {
+  width: 100vw;
+}
+
 
 #Banner {
   display: flex;
-  background-image: url(../img/finale.jpg);
-  justify-content:flex-start;
+  background-image: url(../img/Bild_Aus.jpg);
+  justify-content:center;
   background-repeat: no-repeat;
-  width: 70vw;
+  width: 100vw;
   height: auto;
-  margin-top: -2vh;
+  margin-top: 24vh;
+<<<<<<< HEAD
+=======
+  background-size: 100% 100%;
+>>>>>>> 484a6f62129b45cf61ff459c6870861338f94f75
 }
 
 #Text {
@@ -1392,6 +1295,7 @@ width: 40vw;
   width: 35vw;
   height: auto;
   text-align: left;
+  margin-left: -35vw;
 }
 
 #Uberschrift {
@@ -1652,5 +1556,3 @@ font-family: Open Sans;
 	color: white;
 	text-decoration: none;
 	}
-
-	
