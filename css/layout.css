@@ -210,7 +210,7 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
-  background-image: url(../img/Startbild_logo.jpg);
+  background-image: url(../img/kv_start.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
