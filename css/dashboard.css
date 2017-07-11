@@ -83,6 +83,7 @@ main {
 aside {
     position: absolute;
     padding: 0vw;
+}
 		
 #element1 {
     background-color: rgba(128, 128, 128, .6);
